@@ -1,0 +1,19 @@
+{
+    "name": "ToolkitEngine.AI.Weapon",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0b2b191acd5ecdb4da1dd2e73cbe1d45",
+        "GUID:866c53caf1f0dc946856a36d187bfa48",
+        "GUID:7e92a3a0afba10240acdf05f22f32b83",
+        "GUID:fd038cb290df8694eb5923edad409283"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
