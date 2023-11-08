@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
 	[Serializable]
     public class Heat : IHeat

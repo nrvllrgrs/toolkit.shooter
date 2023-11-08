@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
 	[AddComponentMenu("Weapon/Shooter Charge")]
 	public class ShooterCharge : MonoBehaviour, IPoolItemRecyclable

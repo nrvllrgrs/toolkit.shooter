@@ -1,8 +1,8 @@
 using UnityEditor;
-using ToolkitEngine.Weapons;
+using ToolkitEngine.Shooter;
 using UnityEngine;
 
-namespace ToolkitEditor.Weapons
+namespace ToolkitEditor.Shooter
 {
 	[CustomEditor(typeof(ShooterCharge))]
     public class ShooterChargeEditor : BaseToolkitEditor

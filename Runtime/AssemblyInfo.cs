@@ -1,3 +1,3 @@
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("ToolkitEditor.Weapons")]
+[assembly: InternalsVisibleTo("ToolkitEditor.Shooter")]

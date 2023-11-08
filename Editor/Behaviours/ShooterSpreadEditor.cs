@@ -1,8 +1,8 @@
-using ToolkitEngine.Weapons;
+using ToolkitEngine.Shooter;
 using UnityEngine;
 using UnityEditor;
 
-namespace ToolkitEditor.Weapons
+namespace ToolkitEditor.Shooter
 {
 	[CustomEditor(typeof(ShooterSpread))]
 	public class ShooterSpreadEditor : BaseToolkitEditor

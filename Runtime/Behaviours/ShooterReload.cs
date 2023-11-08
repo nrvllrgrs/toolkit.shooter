@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using Sirenix.OdinInspector;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
 	public class ShooterReload : MonoBehaviour
     {

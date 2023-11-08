@@ -1,7 +1,7 @@
 using UnityEngine;
 using Unity.VisualScripting;
 
-namespace ToolkitEngine.Weapons.VisualScripting
+namespace ToolkitEngine.Shooter.VisualScripting
 {
 	[AddComponentMenu("")]
 	public class OnHeatOverheatedMessageListener : MessageListener

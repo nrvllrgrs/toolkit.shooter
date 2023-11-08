@@ -1,8 +1,8 @@
 using UnityEditor;
 using UnityEngine;
-using ToolkitEngine.Weapons;
+using ToolkitEngine.Shooter;
 
-namespace ToolkitEditor.Weapons
+namespace ToolkitEditor.Shooter
 {
 	[CustomEditor(typeof(RayShooter))]
     public class RayShooterEditor : BaseMuzzleShooterEditor

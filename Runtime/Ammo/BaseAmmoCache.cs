@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
     public abstract class BaseAmmoCache : MonoBehaviour, IAmmo
     {

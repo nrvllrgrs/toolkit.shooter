@@ -1,4 +1,4 @@
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
     public static class EventHooks
     {

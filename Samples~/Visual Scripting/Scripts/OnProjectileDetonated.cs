@@ -1,7 +1,7 @@
 using System;
 using Unity.VisualScripting;
 
-namespace ToolkitEngine.Weapons.VisualScripting
+namespace ToolkitEngine.Shooter.VisualScripting
 {
     [UnitTitle("On Detonated"), UnitSurtitle("Projectile")]
     public class OnProjectileDetonated : BaseProjectileEventUnit

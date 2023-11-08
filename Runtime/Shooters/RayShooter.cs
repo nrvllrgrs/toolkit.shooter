@@ -7,7 +7,7 @@ using UnityEngine.Events;
 using UnityEditor;
 #endif
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
 	[AddComponentMenu("Weapon/Shooter/Ray Shooter")]
 	public class RayShooter : BaseMuzzleShooter

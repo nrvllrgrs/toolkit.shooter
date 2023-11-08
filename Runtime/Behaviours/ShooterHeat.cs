@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
 	[AddComponentMenu("Weapon/Shooter Heat")]
 	public class ShooterHeat : MonoBehaviour, IPoolItemRecyclable, IHeat

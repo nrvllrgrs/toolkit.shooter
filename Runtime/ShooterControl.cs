@@ -3,7 +3,7 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 using UnityEngine.Events;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
 	[AddComponentMenu("Weapon/Shooter Control")]
 	public class ShooterControl : MonoBehaviour

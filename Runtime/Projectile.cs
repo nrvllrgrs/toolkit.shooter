@@ -2,7 +2,7 @@ using ToolkitEngine.Health;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
 	[System.Serializable]
 	public class ProjectileEventArgs : System.EventArgs

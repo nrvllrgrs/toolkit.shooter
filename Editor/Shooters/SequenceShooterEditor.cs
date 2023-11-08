@@ -1,7 +1,7 @@
 using UnityEditor;
-using ToolkitEngine.Weapons;
+using ToolkitEngine.Shooter;
 
-namespace ToolkitEditor.Weapons
+namespace ToolkitEditor.Shooter
 {
 	[CustomEditor(typeof(SequenceShooter))]
     public class SequenceShooterEditor : BaseShooterEditor

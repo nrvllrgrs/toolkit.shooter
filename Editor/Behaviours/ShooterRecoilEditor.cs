@@ -1,8 +1,8 @@
-using ToolkitEngine.Weapons;
+using ToolkitEngine.Shooter;
 using UnityEditor;
 using UnityEngine;
 
-namespace ToolkitEditor.Weapons
+namespace ToolkitEditor.Shooter
 {
 	[CustomEditor(typeof(ShooterRecoil))]
 	public class ShooterRecoilEditor : BaseToolkitEditor

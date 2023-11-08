@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEditor;
-using ToolkitEngine.Weapons;
+using ToolkitEngine.Shooter;
 
-namespace ToolkitEditor.Weapons
+namespace ToolkitEditor.Shooter
 {
 	[CustomEditor(typeof(ShooterReload))]
 	public class ShooterReloadEditor : BaseToolkitEditor

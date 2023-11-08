@@ -1,6 +1,6 @@
 using UnityEngine.Events;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
     public interface IAmmo
     {

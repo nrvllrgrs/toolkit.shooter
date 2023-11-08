@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
 	[AddComponentMenu("Weapon/Shooter Spread")]
 	public class ShooterSpread : MonoBehaviour

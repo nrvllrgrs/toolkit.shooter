@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ToolkitEngine.Weapons
+namespace ToolkitEngine.Shooter
 {
     public abstract class BaseMuzzleShooterPattern : MonoBehaviour
     {
