@@ -1,0 +1,890 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ProjectileShooter
+ | Shooter Toolkit | 1.0.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ProjectileShooter
+ | Shooter Toolkit | 1.0.0 ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.shooter/new/master/apiSpec/new?filename=ToolkitEngine_Shooter_ProjectileShooter.md&amp;value=---%0Auid%3A%20ToolkitEngine.Shooter.ProjectileShooter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ToolkitEngine.Shooter.ProjectileShooter">
+
+
+
+  <h1 id="ToolkitEngine_Shooter_ProjectileShooter" data-uid="ToolkitEngine.Shooter.ProjectileShooter" class="text-break">
+    Class ProjectileShooter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a>.<a class="xref" href="ToolkitEngine.Shooter.html">Shooter</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ProjectileShooter : BaseMuzzleShooter, IMuzzleShooter</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html">BaseShooter</a></div>
+      <div><a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html">BaseMuzzleShooter</a></div>
+      <div><span class="xref">ProjectileShooter</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.Shooter.IMuzzleShooter.html">IMuzzleShooter</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_m_muzzle">BaseMuzzleShooter.m_muzzle</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_m_spread">BaseMuzzleShooter.m_spread</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_m_distribution">BaseMuzzleShooter.m_distribution</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_m_mean">BaseMuzzleShooter.m_mean</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_m_deviation">BaseMuzzleShooter.m_deviation</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_muzzle">BaseMuzzleShooter.muzzle</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_spread">BaseMuzzleShooter.spread</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_distribution">BaseMuzzleShooter.distribution</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_onSpreadChanged">BaseMuzzleShooter.onSpreadChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseMuzzleShooter.html#ToolkitEngine_Shooter_BaseMuzzleShooter_GetShotDirection_ToolkitEngine_Shooter_BaseMuzzleShooter_">BaseMuzzleShooter.GetShotDirection(BaseMuzzleShooter)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_m_onFiring">BaseShooter.m_onFiring</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_m_onFired">BaseShooter.m_onFired</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_onFiring">BaseShooter.onFiring</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_onFired">BaseShooter.onFired</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_Fire">BaseShooter.Fire()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_acceleration_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.acceleration*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_acceleration" data-uid="ToolkitEngine.Shooter.ProjectileShooter.acceleration">
+  acceleration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float acceleration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_impactDamage_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.impactDamage*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_impactDamage" data-uid="ToolkitEngine.Shooter.ProjectileShooter.impactDamage">
+  impactDamage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ImpactDamage impactDamage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ImpactDamage</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_lifetime_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.lifetime*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_lifetime" data-uid="ToolkitEngine.Shooter.ProjectileShooter.lifetime">
+  lifetime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lifetime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_maxSpeed_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.maxSpeed*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_maxSpeed" data-uid="ToolkitEngine.Shooter.ProjectileShooter.maxSpeed">
+  maxSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float maxSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_minSpeed_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.minSpeed*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_minSpeed" data-uid="ToolkitEngine.Shooter.ProjectileShooter.minSpeed">
+  minSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float minSpeed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_onCollision_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.onCollision*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_onCollision" data-uid="ToolkitEngine.Shooter.ProjectileShooter.onCollision">
+  onCollision
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;ProjectileEventArgs&gt; onCollision { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="ToolkitEngine.Shooter.ProjectileEventArgs.html">ProjectileEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_onDetonated_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.onDetonated*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_onDetonated" data-uid="ToolkitEngine.Shooter.ProjectileShooter.onDetonated">
+  onDetonated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;ProjectileEventArgs&gt; onDetonated { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="ToolkitEngine.Shooter.ProjectileEventArgs.html">ProjectileEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_onMaxDistanceReached_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.onMaxDistanceReached*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_onMaxDistanceReached" data-uid="ToolkitEngine.Shooter.ProjectileShooter.onMaxDistanceReached">
+  onMaxDistanceReached
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;ProjectileEventArgs&gt; onMaxDistanceReached { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="ToolkitEngine.Shooter.ProjectileEventArgs.html">ProjectileEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_onProjectileFired_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.onProjectileFired*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_onProjectileFired" data-uid="ToolkitEngine.Shooter.ProjectileShooter.onProjectileFired">
+  onProjectileFired
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;ProjectileEventArgs&gt; onProjectileFired { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="ToolkitEngine.Shooter.ProjectileEventArgs.html">ProjectileEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_pendingProjectile_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.pendingProjectile*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_pendingProjectile" data-uid="ToolkitEngine.Shooter.ProjectileShooter.pendingProjectile">
+  pendingProjectile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Projectile pendingProjectile { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Shooter.Projectile.html">Projectile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_sets_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.sets*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_sets" data-uid="ToolkitEngine.Shooter.ProjectileShooter.sets">
+  sets
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Set[] sets { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Set</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_speed_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.speed*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_speed" data-uid="ToolkitEngine.Shooter.ProjectileShooter.speed">
+  speed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float speed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_splashDamage_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.splashDamage*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_splashDamage" data-uid="ToolkitEngine.Shooter.ProjectileShooter.splashDamage">
+  splashDamage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SplashDamage splashDamage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SplashDamage</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_Attach_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Attach*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_Attach_ToolkitEngine_Shooter_Projectile_Collider_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Attach(ToolkitEngine.Shooter.Projectile,Collider)">
+  Attach(Projectile, Collider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L482"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Attach(Projectile projectile, Collider collider)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>projectile</code> <a class="xref" href="ToolkitEngine.Shooter.Projectile.html">Projectile</a></dt>
+    <dd></dd>
+    <dt><code>collider</code> <span class="xref">Collider</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_DenotateAll_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.DenotateAll*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_DenotateAll" data-uid="ToolkitEngine.Shooter.ProjectileShooter.DenotateAll">
+  DenotateAll()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DenotateAll()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_Despawn_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Despawn*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_Despawn" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Despawn">
+  Despawn()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L420"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Despawn()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_Fire_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Fire*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_Fire_ToolkitEngine_Shooter_ShooterControl_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Fire(ToolkitEngine.Shooter.ShooterControl)">
+  Fire(ShooterControl)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Fire(ShooterControl shooterControl)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>shooterControl</code> <a class="xref" href="ToolkitEngine.Shooter.ShooterControl.html">ShooterControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_Fire_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Fire*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_Fire_Vector3_Vector3_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Fire(Vector3,Vector3)">
+  Fire(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Fire(Vector3 origin, Vector3 direction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>origin</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_IgnoreCollider_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.IgnoreCollider*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_IgnoreCollider_Collider_System_Boolean_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.IgnoreCollider(Collider,System.Boolean)">
+  IgnoreCollider(Collider, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IgnoreCollider(Collider collider, bool ignore = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>collider</code> <span class="xref">Collider</span></dt>
+    <dd></dd>
+    <dt><code>ignore</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_IgnoreColliders_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_IgnoreColliders_System_Collections_Generic_IEnumerable_Collider__System_Boolean_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders(System.Collections.Generic.IEnumerable{Collider},System.Boolean)">
+  IgnoreColliders(IEnumerable&lt;Collider&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IgnoreColliders(IEnumerable&lt;Collider&gt; colliders, bool ignore = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>colliders</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Collider</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>ignore</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_Spawn_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Spawn*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_Spawn" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Spawn">
+  Spawn()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Spawn()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ProjectileShooter_Untrack_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Untrack*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ProjectileShooter_Untrack_ToolkitEngine_Shooter_Projectile_" data-uid="ToolkitEngine.Shooter.ProjectileShooter.Untrack(ToolkitEngine.Shooter.Projectile)">
+  Untrack(Projectile)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/ProjectileShooter.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Untrack(Projectile projectile)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>projectile</code> <a class="xref" href="ToolkitEngine.Shooter.Projectile.html">Projectile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/nrvllrgrs" target="_blank">nrvllrgrs</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

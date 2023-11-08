@@ -1,0 +1,412 @@
+{
+  "api/Global.ITracer.html": {
+    "href": "api/Global.ITracer.html",
+    "title": "Class ITracer | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ITracer Namespace Global public class ITracer : MonoBehaviour Inheritance object ITracer"
+  },
+  "api/Global.TriggerShooter.html": {
+    "href": "api/Global.TriggerShooter.html",
+    "title": "Class TriggerShooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Class TriggerShooter Namespace Global public class TriggerShooter : MonoBehaviour Inheritance object TriggerShooter"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace | Shooter Toolkit | 1.0.0",
+    "keywords": "Namespace Classes ITracer TriggerShooter"
+  },
+  "api/ToolkitEditor.Shooter.AmmoCacheEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.AmmoCacheEditor.html",
+    "title": "Class AmmoCacheEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class AmmoCacheEditor Namespace ToolkitEditor.Shooter public class AmmoCacheEditor : BaseToolkitEditor Inheritance object AmmoCacheEditor Fields m_ammo protected SerializedProperty m_ammo Field Value SerializedProperty m_onCountChanged protected SerializedProperty m_onCountChanged Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Shooter.AmmoCacheProxyEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.AmmoCacheProxyEditor.html",
+    "title": "Class AmmoCacheProxyEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class AmmoCacheProxyEditor Namespace ToolkitEditor.Shooter public class AmmoCacheProxyEditor : BaseToolkitEditor Inheritance object AmmoCacheProxyEditor Fields m_ammoCache protected SerializedProperty m_ammoCache Field Value SerializedProperty m_onCountChanged protected SerializedProperty m_onCountChanged Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Shooter.AmmoDrawer.html": {
+    "href": "api/ToolkitEditor.Shooter.AmmoDrawer.html",
+    "title": "Class AmmoDrawer | Shooter Toolkit | 1.0.0",
+    "keywords": "Class AmmoDrawer Namespace ToolkitEditor.Shooter public class AmmoDrawer : PropertyDrawer Inheritance object AmmoDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.Shooter.BaseMuzzleShooterEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.BaseMuzzleShooterEditor.html",
+    "title": "Class BaseMuzzleShooterEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class BaseMuzzleShooterEditor Namespace ToolkitEditor.Shooter public class BaseMuzzleShooterEditor : BaseShooterEditor Inheritance object BaseShooterEditor BaseMuzzleShooterEditor Derived ProjectileShooterEditor RayShooterEditor Inherited Members BaseShooterEditor.m_onFiring BaseShooterEditor.m_onFired BaseShooterEditor.DrawEvents() Fields m_deviation protected SerializedProperty m_deviation Field Value SerializedProperty m_distribution protected SerializedProperty m_distribution Field Value SerializedProperty m_mean protected SerializedProperty m_mean Field Value SerializedProperty m_muzzle protected SerializedProperty m_muzzle Field Value SerializedProperty m_onSpreadChanged protected SerializedProperty m_onSpreadChanged Field Value SerializedProperty m_spread protected SerializedProperty m_spread Field Value SerializedProperty Methods DrawNestedEvents() protected override void DrawNestedEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.Shooter.BaseShooterEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.BaseShooterEditor.html",
+    "title": "Class BaseShooterEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class BaseShooterEditor Namespace ToolkitEditor.Shooter public class BaseShooterEditor : BaseToolkitEditor Inheritance object BaseShooterEditor Derived BaseMuzzleShooterEditor SequenceShooterEditor Fields m_onFired protected SerializedProperty m_onFired Field Value SerializedProperty m_onFiring protected SerializedProperty m_onFiring Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() OnEnable() protected virtual void OnEnable()"
+  },
+  "api/ToolkitEditor.Shooter.HeatCacheEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.HeatCacheEditor.html",
+    "title": "Class HeatCacheEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class HeatCacheEditor Namespace ToolkitEditor.Shooter public class HeatCacheEditor : BaseToolkitEditor Inheritance object HeatCacheEditor Fields m_heat protected SerializedProperty m_heat Field Value SerializedProperty m_onCooled protected SerializedProperty m_onCooled Field Value SerializedProperty m_onOverheated protected SerializedProperty m_onOverheated Field Value SerializedProperty m_onValueChanged protected SerializedProperty m_onValueChanged Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Shooter.HeatDrawer.html": {
+    "href": "api/ToolkitEditor.Shooter.HeatDrawer.html",
+    "title": "Class HeatDrawer | Shooter Toolkit | 1.0.0",
+    "keywords": "Class HeatDrawer Namespace ToolkitEditor.Shooter public class HeatDrawer : PropertyDrawer Inheritance object HeatDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters property SerializedProperty label GUIContent Returns float OnGUI(Rect, SerializedProperty, GUIContent) public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters position Rect property SerializedProperty label GUIContent"
+  },
+  "api/ToolkitEditor.Shooter.ProjectileEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ProjectileEditor.html",
+    "title": "Class ProjectileEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ProjectileEditor Namespace ToolkitEditor.Shooter public class ProjectileEditor : BaseToolkitEditor Inheritance object ProjectileEditor Fields m_onCollision protected SerializedProperty m_onCollision Field Value SerializedProperty m_onDetonated protected SerializedProperty m_onDetonated Field Value SerializedProperty m_onFired protected SerializedProperty m_onFired Field Value SerializedProperty m_onMaxDistanceReached protected SerializedProperty m_onMaxDistanceReached Field Value SerializedProperty m_projectile protected Projectile m_projectile Field Value Projectile Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Shooter.ProjectileShooterEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ProjectileShooterEditor.html",
+    "title": "Class ProjectileShooterEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ProjectileShooterEditor Namespace ToolkitEditor.Shooter public class ProjectileShooterEditor : BaseMuzzleShooterEditor Inheritance object BaseShooterEditor BaseMuzzleShooterEditor ProjectileShooterEditor Inherited Members BaseMuzzleShooterEditor.m_muzzle BaseMuzzleShooterEditor.m_spread BaseMuzzleShooterEditor.m_distribution BaseMuzzleShooterEditor.m_mean BaseMuzzleShooterEditor.m_deviation BaseMuzzleShooterEditor.m_onSpreadChanged BaseShooterEditor.m_onFiring BaseShooterEditor.m_onFired BaseShooterEditor.DrawEvents() Fields m_acceleration protected SerializedProperty m_acceleration Field Value SerializedProperty m_ignoredColliders protected SerializedProperty m_ignoredColliders Field Value SerializedProperty m_lifetime protected SerializedProperty m_lifetime Field Value SerializedProperty m_onCollision protected SerializedProperty m_onCollision Field Value SerializedProperty m_onDetonated protected SerializedProperty m_onDetonated Field Value SerializedProperty m_onMaxDistanceReached protected SerializedProperty m_onMaxDistanceReached Field Value SerializedProperty m_onProjectileFired protected SerializedProperty m_onProjectileFired Field Value SerializedProperty m_pattern protected SerializedProperty m_pattern Field Value SerializedProperty m_projectileSpawner protected SerializedProperty m_projectileSpawner Field Value SerializedProperty m_speed protected SerializedProperty m_speed Field Value SerializedProperty m_speedLimits protected SerializedProperty m_speedLimits Field Value SerializedProperty Methods DrawNestedEvents() protected override void DrawNestedEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.Shooter.RayShooterEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.RayShooterEditor.html",
+    "title": "Class RayShooterEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class RayShooterEditor Namespace ToolkitEditor.Shooter public class RayShooterEditor : BaseMuzzleShooterEditor Inheritance object BaseShooterEditor BaseMuzzleShooterEditor RayShooterEditor Inherited Members BaseMuzzleShooterEditor.m_muzzle BaseMuzzleShooterEditor.m_spread BaseMuzzleShooterEditor.m_distribution BaseMuzzleShooterEditor.m_mean BaseMuzzleShooterEditor.m_deviation BaseMuzzleShooterEditor.m_onSpreadChanged BaseShooterEditor.m_onFiring BaseShooterEditor.m_onFired BaseShooterEditor.DrawEvents() Fields m_blockingMask protected SerializedProperty m_blockingMask Field Value SerializedProperty m_impactDamage protected SerializedProperty m_impactDamage Field Value SerializedProperty m_layerMask protected SerializedProperty m_layerMask Field Value SerializedProperty m_onPenetrated protected SerializedProperty m_onPenetrated Field Value SerializedProperty m_pattern protected SerializedProperty m_pattern Field Value SerializedProperty m_penetrateCount protected SerializedProperty m_penetrateCount Field Value SerializedProperty m_radius protected SerializedProperty m_radius Field Value SerializedProperty m_splashDamage protected SerializedProperty m_splashDamage Field Value SerializedProperty Methods DrawNestedEvents() protected override void DrawNestedEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.Shooter.SequenceShooterEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.SequenceShooterEditor.html",
+    "title": "Class SequenceShooterEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class SequenceShooterEditor Namespace ToolkitEditor.Shooter public class SequenceShooterEditor : BaseShooterEditor Inheritance object BaseShooterEditor SequenceShooterEditor Inherited Members BaseShooterEditor.m_onFiring BaseShooterEditor.m_onFired BaseShooterEditor.DrawEvents() Fields m_onIndexChanged protected SerializedProperty m_onIndexChanged Field Value SerializedProperty m_skipInvalid protected SerializedProperty m_skipInvalid Field Value SerializedProperty m_steps protected SerializedProperty m_steps Field Value SerializedProperty Methods DrawNestedEvents() protected override void DrawNestedEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected override void OnEnable()"
+  },
+  "api/ToolkitEditor.Shooter.ShooterAmmoEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ShooterAmmoEditor.html",
+    "title": "Class ShooterAmmoEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterAmmoEditor Namespace ToolkitEditor.Shooter public class ShooterAmmoEditor : BaseToolkitEditor Inheritance object ShooterAmmoEditor Fields m_ammo protected SerializedProperty m_ammo Field Value SerializedProperty m_ammoCache protected SerializedProperty m_ammoCache Field Value SerializedProperty m_ammoType protected SerializedProperty m_ammoType Field Value SerializedProperty m_cacheSource protected SerializedProperty m_cacheSource Field Value SerializedProperty m_consumedPerShot protected SerializedProperty m_consumedPerShot Field Value SerializedProperty m_onCountChanged protected SerializedProperty m_onCountChanged Field Value SerializedProperty m_onDryFiring protected SerializedProperty m_onDryFiring Field Value SerializedProperty m_onEmpty protected SerializedProperty m_onEmpty Field Value SerializedProperty m_shooterControls protected SerializedProperty m_shooterControls Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected virtual void OnEnable()"
+  },
+  "api/ToolkitEditor.Shooter.ShooterChargeEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ShooterChargeEditor.html",
+    "title": "Class ShooterChargeEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterChargeEditor Namespace ToolkitEditor.Shooter public class ShooterChargeEditor : BaseToolkitEditor Inheritance object ShooterChargeEditor Fields m_maxCharge protected SerializedProperty m_maxCharge Field Value SerializedProperty m_onCharged protected SerializedProperty m_onCharged Field Value SerializedProperty m_onCharging protected SerializedProperty m_onCharging Field Value SerializedProperty m_onDecharged protected SerializedProperty m_onDecharged Field Value SerializedProperty m_onDecharging protected SerializedProperty m_onDecharging Field Value SerializedProperty m_onValueChanged protected SerializedProperty m_onValueChanged Field Value SerializedProperty m_resetOnEndFire protected SerializedProperty m_resetOnEndFire Field Value SerializedProperty m_shooterControls protected SerializedProperty m_shooterControls Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Shooter.ShooterControlEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ShooterControlEditor.html",
+    "title": "Class ShooterControlEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterControlEditor Namespace ToolkitEditor.Shooter public class ShooterControlEditor : Editor Inheritance object ShooterControlEditor Fields m_fireOnCancel protected SerializedProperty m_fireOnCancel Field Value SerializedProperty m_fireType protected SerializedProperty m_fireType Field Value SerializedProperty m_firingBlockers protected SerializedProperty m_firingBlockers Field Value SerializedProperty m_isBurstFire protected SerializedProperty m_isBurstFire Field Value SerializedProperty m_onBeginFire protected SerializedProperty m_onBeginFire Field Value SerializedProperty m_onEndFire protected SerializedProperty m_onEndFire Field Value SerializedProperty m_onSelected protected SerializedProperty m_onSelected Field Value SerializedProperty m_onShotBlocked protected SerializedProperty m_onShotBlocked Field Value SerializedProperty m_onShotFired protected SerializedProperty m_onShotFired Field Value SerializedProperty m_onShotFiring protected SerializedProperty m_onShotFiring Field Value SerializedProperty m_onUnselected protected SerializedProperty m_onUnselected Field Value SerializedProperty m_shooterControl protected ShooterControl m_shooterControl Field Value ShooterControl m_shooters protected SerializedProperty m_shooters Field Value SerializedProperty m_shotFiredBlockers protected SerializedProperty m_shotFiredBlockers Field Value SerializedProperty m_shotsPerBurst protected SerializedProperty m_shotsPerBurst Field Value SerializedProperty m_timeBetweenBursts protected SerializedProperty m_timeBetweenBursts Field Value SerializedProperty m_timeBetweenShots protected SerializedProperty m_timeBetweenShots Field Value SerializedProperty Methods DrawBurstGUI() protected virtual void DrawBurstGUI() DrawControlsGUI() protected virtual void DrawControlsGUI() DrawEventsGUI() protected virtual void DrawEventsGUI() OnInspectorGUI() public override void OnInspectorGUI()"
+  },
+  "api/ToolkitEditor.Shooter.ShooterHeatEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ShooterHeatEditor.html",
+    "title": "Class ShooterHeatEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterHeatEditor Namespace ToolkitEditor.Shooter public class ShooterHeatEditor : BaseToolkitEditor Inheritance object ShooterHeatEditor Fields m_cacheSource protected SerializedProperty m_cacheSource Field Value SerializedProperty m_heat protected SerializedProperty m_heat Field Value SerializedProperty m_heatCache protected SerializedProperty m_heatCache Field Value SerializedProperty m_heatPerShot protected SerializedProperty m_heatPerShot Field Value SerializedProperty m_onCooled protected SerializedProperty m_onCooled Field Value SerializedProperty m_onOverheated protected SerializedProperty m_onOverheated Field Value SerializedProperty m_onValueChanged protected SerializedProperty m_onValueChanged Field Value SerializedProperty m_shooterControls protected SerializedProperty m_shooterControls Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties() OnDisable() protected virtual void OnDisable() OnEnable() protected virtual void OnEnable()"
+  },
+  "api/ToolkitEditor.Shooter.ShooterModeEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ShooterModeEditor.html",
+    "title": "Class ShooterModeEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterModeEditor Namespace ToolkitEditor.Shooter public class ShooterModeEditor : BaseToolkitEditor Inheritance object ShooterModeEditor Fields m_onSelected protected SerializedProperty m_onSelected Field Value SerializedProperty m_onSelecting protected SerializedProperty m_onSelecting Field Value SerializedProperty m_shooterControls protected SerializedProperty m_shooterControls Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Shooter.ShooterRecoilEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ShooterRecoilEditor.html",
+    "title": "Class ShooterRecoilEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterRecoilEditor Namespace ToolkitEditor.Shooter public class ShooterRecoilEditor : BaseToolkitEditor Inheritance object ShooterRecoilEditor Fields m_maxRecoil protected SerializedProperty m_maxRecoil Field Value SerializedProperty m_pivot protected SerializedProperty m_pivot Field Value SerializedProperty m_recoilPerShot protected SerializedProperty m_recoilPerShot Field Value SerializedProperty m_recoveryDelay protected SerializedProperty m_recoveryDelay Field Value SerializedProperty m_recoveryRate protected SerializedProperty m_recoveryRate Field Value SerializedProperty m_shooterControls protected SerializedProperty m_shooterControls Field Value SerializedProperty m_target protected SerializedProperty m_target Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Shooter.ShooterReloadEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ShooterReloadEditor.html",
+    "title": "Class ShooterReloadEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterReloadEditor Namespace ToolkitEditor.Shooter public class ShooterReloadEditor : BaseToolkitEditor Inheritance object ShooterReloadEditor Fields m_ammoCache protected SerializedProperty m_ammoCache Field Value SerializedProperty m_autoReload protected SerializedProperty m_autoReload Field Value SerializedProperty m_count protected SerializedProperty m_count Field Value SerializedProperty m_delay protected SerializedProperty m_delay Field Value SerializedProperty m_interruptable protected SerializedProperty m_interruptable Field Value SerializedProperty m_onReloaded protected SerializedProperty m_onReloaded Field Value SerializedProperty m_onReloading protected SerializedProperty m_onReloading Field Value SerializedProperty m_onShotReloaded protected SerializedProperty m_onShotReloaded Field Value SerializedProperty m_shooterAmmo protected SerializedProperty m_shooterAmmo Field Value SerializedProperty m_shooterControls protected SerializedProperty m_shooterControls Field Value SerializedProperty m_subsequentCount protected SerializedProperty m_subsequentCount Field Value SerializedProperty m_subsequentDelay protected SerializedProperty m_subsequentDelay Field Value SerializedProperty m_subsequentReload protected SerializedProperty m_subsequentReload Field Value SerializedProperty Methods DrawEvents() protected override void DrawEvents() DrawProperties() protected override void DrawProperties() OnEnable() protected virtual void OnEnable()"
+  },
+  "api/ToolkitEditor.Shooter.ShooterSpreadEditor.html": {
+    "href": "api/ToolkitEditor.Shooter.ShooterSpreadEditor.html",
+    "title": "Class ShooterSpreadEditor | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterSpreadEditor Namespace ToolkitEditor.Shooter public class ShooterSpreadEditor : BaseToolkitEditor Inheritance object ShooterSpreadEditor Fields m_recoveryDelay protected SerializedProperty m_recoveryDelay Field Value SerializedProperty m_recoveryRate protected SerializedProperty m_recoveryRate Field Value SerializedProperty m_shooterControls protected SerializedProperty m_shooterControls Field Value SerializedProperty m_shooters protected SerializedProperty m_shooters Field Value SerializedProperty m_spreadLimits protected SerializedProperty m_spreadLimits Field Value SerializedProperty m_spreadPerShot protected SerializedProperty m_spreadPerShot Field Value SerializedProperty Methods DrawProperties() protected override void DrawProperties()"
+  },
+  "api/ToolkitEditor.Shooter.html": {
+    "href": "api/ToolkitEditor.Shooter.html",
+    "title": "Namespace ToolkitEditor.Shooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEditor.Shooter Classes AmmoCacheEditor AmmoCacheProxyEditor AmmoDrawer BaseMuzzleShooterEditor BaseShooterEditor HeatCacheEditor HeatDrawer ProjectileEditor ProjectileShooterEditor RayShooterEditor SequenceShooterEditor ShooterAmmoEditor ShooterChargeEditor ShooterControlEditor ShooterHeatEditor ShooterModeEditor ShooterRecoilEditor ShooterReloadEditor ShooterSpreadEditor"
+  },
+  "api/ToolkitEngine.Shooter.Ammo.html": {
+    "href": "api/ToolkitEngine.Shooter.Ammo.html",
+    "title": "Class Ammo | Shooter Toolkit | 1.0.0",
+    "keywords": "Class Ammo Namespace ToolkitEngine.Shooter [Serializable] public class Ammo Inheritance object Ammo Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ammoType public AmmoType ammoType { get; } Property Value AmmoType capacity public int capacity { get; set; } Property Value int count public int count { get; set; } Property Value int normalizedCount public float normalizedCount { get; } Property Value float onCountChanged public UnityEvent<int> onCountChanged { get; } Property Value UnityEvent<int> Methods CancelRegenerate() public void CancelRegenerate() Regenerate() public void Regenerate()"
+  },
+  "api/ToolkitEngine.Shooter.AmmoCache.html": {
+    "href": "api/ToolkitEngine.Shooter.AmmoCache.html",
+    "title": "Class AmmoCache | Shooter Toolkit | 1.0.0",
+    "keywords": "Class AmmoCache Namespace ToolkitEngine.Shooter public class AmmoCache : BaseAmmoCache, IAmmo Inheritance object BaseAmmoCache AmmoCache Implements IAmmo Inherited Members BaseAmmoCache.normalizedCount Properties ammoType public override AmmoType ammoType { get; } Property Value AmmoType capacity public override int capacity { get; set; } Property Value int count public override int count { get; set; } Property Value int onCountChanged public override UnityEvent<int> onCountChanged { get; } Property Value UnityEvent<int>"
+  },
+  "api/ToolkitEngine.Shooter.AmmoCacheProxy.html": {
+    "href": "api/ToolkitEngine.Shooter.AmmoCacheProxy.html",
+    "title": "Class AmmoCacheProxy | Shooter Toolkit | 1.0.0",
+    "keywords": "Class AmmoCacheProxy Namespace ToolkitEngine.Shooter public class AmmoCacheProxy : BaseAmmoCache, IAmmo Inheritance object BaseAmmoCache AmmoCacheProxy Implements IAmmo Inherited Members BaseAmmoCache.normalizedCount Properties ammoType public override AmmoType ammoType { get; } Property Value AmmoType capacity public override int capacity { get; set; } Property Value int count public override int count { get; set; } Property Value int onCountChanged public override UnityEvent<int> onCountChanged { get; } Property Value UnityEvent<int> Methods Assign(AmmoCache) public void Assign(AmmoCache ammoCache) Parameters ammoCache AmmoCache Unassign() public void Unassign()"
+  },
+  "api/ToolkitEngine.Shooter.AmmoType.html": {
+    "href": "api/ToolkitEngine.Shooter.AmmoType.html",
+    "title": "Class AmmoType | Shooter Toolkit | 1.0.0",
+    "keywords": "Class AmmoType Namespace ToolkitEngine.Shooter public class AmmoType : ScriptableObject Inheritance object AmmoType"
+  },
+  "api/ToolkitEngine.Shooter.BaseAmmoCache.html": {
+    "href": "api/ToolkitEngine.Shooter.BaseAmmoCache.html",
+    "title": "Class BaseAmmoCache | Shooter Toolkit | 1.0.0",
+    "keywords": "Class BaseAmmoCache Namespace ToolkitEngine.Shooter public abstract class BaseAmmoCache : MonoBehaviour, IAmmo Inheritance object BaseAmmoCache Implements IAmmo Derived AmmoCache AmmoCacheProxy Properties ammoType public abstract AmmoType ammoType { get; } Property Value AmmoType capacity public abstract int capacity { get; set; } Property Value int count public abstract int count { get; set; } Property Value int normalizedCount public float normalizedCount { get; } Property Value float onCountChanged public abstract UnityEvent<int> onCountChanged { get; } Property Value UnityEvent<int>"
+  },
+  "api/ToolkitEngine.Shooter.BaseHeatCache.html": {
+    "href": "api/ToolkitEngine.Shooter.BaseHeatCache.html",
+    "title": "Class BaseHeatCache | Shooter Toolkit | 1.0.0",
+    "keywords": "Class BaseHeatCache Namespace ToolkitEngine.Shooter public abstract class BaseHeatCache : MonoBehaviour, IHeat Inheritance object BaseHeatCache Implements IHeat Derived HeatCache Properties isOverheated public abstract bool isOverheated { get; } Property Value bool maximum public abstract float maximum { get; set; } Property Value float normalizedValue public float normalizedValue { get; } Property Value float onCooled public abstract UnityEvent onCooled { get; } Property Value UnityEvent onOverheated public abstract UnityEvent onOverheated { get; } Property Value UnityEvent onValueChanged public abstract UnityEvent<float> onValueChanged { get; } Property Value UnityEvent<float> paused public abstract bool paused { get; set; } Property Value bool value public abstract float value { get; set; } Property Value float Methods Overheat() public abstract void Overheat() Vent() public abstract void Vent()"
+  },
+  "api/ToolkitEngine.Shooter.BaseMuzzleShooter.SpreadDistribution.html": {
+    "href": "api/ToolkitEngine.Shooter.BaseMuzzleShooter.SpreadDistribution.html",
+    "title": "Enum BaseMuzzleShooter.SpreadDistribution | Shooter Toolkit | 1.0.0",
+    "keywords": "Enum BaseMuzzleShooter.SpreadDistribution Namespace ToolkitEngine.Shooter public enum BaseMuzzleShooter.SpreadDistribution Fields Gaussian = 1 Random = 0"
+  },
+  "api/ToolkitEngine.Shooter.BaseMuzzleShooter.html": {
+    "href": "api/ToolkitEngine.Shooter.BaseMuzzleShooter.html",
+    "title": "Class BaseMuzzleShooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Class BaseMuzzleShooter Namespace ToolkitEngine.Shooter public abstract class BaseMuzzleShooter : BaseShooter Inheritance object BaseShooter BaseMuzzleShooter Derived ProjectileShooter RayShooter Inherited Members BaseShooter.m_onFiring BaseShooter.m_onFired BaseShooter.onFiring BaseShooter.onFired BaseShooter.Fire() BaseShooter.Fire(ShooterControl) Fields m_deviation protected float m_deviation Field Value float m_distribution protected BaseMuzzleShooter.SpreadDistribution m_distribution Field Value BaseMuzzleShooter.SpreadDistribution m_mean protected float m_mean Field Value float m_muzzle protected Transform m_muzzle Field Value Transform m_spread protected float m_spread Field Value float Properties distribution public BaseMuzzleShooter.SpreadDistribution distribution { get; } Property Value BaseMuzzleShooter.SpreadDistribution muzzle public Transform muzzle { get; } Property Value Transform onSpreadChanged public UnityEvent<float> onSpreadChanged { get; } Property Value UnityEvent<float> spread public float spread { get; set; } Property Value float Methods GetShotDirection(BaseMuzzleShooter) public static Vector3 GetShotDirection(BaseMuzzleShooter shooter) Parameters shooter BaseMuzzleShooter Returns Vector3"
+  },
+  "api/ToolkitEngine.Shooter.BaseMuzzleShooterPattern.html": {
+    "href": "api/ToolkitEngine.Shooter.BaseMuzzleShooterPattern.html",
+    "title": "Class BaseMuzzleShooterPattern | Shooter Toolkit | 1.0.0",
+    "keywords": "Class BaseMuzzleShooterPattern Namespace ToolkitEngine.Shooter public abstract class BaseMuzzleShooterPattern : MonoBehaviour Inheritance object BaseMuzzleShooterPattern Derived ShooterConePattern Methods GetShotRays(BaseMuzzleShooter) public abstract Ray[] GetShotRays(BaseMuzzleShooter shooter) Parameters shooter BaseMuzzleShooter Returns Ray[]"
+  },
+  "api/ToolkitEngine.Shooter.BaseShooter.html": {
+    "href": "api/ToolkitEngine.Shooter.BaseShooter.html",
+    "title": "Class BaseShooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Class BaseShooter Namespace ToolkitEngine.Shooter public abstract class BaseShooter : MonoBehaviour Inheritance object BaseShooter Derived BaseMuzzleShooter SequenceShooter Fields m_onFired protected UnityEvent<ShooterEventArgs> m_onFired Field Value UnityEvent<ShooterEventArgs> m_onFiring protected UnityEvent<ShooterEventArgs> m_onFiring Field Value UnityEvent<ShooterEventArgs> Properties onFired public UnityEvent<ShooterEventArgs> onFired { get; } Property Value UnityEvent<ShooterEventArgs> onFiring public UnityEvent<ShooterEventArgs> onFiring { get; } Property Value UnityEvent<ShooterEventArgs> Methods Fire() public void Fire() Fire(ShooterControl) public abstract void Fire(ShooterControl shooterControl) Parameters shooterControl ShooterControl"
+  },
+  "api/ToolkitEngine.Shooter.BeamFXControl.html": {
+    "href": "api/ToolkitEngine.Shooter.BeamFXControl.html",
+    "title": "Class BeamFXControl | Shooter Toolkit | 1.0.0",
+    "keywords": "Class BeamFXControl Namespace ToolkitEngine.Shooter public class BeamFXControl : MonoBehaviour Inheritance object BeamFXControl"
+  },
+  "api/ToolkitEngine.Shooter.EventHooks.html": {
+    "href": "api/ToolkitEngine.Shooter.EventHooks.html",
+    "title": "Class EventHooks | Shooter Toolkit | 1.0.0",
+    "keywords": "Class EventHooks Namespace ToolkitEngine.Shooter public static class EventHooks Inheritance object EventHooks Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields OnAmmoCacheCountChanged public const string OnAmmoCacheCountChanged = \"OnAmmoCacheCountChanged\" Field Value string OnHeatCooled public const string OnHeatCooled = \"OnHeatCooled\" Field Value string OnHeatOverheated public const string OnHeatOverheated = \"OnHeatOverheated\" Field Value string OnHeatValueChanged public const string OnHeatValueChanged = \"OnHeatValueChanged\" Field Value string OnProjectileDetonated public const string OnProjectileDetonated = \"OnProjectileDetonated\" Field Value string"
+  },
+  "api/ToolkitEngine.Shooter.Heat.html": {
+    "href": "api/ToolkitEngine.Shooter.Heat.html",
+    "title": "Class Heat | Shooter Toolkit | 1.0.0",
+    "keywords": "Class Heat Namespace ToolkitEngine.Shooter [Serializable] public class Heat : IHeat Inheritance object Heat Implements IHeat Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties isOverheated public bool isOverheated { get; protected set; } Property Value bool maximum public float maximum { get; set; } Property Value float normalizedValue public float normalizedValue { get; } Property Value float onCooled public UnityEvent onCooled { get; } Property Value UnityEvent onOverheated public UnityEvent onOverheated { get; } Property Value UnityEvent onValueChanged public UnityEvent<float> onValueChanged { get; } Property Value UnityEvent<float> paused public bool paused { get; set; } Property Value bool value public float value { get; set; } Property Value float Methods Overheat() public void Overheat() Vent() public void Vent()"
+  },
+  "api/ToolkitEngine.Shooter.HeatCache.html": {
+    "href": "api/ToolkitEngine.Shooter.HeatCache.html",
+    "title": "Class HeatCache | Shooter Toolkit | 1.0.0",
+    "keywords": "Class HeatCache Namespace ToolkitEngine.Shooter public class HeatCache : BaseHeatCache, IHeat Inheritance object BaseHeatCache HeatCache Implements IHeat Inherited Members BaseHeatCache.normalizedValue Properties isOverheated public override bool isOverheated { get; } Property Value bool maximum public override float maximum { get; set; } Property Value float onCooled public override UnityEvent onCooled { get; } Property Value UnityEvent onOverheated public override UnityEvent onOverheated { get; } Property Value UnityEvent onValueChanged public override UnityEvent<float> onValueChanged { get; } Property Value UnityEvent<float> paused public override bool paused { get; set; } Property Value bool value public override float value { get; set; } Property Value float Methods Overheat() public override void Overheat() Vent() public override void Vent()"
+  },
+  "api/ToolkitEngine.Shooter.IAmmo.html": {
+    "href": "api/ToolkitEngine.Shooter.IAmmo.html",
+    "title": "Interface IAmmo | Shooter Toolkit | 1.0.0",
+    "keywords": "Interface IAmmo Namespace ToolkitEngine.Shooter public interface IAmmo Properties ammoType AmmoType ammoType { get; } Property Value AmmoType capacity int capacity { get; set; } Property Value int count int count { get; set; } Property Value int normalizedCount float normalizedCount { get; } Property Value float onCountChanged UnityEvent<int> onCountChanged { get; } Property Value UnityEvent<int>"
+  },
+  "api/ToolkitEngine.Shooter.IHeat.html": {
+    "href": "api/ToolkitEngine.Shooter.IHeat.html",
+    "title": "Interface IHeat | Shooter Toolkit | 1.0.0",
+    "keywords": "Interface IHeat Namespace ToolkitEngine.Shooter public interface IHeat Properties isOverheated bool isOverheated { get; } Property Value bool maximum float maximum { get; } Property Value float normalizedValue float normalizedValue { get; } Property Value float onCooled UnityEvent onCooled { get; } Property Value UnityEvent onOverheated UnityEvent onOverheated { get; } Property Value UnityEvent onValueChanged UnityEvent<float> onValueChanged { get; } Property Value UnityEvent<float> paused bool paused { get; set; } Property Value bool value float value { get; set; } Property Value float"
+  },
+  "api/ToolkitEngine.Shooter.IMuzzleShooter.html": {
+    "href": "api/ToolkitEngine.Shooter.IMuzzleShooter.html",
+    "title": "Interface IMuzzleShooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Interface IMuzzleShooter Namespace ToolkitEngine.Shooter public interface IMuzzleShooter Properties muzzle Transform muzzle { get; } Property Value Transform"
+  },
+  "api/ToolkitEngine.Shooter.MuzzleFXControl.html": {
+    "href": "api/ToolkitEngine.Shooter.MuzzleFXControl.html",
+    "title": "Class MuzzleFXControl | Shooter Toolkit | 1.0.0",
+    "keywords": "Class MuzzleFXControl Namespace ToolkitEngine.Shooter public class MuzzleFXControl : MonoBehaviour Inheritance object MuzzleFXControl"
+  },
+  "api/ToolkitEngine.Shooter.Projectile.html": {
+    "href": "api/ToolkitEngine.Shooter.Projectile.html",
+    "title": "Class Projectile | Shooter Toolkit | 1.0.0",
+    "keywords": "Class Projectile Namespace ToolkitEngine.Shooter public class Projectile : MonoBehaviour Inheritance object Projectile Properties colliders public Collider[] colliders { get; } Property Value Collider[] distance public float distance { get; } Property Value float isPending public bool isPending { get; } Property Value bool lifetime public float lifetime { get; } Property Value float normalizedDistance public float normalizedDistance { get; } Property Value float normalizedLifetime public float normalizedLifetime { get; } Property Value float onCollision public UnityEvent<ProjectileEventArgs> onCollision { get; } Property Value UnityEvent<ProjectileEventArgs> onDetonated public UnityEvent<ProjectileEventArgs> onDetonated { get; } Property Value UnityEvent<ProjectileEventArgs> onFired public UnityEvent<ProjectileEventArgs> onFired { get; } Property Value UnityEvent<ProjectileEventArgs> onMaxDistanceReached public UnityEvent<ProjectileEventArgs> onMaxDistanceReached { get; } Property Value UnityEvent<ProjectileEventArgs> projectileShooter public ProjectileShooter projectileShooter { get; } Property Value ProjectileShooter rigidbody public Rigidbody rigidbody { get; } Property Value Rigidbody Methods Attach(Collider) public void Attach(Collider collider) Parameters collider Collider Detonate() public void Detonate() Detonate(ProjectileEventArgs) public void Detonate(ProjectileEventArgs e) Parameters e ProjectileEventArgs Fire(ProjectileShooter) public void Fire(ProjectileShooter projectileShooter) Parameters projectileShooter ProjectileShooter Stop() public void Stop()"
+  },
+  "api/ToolkitEngine.Shooter.ProjectileEventArgs.html": {
+    "href": "api/ToolkitEngine.Shooter.ProjectileEventArgs.html",
+    "title": "Class ProjectileEventArgs | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ProjectileEventArgs Namespace ToolkitEngine.Shooter [Serializable] public class ProjectileEventArgs : EventArgs Inheritance object EventArgs ProjectileEventArgs Inherited Members EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields collider public Collider collider Field Value Collider hits public DamageHit[] hits Field Value DamageHit[] impactNormal public Vector3 impactNormal Field Value Vector3 projectile public Projectile projectile Field Value Projectile projectileShooter public ProjectileShooter projectileShooter Field Value ProjectileShooter surfaceNormal public Vector3 surfaceNormal Field Value Vector3 terminal public Vector3 terminal Field Value Vector3"
+  },
+  "api/ToolkitEngine.Shooter.ProjectileShooter.TerminalAction.html": {
+    "href": "api/ToolkitEngine.Shooter.ProjectileShooter.TerminalAction.html",
+    "title": "Enum ProjectileShooter.TerminalAction | Shooter Toolkit | 1.0.0",
+    "keywords": "Enum ProjectileShooter.TerminalAction Namespace ToolkitEngine.Shooter public enum ProjectileShooter.TerminalAction Fields Attach = 2 Custom = 0 Detonate = 1"
+  },
+  "api/ToolkitEngine.Shooter.ProjectileShooter.html": {
+    "href": "api/ToolkitEngine.Shooter.ProjectileShooter.html",
+    "title": "Class ProjectileShooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ProjectileShooter Namespace ToolkitEngine.Shooter public class ProjectileShooter : BaseMuzzleShooter, IMuzzleShooter Inheritance object BaseShooter BaseMuzzleShooter ProjectileShooter Implements IMuzzleShooter Inherited Members BaseMuzzleShooter.m_muzzle BaseMuzzleShooter.m_spread BaseMuzzleShooter.m_distribution BaseMuzzleShooter.m_mean BaseMuzzleShooter.m_deviation BaseMuzzleShooter.muzzle BaseMuzzleShooter.spread BaseMuzzleShooter.distribution BaseMuzzleShooter.onSpreadChanged BaseMuzzleShooter.GetShotDirection(BaseMuzzleShooter) BaseShooter.m_onFiring BaseShooter.m_onFired BaseShooter.onFiring BaseShooter.onFired BaseShooter.Fire() Properties acceleration public float acceleration { get; } Property Value float impactDamage public ImpactDamage impactDamage { get; } Property Value ImpactDamage lifetime public float lifetime { get; } Property Value float maxSpeed public float maxSpeed { get; } Property Value float minSpeed public float minSpeed { get; } Property Value float onCollision public UnityEvent<ProjectileEventArgs> onCollision { get; } Property Value UnityEvent<ProjectileEventArgs> onDetonated public UnityEvent<ProjectileEventArgs> onDetonated { get; } Property Value UnityEvent<ProjectileEventArgs> onMaxDistanceReached public UnityEvent<ProjectileEventArgs> onMaxDistanceReached { get; } Property Value UnityEvent<ProjectileEventArgs> onProjectileFired public UnityEvent<ProjectileEventArgs> onProjectileFired { get; } Property Value UnityEvent<ProjectileEventArgs> pendingProjectile public Projectile pendingProjectile { get; set; } Property Value Projectile sets public Set[] sets { get; } Property Value Set[] speed public float speed { get; } Property Value float splashDamage public SplashDamage splashDamage { get; } Property Value SplashDamage Methods Attach(Projectile, Collider) public void Attach(Projectile projectile, Collider collider) Parameters projectile Projectile collider Collider DenotateAll() public void DenotateAll() Despawn() public void Despawn() Fire(ShooterControl) public override void Fire(ShooterControl shooterControl) Parameters shooterControl ShooterControl Fire(Vector3, Vector3) protected void Fire(Vector3 origin, Vector3 direction) Parameters origin Vector3 direction Vector3 IgnoreCollider(Collider, bool) public void IgnoreCollider(Collider collider, bool ignore = true) Parameters collider Collider ignore bool IgnoreColliders(IEnumerable<Collider>, bool) public void IgnoreColliders(IEnumerable<Collider> colliders, bool ignore = true) Parameters colliders IEnumerable<Collider> ignore bool Spawn() public void Spawn() Untrack(Projectile) public void Untrack(Projectile projectile) Parameters projectile Projectile"
+  },
+  "api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.html": {
+    "href": "api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.html",
+    "title": "Delegate RayShooter.RaycastAllFunc | Shooter Toolkit | 1.0.0",
+    "keywords": "Delegate RayShooter.RaycastAllFunc Namespace ToolkitEngine.Shooter public delegate RaycastHit[] RayShooter.RaycastAllFunc(Vector3 origin, Vector3 direction) Parameters origin Vector3 direction Vector3 Returns RaycastHit[]"
+  },
+  "api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.html": {
+    "href": "api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.html",
+    "title": "Delegate RayShooter.RaycastFunc | Shooter Toolkit | 1.0.0",
+    "keywords": "Delegate RayShooter.RaycastFunc Namespace ToolkitEngine.Shooter public delegate bool RayShooter.RaycastFunc(Vector3 origin, Vector3 direction, out RaycastHit hit) Parameters origin Vector3 direction Vector3 hit RaycastHit Returns bool"
+  },
+  "api/ToolkitEngine.Shooter.RayShooter.html": {
+    "href": "api/ToolkitEngine.Shooter.RayShooter.html",
+    "title": "Class RayShooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Class RayShooter Namespace ToolkitEngine.Shooter public class RayShooter : BaseMuzzleShooter Inheritance object BaseShooter BaseMuzzleShooter RayShooter Inherited Members BaseMuzzleShooter.m_muzzle BaseMuzzleShooter.m_spread BaseMuzzleShooter.m_distribution BaseMuzzleShooter.m_mean BaseMuzzleShooter.m_deviation BaseMuzzleShooter.muzzle BaseMuzzleShooter.spread BaseMuzzleShooter.distribution BaseMuzzleShooter.onSpreadChanged BaseMuzzleShooter.GetShotDirection(BaseMuzzleShooter) BaseShooter.m_onFiring BaseShooter.m_onFired BaseShooter.onFiring BaseShooter.onFired BaseShooter.Fire() Properties infinitePenetrate public bool infinitePenetrate { get; } Property Value bool onPenetrated public UnityEvent<ShooterEventArgs, int> onPenetrated { get; } Property Value UnityEvent<ShooterEventArgs, int> Methods Fire(ShooterControl) public override void Fire(ShooterControl shooterControl) Parameters shooterControl ShooterControl Fire(ShooterControl, Vector3, Vector3) protected void Fire(ShooterControl shooterControl, Vector3 origin, Vector3 direction) Parameters shooterControl ShooterControl origin Vector3 direction Vector3 Fire(ShooterControl, Vector3, Vector3, RaycastFunc, RaycastAllFunc) protected void Fire(ShooterControl shooterControl, Vector3 origin, Vector3 direction, RayShooter.RaycastFunc raycastFunc, RayShooter.RaycastAllFunc raycastAllFunc) Parameters shooterControl ShooterControl origin Vector3 direction Vector3 raycastFunc RayShooter.RaycastFunc raycastAllFunc RayShooter.RaycastAllFunc GetRaycast(Vector3, Vector3, out RaycastHit) protected bool GetRaycast(Vector3 origin, Vector3 direction, out RaycastHit hit) Parameters origin Vector3 direction Vector3 hit RaycastHit Returns bool GetRaycastAll(Vector3, Vector3) protected RaycastHit[] GetRaycastAll(Vector3 origin, Vector3 direction) Parameters origin Vector3 direction Vector3 Returns RaycastHit[] GetSphereCast(Vector3, Vector3, out RaycastHit) protected bool GetSphereCast(Vector3 origin, Vector3 direction, out RaycastHit hit) Parameters origin Vector3 direction Vector3 hit RaycastHit Returns bool GetSphereCastAll(Vector3, Vector3) protected RaycastHit[] GetSphereCastAll(Vector3 origin, Vector3 direction) Parameters origin Vector3 direction Vector3 Returns RaycastHit[] ProcessHit(ShooterControl, bool, RaycastHit, List<DamageHit>, HashSet<IDamageReceiver>) protected bool ProcessHit(ShooterControl shooterControl, bool result, RaycastHit raycastHit, List<DamageHit> hits, HashSet<IDamageReceiver> victims) Parameters shooterControl ShooterControl result bool raycastHit RaycastHit hits List<DamageHit> victims HashSet<IDamageReceiver> Returns bool"
+  },
+  "api/ToolkitEngine.Shooter.SequenceShooter.StepShooter.html": {
+    "href": "api/ToolkitEngine.Shooter.SequenceShooter.StepShooter.html",
+    "title": "Class SequenceShooter.StepShooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Class SequenceShooter.StepShooter Namespace ToolkitEngine.Shooter [Serializable] public class SequenceShooter.StepShooter Inheritance object SequenceShooter.StepShooter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields blockers public UnityCondition blockers Field Value UnityCondition shooter public BaseShooter shooter Field Value BaseShooter"
+  },
+  "api/ToolkitEngine.Shooter.SequenceShooter.html": {
+    "href": "api/ToolkitEngine.Shooter.SequenceShooter.html",
+    "title": "Class SequenceShooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Class SequenceShooter Namespace ToolkitEngine.Shooter public class SequenceShooter : BaseShooter, IPoolItemRecyclable Inheritance object BaseShooter SequenceShooter Implements IPoolItemRecyclable Inherited Members BaseShooter.m_onFiring BaseShooter.m_onFired BaseShooter.onFiring BaseShooter.onFired BaseShooter.Fire() Properties index public int index { get; } Property Value int onIndexChanged public UnityEvent<int> onIndexChanged { get; } Property Value UnityEvent<int> Methods Fire(ShooterControl) public override void Fire(ShooterControl shooterControl) Parameters shooterControl ShooterControl Recycle() public void Recycle() ResetIndex() public void ResetIndex()"
+  },
+  "api/ToolkitEngine.Shooter.ShooterAmmo.CacheSource.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterAmmo.CacheSource.html",
+    "title": "Enum ShooterAmmo.CacheSource | Shooter Toolkit | 1.0.0",
+    "keywords": "Enum ShooterAmmo.CacheSource Namespace ToolkitEngine.Shooter public enum ShooterAmmo.CacheSource Fields Custom = 3 Direct = 1 Internal = 0 Parent = 2"
+  },
+  "api/ToolkitEngine.Shooter.ShooterAmmo.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterAmmo.html",
+    "title": "Class ShooterAmmo | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterAmmo Namespace ToolkitEngine.Shooter public class ShooterAmmo : MonoBehaviour, IAmmo Inheritance object ShooterAmmo Implements IAmmo Properties ammoType public AmmoType ammoType { get; } Property Value AmmoType canFire Indicates whether there is enough ammo in cache to fire public bool canFire { get; } Property Value bool capacity public int capacity { get; set; } Property Value int count public int count { get; set; } Property Value int normalizedCount public float normalizedCount { get; } Property Value float onCountChanged public UnityEvent<int> onCountChanged { get; } Property Value UnityEvent<int> onDryFiring public UnityEvent onDryFiring { get; } Property Value UnityEvent onEmpty public UnityEvent onEmpty { get; } Property Value UnityEvent Methods Consume(bool) public void Consume(bool wholeNumbers = true) Parameters wholeNumbers bool"
+  },
+  "api/ToolkitEngine.Shooter.ShooterCharge.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterCharge.html",
+    "title": "Class ShooterCharge | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterCharge Namespace ToolkitEngine.Shooter public class ShooterCharge : MonoBehaviour, IPoolItemRecyclable Inheritance object ShooterCharge Implements IPoolItemRecyclable Properties isCharged public bool isCharged { get; } Property Value bool isCharging Indicates whether is being charged. public bool isCharging { get; } Property Value bool maxCharge public float maxCharge { get; set; } Property Value float normalizedValue public float normalizedValue { get; } Property Value float onCharged public UnityEvent onCharged { get; } Property Value UnityEvent onCharging public UnityEvent onCharging { get; } Property Value UnityEvent onDecharged public UnityEvent onDecharged { get; } Property Value UnityEvent onDecharging public UnityEvent onDecharging { get; } Property Value UnityEvent onValueChanged public UnityEvent<float> onValueChanged { get; } Property Value UnityEvent<float> value public float value { get; } Property Value float Methods Recycle() public void Recycle()"
+  },
+  "api/ToolkitEngine.Shooter.ShooterConePattern.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterConePattern.html",
+    "title": "Class ShooterConePattern | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterConePattern Namespace ToolkitEngine.Shooter public class ShooterConePattern : BaseMuzzleShooterPattern Inheritance object BaseMuzzleShooterPattern ShooterConePattern Methods GetShotRays(BaseMuzzleShooter) public override Ray[] GetShotRays(BaseMuzzleShooter shooter) Parameters shooter BaseMuzzleShooter Returns Ray[]"
+  },
+  "api/ToolkitEngine.Shooter.ShooterControl.FireType.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterControl.FireType.html",
+    "title": "Enum ShooterControl.FireType | Shooter Toolkit | 1.0.0",
+    "keywords": "Enum ShooterControl.FireType Namespace ToolkitEngine.Shooter public enum ShooterControl.FireType Fields Continuous = 0 FullAuto = 1 SemiAuto = 2"
+  },
+  "api/ToolkitEngine.Shooter.ShooterControl.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterControl.html",
+    "title": "Class ShooterControl | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterControl Namespace ToolkitEngine.Shooter public class ShooterControl : MonoBehaviour Inheritance object ShooterControl Properties burstShotCount public float burstShotCount { get; } Property Value float bursting Indicates whether weapon is currently in burst sequence. public bool bursting { get; } Property Value bool canFire Indicates whether weapon can by fired public bool canFire { get; } Property Value bool canFireByTime public bool canFireByTime { get; } Property Value bool fireOnCancel public bool fireOnCancel { get; } Property Value bool fireType public ShooterControl.FireType fireType { get; } Property Value ShooterControl.FireType firing Indicates whether weapon is currently in firing state. Note: \"Firing\" does not necessarily mean shooting shots. public bool firing { get; protected set; } Property Value bool isBurstFire public bool isBurstFire { get; } Property Value bool onBeginFire public UnityEvent<ShooterControl> onBeginFire { get; } Property Value UnityEvent<ShooterControl> onEndFire public UnityEvent<ShooterControl> onEndFire { get; } Property Value UnityEvent<ShooterControl> onSelected public UnityEvent<ShooterControl> onSelected { get; } Property Value UnityEvent<ShooterControl> onShotBlocked public UnityEvent<ShooterControl> onShotBlocked { get; } Property Value UnityEvent<ShooterControl> onShotFired public UnityEvent<ShooterControl> onShotFired { get; } Property Value UnityEvent<ShooterControl> onShotFiring public UnityEvent<ShooterControl> onShotFiring { get; } Property Value UnityEvent<ShooterControl> onUnselected public UnityEvent<ShooterControl> onUnselected { get; } Property Value UnityEvent<ShooterControl> shooters public BaseShooter[] shooters { get; } Property Value BaseShooter[] timeBetweenBursts public float timeBetweenBursts { get; } Property Value float timeBetweenShots public float timeBetweenShots { get; } Property Value float Methods CancelFire(bool) public void CancelFire(bool ignoreFireOnCancel = false) Parameters ignoreFireOnCancel bool Fire() public void Fire() GetShooterControls(GameObject, ShooterControl[]) public static ShooterControl[] GetShooterControls(GameObject obj, ShooterControl[] shooterControls) Parameters obj GameObject shooterControls ShooterControl[] Returns ShooterControl[] Select() public void Select() Unselect() public void Unselect()"
+  },
+  "api/ToolkitEngine.Shooter.ShooterEventArgs.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterEventArgs.html",
+    "title": "Class ShooterEventArgs | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterEventArgs Namespace ToolkitEngine.Shooter [Serializable] public class ShooterEventArgs : EventArgs Inheritance object EventArgs ShooterEventArgs Inherited Members EventArgs.Empty object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors ShooterEventArgs() public ShooterEventArgs() ShooterEventArgs(ShooterEventArgs) public ShooterEventArgs(ShooterEventArgs other) Parameters other ShooterEventArgs Fields hits public DamageHit[] hits Field Value DamageHit[] origin public Vector3 origin Field Value Vector3 shooter public BaseShooter shooter Field Value BaseShooter terminal public Vector3 terminal Field Value Vector3 Properties direction public Vector3 direction { get; } Property Value Vector3"
+  },
+  "api/ToolkitEngine.Shooter.ShooterHeat.CacheSource.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterHeat.CacheSource.html",
+    "title": "Enum ShooterHeat.CacheSource | Shooter Toolkit | 1.0.0",
+    "keywords": "Enum ShooterHeat.CacheSource Namespace ToolkitEngine.Shooter public enum ShooterHeat.CacheSource Fields Custom = 3 Direct = 1 Internal = 0 Parent = 2"
+  },
+  "api/ToolkitEngine.Shooter.ShooterHeat.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterHeat.html",
+    "title": "Class ShooterHeat | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterHeat Namespace ToolkitEngine.Shooter public class ShooterHeat : MonoBehaviour, IPoolItemRecyclable, IHeat Inheritance object ShooterHeat Implements IPoolItemRecyclable IHeat Properties canConsumeWithoutOverheating public bool canConsumeWithoutOverheating { get; } Property Value bool heatPerShot public float heatPerShot { get; } Property Value float heatSource protected IHeat heatSource { get; } Property Value IHeat isOverheated public bool isOverheated { get; } Property Value bool maximum public float maximum { get; set; } Property Value float normalizedValue public float normalizedValue { get; } Property Value float onCooled public UnityEvent onCooled { get; } Property Value UnityEvent onOverheated public UnityEvent onOverheated { get; } Property Value UnityEvent onValueChanged public UnityEvent<float> onValueChanged { get; } Property Value UnityEvent<float> paused public bool paused { get; set; } Property Value bool shooterControls public ShooterControl[] shooterControls { get; } Property Value ShooterControl[] value public float value { get; set; } Property Value float Methods Consume(bool) public void Consume(bool continuous = false) Parameters continuous bool Overheat() public void Overheat() Recycle() public void Recycle() Vent() public void Vent()"
+  },
+  "api/ToolkitEngine.Shooter.ShooterMode.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterMode.html",
+    "title": "Class ShooterMode | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterMode Namespace ToolkitEngine.Shooter public class ShooterMode : MonoBehaviour Inheritance object ShooterMode Properties changing public bool changing { get; } Property Value bool count public int count { get; } Property Value int index public int index { get; } Property Value int onSelected public UnityEvent onSelected { get; } Property Value UnityEvent onSelecting public UnityEvent onSelecting { get; } Property Value UnityEvent selection public ShooterControl selection { get; } Property Value ShooterControl Methods CancelFire() public void CancelFire() Fire() public void Fire() Next() public void Next() Next(Func<bool>) public void Next(Func<bool> predicate) Parameters predicate Func<bool> Previous() public void Previous() Previous(Func<bool>) public void Previous(Func<bool> predicate) Parameters predicate Func<bool> Set(int, Func<bool>) public void Set(int index, Func<bool> predicate = null) Parameters index int predicate Func<bool>"
+  },
+  "api/ToolkitEngine.Shooter.ShooterRecoil.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterRecoil.html",
+    "title": "Class ShooterRecoil | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterRecoil Namespace ToolkitEngine.Shooter public class ShooterRecoil : MonoBehaviour, IPoolItemRecyclable Inheritance object ShooterRecoil Implements IPoolItemRecyclable Properties exceedsLimit public bool exceedsLimit { get; } Property Value bool Methods Recycle() public void Recycle()"
+  },
+  "api/ToolkitEngine.Shooter.ShooterReload.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterReload.html",
+    "title": "Class ShooterReload | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterReload Namespace ToolkitEngine.Shooter public class ShooterReload : MonoBehaviour Inheritance object ShooterReload Properties onReloaded public UnityEvent onReloaded { get; } Property Value UnityEvent onReloading public UnityEvent onReloading { get; } Property Value UnityEvent onShotReloaded public UnityEvent onShotReloaded { get; } Property Value UnityEvent reloading public bool reloading { get; } Property Value bool Methods CanReload(int) public bool CanReload(int count) Parameters count int Returns bool Reload() public void Reload()"
+  },
+  "api/ToolkitEngine.Shooter.ShooterSpread.html": {
+    "href": "api/ToolkitEngine.Shooter.ShooterSpread.html",
+    "title": "Class ShooterSpread | Shooter Toolkit | 1.0.0",
+    "keywords": "Class ShooterSpread Namespace ToolkitEngine.Shooter public class ShooterSpread : MonoBehaviour Inheritance object ShooterSpread Properties anyExceedsMax public bool anyExceedsMax { get; } Property Value bool maxSpread public float maxSpread { get; set; } Property Value float minSpread public float minSpread { get; set; } Property Value float"
+  },
+  "api/ToolkitEngine.Shooter.SplashFXControl.html": {
+    "href": "api/ToolkitEngine.Shooter.SplashFXControl.html",
+    "title": "Class SplashFXControl | Shooter Toolkit | 1.0.0",
+    "keywords": "Class SplashFXControl Namespace ToolkitEngine.Shooter public class SplashFXControl : MonoBehaviour Inheritance object SplashFXControl"
+  },
+  "api/ToolkitEngine.Shooter.TracerFXControl.html": {
+    "href": "api/ToolkitEngine.Shooter.TracerFXControl.html",
+    "title": "Class TracerFXControl | Shooter Toolkit | 1.0.0",
+    "keywords": "Class TracerFXControl Namespace ToolkitEngine.Shooter public class TracerFXControl : MonoBehaviour Inheritance object TracerFXControl"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.BaseProjectileEventUnit.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.BaseProjectileEventUnit.html",
+    "title": "Class BaseProjectileEventUnit | Shooter Toolkit | 1.0.0",
+    "keywords": "Class BaseProjectileEventUnit Namespace ToolkitEngine.Shooter.VisualScripting public abstract class BaseProjectileEventUnit : BaseEventUnit<ProjectileEventArgs> Inheritance object BaseProjectileEventUnit Derived OnProjectileDetonated"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChanged.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChanged.html",
+    "title": "Class OnAmmoCacheCountChanged | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnAmmoCacheCountChanged Namespace ToolkitEngine.Shooter.VisualScripting public class OnAmmoCacheCountChanged : BaseEventUnit<int> Inheritance object OnAmmoCacheCountChanged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChangedMessageListener.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChangedMessageListener.html",
+    "title": "Class OnAmmoCacheCountChangedMessageListener | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnAmmoCacheCountChangedMessageListener Namespace ToolkitEngine.Shooter.VisualScripting public class OnAmmoCacheCountChangedMessageListener : MessageListener Inheritance object OnAmmoCacheCountChangedMessageListener"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooled.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooled.html",
+    "title": "Class OnHeatCooled | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnHeatCooled Namespace ToolkitEngine.Shooter.VisualScripting public class OnHeatCooled : BaseEventUnit<Null> Inheritance object OnHeatCooled Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooledMessageListener.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooledMessageListener.html",
+    "title": "Class OnHeatCooledMessageListener | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnHeatCooledMessageListener Namespace ToolkitEngine.Shooter.VisualScripting public class OnHeatCooledMessageListener : MessageListener Inheritance object OnHeatCooledMessageListener"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheated.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheated.html",
+    "title": "Class OnHeatOverheated | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnHeatOverheated Namespace ToolkitEngine.Shooter.VisualScripting public class OnHeatOverheated : BaseEventUnit<Null> Inheritance object OnHeatOverheated Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheatedMessageListener.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheatedMessageListener.html",
+    "title": "Class OnHeatOverheatedMessageListener | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnHeatOverheatedMessageListener Namespace ToolkitEngine.Shooter.VisualScripting public class OnHeatOverheatedMessageListener : MessageListener Inheritance object OnHeatOverheatedMessageListener"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChanged.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChanged.html",
+    "title": "Class OnHeatValueChanged | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnHeatValueChanged Namespace ToolkitEngine.Shooter.VisualScripting public class OnHeatValueChanged : BaseEventUnit<float> Inheritance object OnHeatValueChanged Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChangedMessageListener.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChangedMessageListener.html",
+    "title": "Class OnHeatValueChangedMessageListener | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnHeatValueChangedMessageListener Namespace ToolkitEngine.Shooter.VisualScripting public class OnHeatValueChangedMessageListener : MessageListener Inheritance object OnHeatValueChangedMessageListener"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonated.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonated.html",
+    "title": "Class OnProjectileDetonated | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnProjectileDetonated Namespace ToolkitEngine.Shooter.VisualScripting public class OnProjectileDetonated : BaseProjectileEventUnit Inheritance object BaseProjectileEventUnit OnProjectileDetonated Properties MessageListenerType public override Type MessageListenerType { get; } Property Value Type"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener.html",
+    "title": "Class OnProjectileDetonatedMessageListener | Shooter Toolkit | 1.0.0",
+    "keywords": "Class OnProjectileDetonatedMessageListener Namespace ToolkitEngine.Shooter.VisualScripting public class OnProjectileDetonatedMessageListener : MessageListener Inheritance object OnProjectileDetonatedMessageListener"
+  },
+  "api/ToolkitEngine.Shooter.VisualScripting.html": {
+    "href": "api/ToolkitEngine.Shooter.VisualScripting.html",
+    "title": "Namespace ToolkitEngine.Shooter.VisualScripting | Shooter Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.Shooter.VisualScripting Classes BaseProjectileEventUnit OnAmmoCacheCountChanged OnAmmoCacheCountChangedMessageListener OnHeatCooled OnHeatCooledMessageListener OnHeatOverheated OnHeatOverheatedMessageListener OnHeatValueChanged OnHeatValueChangedMessageListener OnProjectileDetonated OnProjectileDetonatedMessageListener"
+  },
+  "api/ToolkitEngine.Shooter.html": {
+    "href": "api/ToolkitEngine.Shooter.html",
+    "title": "Namespace ToolkitEngine.Shooter | Shooter Toolkit | 1.0.0",
+    "keywords": "Namespace ToolkitEngine.Shooter Classes Ammo AmmoCache AmmoCacheProxy AmmoType BaseAmmoCache BaseHeatCache BaseMuzzleShooter BaseMuzzleShooterPattern BaseShooter BeamFXControl EventHooks Heat HeatCache MuzzleFXControl Projectile ProjectileEventArgs ProjectileShooter RayShooter SequenceShooter SequenceShooter.StepShooter ShooterAmmo ShooterCharge ShooterConePattern ShooterControl ShooterEventArgs ShooterHeat ShooterMode ShooterRecoil ShooterReload ShooterSpread SplashFXControl TracerFXControl Interfaces IAmmo IHeat IMuzzleShooter Enums BaseMuzzleShooter.SpreadDistribution ProjectileShooter.TerminalAction ShooterAmmo.CacheSource ShooterControl.FireType ShooterHeat.CacheSource Delegates RayShooter.RaycastAllFunc RayShooter.RaycastFunc"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| Shooter Toolkit | 1.0.0",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| Shooter Toolkit | 1.0.0",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| Shooter Toolkit | 1.0.0",
+    "keywords": "MIT License Copyright (c) 2023 nrvllrgrs Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "toolkit.shooter | Shooter Toolkit | 1.0.0",
+    "keywords": "toolkit.shooter"
+  }
+}

@@ -1,0 +1,884 @@
+{
+  "sitemap": {
+    "baseUrl": "https://nrvllrgrs.github.io/toolkit.shooter/"
+  },
+  "source_base_path": "/home/runner/work/toolkit.shooter/toolkit.shooter/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ITracer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ITracer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TriggerShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TriggerShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.AmmoCacheEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.AmmoCacheEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.AmmoCacheProxyEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.AmmoCacheProxyEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.AmmoDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.AmmoDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.BaseMuzzleShooterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.BaseMuzzleShooterEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.BaseShooterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.BaseShooterEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.HeatCacheEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.HeatCacheEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.HeatDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.HeatDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ProjectileEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ProjectileEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ProjectileShooterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ProjectileShooterEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.RayShooterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.RayShooterEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.SequenceShooterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.SequenceShooterEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ShooterAmmoEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ShooterAmmoEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ShooterChargeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ShooterChargeEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ShooterControlEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ShooterControlEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ShooterHeatEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ShooterHeatEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ShooterModeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ShooterModeEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ShooterRecoilEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ShooterRecoilEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ShooterReloadEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ShooterReloadEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.ShooterSpreadEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.ShooterSpreadEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.Ammo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.Ammo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.AmmoCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.AmmoCache.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.AmmoCacheProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.AmmoCacheProxy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.AmmoType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.AmmoType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.BaseAmmoCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.BaseAmmoCache.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.BaseHeatCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.BaseHeatCache.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.BaseMuzzleShooter.SpreadDistribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.BaseMuzzleShooter.SpreadDistribution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.BaseMuzzleShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.BaseMuzzleShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.BaseMuzzleShooterPattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.BaseMuzzleShooterPattern.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.BaseShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.BaseShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.BeamFXControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.BeamFXControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.EventHooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.EventHooks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.Heat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.Heat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.HeatCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.HeatCache.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.IAmmo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.IAmmo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.IHeat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.IHeat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.IMuzzleShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.IMuzzleShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.MuzzleFXControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.MuzzleFXControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.Projectile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.Projectile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ProjectileEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ProjectileEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ProjectileShooter.TerminalAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ProjectileShooter.TerminalAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ProjectileShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ProjectileShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.RayShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.RayShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.SequenceShooter.StepShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.SequenceShooter.StepShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.SequenceShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.SequenceShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterAmmo.CacheSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterAmmo.CacheSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterAmmo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterAmmo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterCharge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterCharge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterConePattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterConePattern.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterControl.FireType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterControl.FireType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterHeat.CacheSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterHeat.CacheSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterHeat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterHeat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterRecoil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterRecoil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterReload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterReload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterSpread.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterSpread.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.SplashFXControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.SplashFXControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.TracerFXControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.TracerFXControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.BaseProjectileEventUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.BaseProjectileEventUnit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChangedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChangedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooled.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooledMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooledMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheated.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheatedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheatedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChanged.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChangedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChangedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonated.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
