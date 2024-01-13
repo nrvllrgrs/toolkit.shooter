@@ -465,36 +465,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.Shooter.RayShooter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.Shooter.RayShooter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.Shooter.SequenceShooter.StepShooter.yml",
       "output": {
         ".html": {
@@ -794,6 +764,46 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Weapons.RayShooter.RaycastAllFunc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Weapons.RayShooter.RaycastAllFunc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Weapons.RayShooter.RaycastFunc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Weapons.RayShooter.RaycastFunc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Weapons.RayShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Weapons.RayShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Weapons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Weapons.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -807,19 +817,16 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
@@ -843,11 +850,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".html": {
-          "relative_path": "license/toc.html"
-        },
         ".json": {
           "relative_path": "license/toc.json"
+        },
+        ".html": {
+          "relative_path": "license/toc.html"
         }
       },
       "version": ""
@@ -866,11 +873,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
