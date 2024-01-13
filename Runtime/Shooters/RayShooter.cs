@@ -7,7 +7,7 @@ using UnityEngine.Events;
 using UnityEditor;
 #endif
 
-namespace ToolkitEngine.Shooter
+namespace ToolkitEngine.Weapons
 {
 	[AddComponentMenu("Weapon/Shooter/Ray Shooter")]
 	public class RayShooter : BaseMuzzleShooter
@@ -228,10 +228,8 @@ namespace ToolkitEngine.Shooter
 		#region Editor-Only
 #if UNITY_EDITOR
 
-		protected override void OnDrawGizmosSelected()
+		protected void OnDrawGizmosSelected()
 		{
-			base.OnDrawGizmosSelected();
-
 			var muzzle = m_muzzle != null
 				? m_muzzle
 				: transform;
@@ -258,9 +256,21 @@ namespace ToolkitEngine.Shooter
 				Gizmos.DrawLine(muzzle.position, far);
 			}
 
-			if (m_splashDamage.radius > 0f)
+			if (m_splashDamage.innerRadius > 0f)
 			{
-				Gizmos.DrawWireSphere(far, m_splashDamage.radius);
+				Gizmos.color = Color.white;
+				Gizmos.DrawWireSphere(far, m_splashDamage.innerRadius);
+			}
+
+			if (m_splashDamage.outerRadius > 0f)
+			{
+				Gizmos.color = Color.gray;
+				Gizmos.DrawWireSphere(far, m_splashDamage.outerRadius);
+			}
+
+			if (m_spread > 0f)
+			{
+				DrawSpread(range);
 			}
 		}
 
