@@ -3167,6 +3167,149 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ProjectileShooter.splashDamage
   nameWithType: ProjectileShooter.splashDamage
+- uid: ToolkitEngine.Shooter.RayShooter
+  name: RayShooter
+  href: api/ToolkitEngine.Shooter.RayShooter.html
+  commentId: T:ToolkitEngine.Shooter.RayShooter
+  fullName: ToolkitEngine.Shooter.RayShooter
+  nameWithType: RayShooter
+- uid: ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl)
+  name: Fire(ShooterControl)
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_Fire_ToolkitEngine_Shooter_ShooterControl_
+  commentId: M:ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl)
+  fullName: ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl)
+  nameWithType: RayShooter.Fire(ShooterControl)
+- uid: ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl,Vector3,Vector3)
+  name: Fire(ShooterControl, Vector3, Vector3)
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_Fire_ToolkitEngine_Shooter_ShooterControl_Vector3_Vector3_
+  commentId: M:ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl,Vector3,Vector3)
+  fullName: ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl, Vector3, Vector3)
+  nameWithType: RayShooter.Fire(ShooterControl, Vector3, Vector3)
+- uid: ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl,Vector3,Vector3,ToolkitEngine.Shooter.RayShooter.RaycastFunc,ToolkitEngine.Shooter.RayShooter.RaycastAllFunc)
+  name: Fire(ShooterControl, Vector3, Vector3, RaycastFunc, RaycastAllFunc)
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_Fire_ToolkitEngine_Shooter_ShooterControl_Vector3_Vector3_ToolkitEngine_Shooter_RayShooter_RaycastFunc_ToolkitEngine_Shooter_RayShooter_RaycastAllFunc_
+  commentId: M:ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl,Vector3,Vector3,ToolkitEngine.Shooter.RayShooter.RaycastFunc,ToolkitEngine.Shooter.RayShooter.RaycastAllFunc)
+  fullName: ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl, Vector3, Vector3, ToolkitEngine.Shooter.RayShooter.RaycastFunc, ToolkitEngine.Shooter.RayShooter.RaycastAllFunc)
+  nameWithType: RayShooter.Fire(ShooterControl, Vector3, Vector3, RayShooter.RaycastFunc, RayShooter.RaycastAllFunc)
+- uid: ToolkitEngine.Shooter.RayShooter.Fire*
+  name: Fire
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_Fire_
+  commentId: Overload:ToolkitEngine.Shooter.RayShooter.Fire
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.RayShooter.Fire
+  nameWithType: RayShooter.Fire
+- uid: ToolkitEngine.Shooter.RayShooter.GetRaycast(Vector3,Vector3,RaycastHit@)
+  name: GetRaycast(Vector3, Vector3, out RaycastHit)
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_GetRaycast_Vector3_Vector3_RaycastHit__
+  commentId: M:ToolkitEngine.Shooter.RayShooter.GetRaycast(Vector3,Vector3,RaycastHit@)
+  name.vb: GetRaycast(Vector3, Vector3, RaycastHit)
+  fullName: ToolkitEngine.Shooter.RayShooter.GetRaycast(Vector3, Vector3, out RaycastHit)
+  fullName.vb: ToolkitEngine.Shooter.RayShooter.GetRaycast(Vector3, Vector3, RaycastHit)
+  nameWithType: RayShooter.GetRaycast(Vector3, Vector3, out RaycastHit)
+  nameWithType.vb: RayShooter.GetRaycast(Vector3, Vector3, RaycastHit)
+- uid: ToolkitEngine.Shooter.RayShooter.GetRaycast*
+  name: GetRaycast
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_GetRaycast_
+  commentId: Overload:ToolkitEngine.Shooter.RayShooter.GetRaycast
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.RayShooter.GetRaycast
+  nameWithType: RayShooter.GetRaycast
+- uid: ToolkitEngine.Shooter.RayShooter.GetRaycastAll(Vector3,Vector3)
+  name: GetRaycastAll(Vector3, Vector3)
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_GetRaycastAll_Vector3_Vector3_
+  commentId: M:ToolkitEngine.Shooter.RayShooter.GetRaycastAll(Vector3,Vector3)
+  fullName: ToolkitEngine.Shooter.RayShooter.GetRaycastAll(Vector3, Vector3)
+  nameWithType: RayShooter.GetRaycastAll(Vector3, Vector3)
+- uid: ToolkitEngine.Shooter.RayShooter.GetRaycastAll*
+  name: GetRaycastAll
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_GetRaycastAll_
+  commentId: Overload:ToolkitEngine.Shooter.RayShooter.GetRaycastAll
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.RayShooter.GetRaycastAll
+  nameWithType: RayShooter.GetRaycastAll
+- uid: ToolkitEngine.Shooter.RayShooter.GetSphereCast(Vector3,Vector3,RaycastHit@)
+  name: GetSphereCast(Vector3, Vector3, out RaycastHit)
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_GetSphereCast_Vector3_Vector3_RaycastHit__
+  commentId: M:ToolkitEngine.Shooter.RayShooter.GetSphereCast(Vector3,Vector3,RaycastHit@)
+  name.vb: GetSphereCast(Vector3, Vector3, RaycastHit)
+  fullName: ToolkitEngine.Shooter.RayShooter.GetSphereCast(Vector3, Vector3, out RaycastHit)
+  fullName.vb: ToolkitEngine.Shooter.RayShooter.GetSphereCast(Vector3, Vector3, RaycastHit)
+  nameWithType: RayShooter.GetSphereCast(Vector3, Vector3, out RaycastHit)
+  nameWithType.vb: RayShooter.GetSphereCast(Vector3, Vector3, RaycastHit)
+- uid: ToolkitEngine.Shooter.RayShooter.GetSphereCast*
+  name: GetSphereCast
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_GetSphereCast_
+  commentId: Overload:ToolkitEngine.Shooter.RayShooter.GetSphereCast
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.RayShooter.GetSphereCast
+  nameWithType: RayShooter.GetSphereCast
+- uid: ToolkitEngine.Shooter.RayShooter.GetSphereCastAll(Vector3,Vector3)
+  name: GetSphereCastAll(Vector3, Vector3)
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_GetSphereCastAll_Vector3_Vector3_
+  commentId: M:ToolkitEngine.Shooter.RayShooter.GetSphereCastAll(Vector3,Vector3)
+  fullName: ToolkitEngine.Shooter.RayShooter.GetSphereCastAll(Vector3, Vector3)
+  nameWithType: RayShooter.GetSphereCastAll(Vector3, Vector3)
+- uid: ToolkitEngine.Shooter.RayShooter.GetSphereCastAll*
+  name: GetSphereCastAll
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_GetSphereCastAll_
+  commentId: Overload:ToolkitEngine.Shooter.RayShooter.GetSphereCastAll
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.RayShooter.GetSphereCastAll
+  nameWithType: RayShooter.GetSphereCastAll
+- uid: ToolkitEngine.Shooter.RayShooter.ProcessHit(ToolkitEngine.Shooter.ShooterControl,System.Boolean,RaycastHit,System.Collections.Generic.List{DamageHit},System.Collections.Generic.HashSet{IDamageReceiver})
+  name: ProcessHit(ShooterControl, bool, RaycastHit, List<DamageHit>, HashSet<IDamageReceiver>)
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_ProcessHit_ToolkitEngine_Shooter_ShooterControl_System_Boolean_RaycastHit_System_Collections_Generic_List_DamageHit__System_Collections_Generic_HashSet_IDamageReceiver__
+  commentId: M:ToolkitEngine.Shooter.RayShooter.ProcessHit(ToolkitEngine.Shooter.ShooterControl,System.Boolean,RaycastHit,System.Collections.Generic.List{DamageHit},System.Collections.Generic.HashSet{IDamageReceiver})
+  name.vb: ProcessHit(ShooterControl, Boolean, RaycastHit, List(Of DamageHit), HashSet(Of IDamageReceiver))
+  fullName: ToolkitEngine.Shooter.RayShooter.ProcessHit(ToolkitEngine.Shooter.ShooterControl, bool, RaycastHit, System.Collections.Generic.List<DamageHit>, System.Collections.Generic.HashSet<IDamageReceiver>)
+  fullName.vb: ToolkitEngine.Shooter.RayShooter.ProcessHit(ToolkitEngine.Shooter.ShooterControl, Boolean, RaycastHit, System.Collections.Generic.List(Of DamageHit), System.Collections.Generic.HashSet(Of IDamageReceiver))
+  nameWithType: RayShooter.ProcessHit(ShooterControl, bool, RaycastHit, List<DamageHit>, HashSet<IDamageReceiver>)
+  nameWithType.vb: RayShooter.ProcessHit(ShooterControl, Boolean, RaycastHit, List(Of DamageHit), HashSet(Of IDamageReceiver))
+- uid: ToolkitEngine.Shooter.RayShooter.ProcessHit*
+  name: ProcessHit
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_ProcessHit_
+  commentId: Overload:ToolkitEngine.Shooter.RayShooter.ProcessHit
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.RayShooter.ProcessHit
+  nameWithType: RayShooter.ProcessHit
+- uid: ToolkitEngine.Shooter.RayShooter.RaycastAllFunc
+  name: RayShooter.RaycastAllFunc
+  href: api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.html
+  commentId: T:ToolkitEngine.Shooter.RayShooter.RaycastAllFunc
+  fullName: ToolkitEngine.Shooter.RayShooter.RaycastAllFunc
+  nameWithType: RayShooter.RaycastAllFunc
+- uid: ToolkitEngine.Shooter.RayShooter.RaycastFunc
+  name: RayShooter.RaycastFunc
+  href: api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.html
+  commentId: T:ToolkitEngine.Shooter.RayShooter.RaycastFunc
+  fullName: ToolkitEngine.Shooter.RayShooter.RaycastFunc
+  nameWithType: RayShooter.RaycastFunc
+- uid: ToolkitEngine.Shooter.RayShooter.infinitePenetrate
+  name: infinitePenetrate
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_infinitePenetrate
+  commentId: P:ToolkitEngine.Shooter.RayShooter.infinitePenetrate
+  fullName: ToolkitEngine.Shooter.RayShooter.infinitePenetrate
+  nameWithType: RayShooter.infinitePenetrate
+- uid: ToolkitEngine.Shooter.RayShooter.infinitePenetrate*
+  name: infinitePenetrate
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_infinitePenetrate_
+  commentId: Overload:ToolkitEngine.Shooter.RayShooter.infinitePenetrate
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.RayShooter.infinitePenetrate
+  nameWithType: RayShooter.infinitePenetrate
+- uid: ToolkitEngine.Shooter.RayShooter.onPenetrated
+  name: onPenetrated
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_onPenetrated
+  commentId: P:ToolkitEngine.Shooter.RayShooter.onPenetrated
+  fullName: ToolkitEngine.Shooter.RayShooter.onPenetrated
+  nameWithType: RayShooter.onPenetrated
+- uid: ToolkitEngine.Shooter.RayShooter.onPenetrated*
+  name: onPenetrated
+  href: api/ToolkitEngine.Shooter.RayShooter.html#ToolkitEngine_Shooter_RayShooter_onPenetrated_
+  commentId: Overload:ToolkitEngine.Shooter.RayShooter.onPenetrated
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.RayShooter.onPenetrated
+  nameWithType: RayShooter.onPenetrated
 - uid: ToolkitEngine.Shooter.SequenceShooter
   name: SequenceShooter
   href: api/ToolkitEngine.Shooter.SequenceShooter.html
@@ -4716,152 +4859,3 @@ references:
   commentId: T:ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener
   fullName: ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener
   nameWithType: OnProjectileDetonatedMessageListener
-- uid: ToolkitEngine.Weapons
-  name: ToolkitEngine.Weapons
-  href: api/ToolkitEngine.Weapons.html
-  commentId: N:ToolkitEngine.Weapons
-  fullName: ToolkitEngine.Weapons
-  nameWithType: ToolkitEngine.Weapons
-- uid: ToolkitEngine.Weapons.RayShooter
-  name: RayShooter
-  href: api/ToolkitEngine.Weapons.RayShooter.html
-  commentId: T:ToolkitEngine.Weapons.RayShooter
-  fullName: ToolkitEngine.Weapons.RayShooter
-  nameWithType: RayShooter
-- uid: ToolkitEngine.Weapons.RayShooter.Fire(ShooterControl)
-  name: Fire(ShooterControl)
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_Fire_ShooterControl_
-  commentId: M:ToolkitEngine.Weapons.RayShooter.Fire(ShooterControl)
-  fullName: ToolkitEngine.Weapons.RayShooter.Fire(ShooterControl)
-  nameWithType: RayShooter.Fire(ShooterControl)
-- uid: ToolkitEngine.Weapons.RayShooter.Fire(ShooterControl,Vector3,Vector3)
-  name: Fire(ShooterControl, Vector3, Vector3)
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_Fire_ShooterControl_Vector3_Vector3_
-  commentId: M:ToolkitEngine.Weapons.RayShooter.Fire(ShooterControl,Vector3,Vector3)
-  fullName: ToolkitEngine.Weapons.RayShooter.Fire(ShooterControl, Vector3, Vector3)
-  nameWithType: RayShooter.Fire(ShooterControl, Vector3, Vector3)
-- uid: ToolkitEngine.Weapons.RayShooter.Fire(ShooterControl,Vector3,Vector3,ToolkitEngine.Weapons.RayShooter.RaycastFunc,ToolkitEngine.Weapons.RayShooter.RaycastAllFunc)
-  name: Fire(ShooterControl, Vector3, Vector3, RaycastFunc, RaycastAllFunc)
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_Fire_ShooterControl_Vector3_Vector3_ToolkitEngine_Weapons_RayShooter_RaycastFunc_ToolkitEngine_Weapons_RayShooter_RaycastAllFunc_
-  commentId: M:ToolkitEngine.Weapons.RayShooter.Fire(ShooterControl,Vector3,Vector3,ToolkitEngine.Weapons.RayShooter.RaycastFunc,ToolkitEngine.Weapons.RayShooter.RaycastAllFunc)
-  fullName: ToolkitEngine.Weapons.RayShooter.Fire(ShooterControl, Vector3, Vector3, ToolkitEngine.Weapons.RayShooter.RaycastFunc, ToolkitEngine.Weapons.RayShooter.RaycastAllFunc)
-  nameWithType: RayShooter.Fire(ShooterControl, Vector3, Vector3, RayShooter.RaycastFunc, RayShooter.RaycastAllFunc)
-- uid: ToolkitEngine.Weapons.RayShooter.Fire*
-  name: Fire
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_Fire_
-  commentId: Overload:ToolkitEngine.Weapons.RayShooter.Fire
-  isSpec: "True"
-  fullName: ToolkitEngine.Weapons.RayShooter.Fire
-  nameWithType: RayShooter.Fire
-- uid: ToolkitEngine.Weapons.RayShooter.GetRaycast(Vector3,Vector3,RaycastHit@)
-  name: GetRaycast(Vector3, Vector3, out RaycastHit)
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_GetRaycast_Vector3_Vector3_RaycastHit__
-  commentId: M:ToolkitEngine.Weapons.RayShooter.GetRaycast(Vector3,Vector3,RaycastHit@)
-  name.vb: GetRaycast(Vector3, Vector3, RaycastHit)
-  fullName: ToolkitEngine.Weapons.RayShooter.GetRaycast(Vector3, Vector3, out RaycastHit)
-  fullName.vb: ToolkitEngine.Weapons.RayShooter.GetRaycast(Vector3, Vector3, RaycastHit)
-  nameWithType: RayShooter.GetRaycast(Vector3, Vector3, out RaycastHit)
-  nameWithType.vb: RayShooter.GetRaycast(Vector3, Vector3, RaycastHit)
-- uid: ToolkitEngine.Weapons.RayShooter.GetRaycast*
-  name: GetRaycast
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_GetRaycast_
-  commentId: Overload:ToolkitEngine.Weapons.RayShooter.GetRaycast
-  isSpec: "True"
-  fullName: ToolkitEngine.Weapons.RayShooter.GetRaycast
-  nameWithType: RayShooter.GetRaycast
-- uid: ToolkitEngine.Weapons.RayShooter.GetRaycastAll(Vector3,Vector3)
-  name: GetRaycastAll(Vector3, Vector3)
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_GetRaycastAll_Vector3_Vector3_
-  commentId: M:ToolkitEngine.Weapons.RayShooter.GetRaycastAll(Vector3,Vector3)
-  fullName: ToolkitEngine.Weapons.RayShooter.GetRaycastAll(Vector3, Vector3)
-  nameWithType: RayShooter.GetRaycastAll(Vector3, Vector3)
-- uid: ToolkitEngine.Weapons.RayShooter.GetRaycastAll*
-  name: GetRaycastAll
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_GetRaycastAll_
-  commentId: Overload:ToolkitEngine.Weapons.RayShooter.GetRaycastAll
-  isSpec: "True"
-  fullName: ToolkitEngine.Weapons.RayShooter.GetRaycastAll
-  nameWithType: RayShooter.GetRaycastAll
-- uid: ToolkitEngine.Weapons.RayShooter.GetSphereCast(Vector3,Vector3,RaycastHit@)
-  name: GetSphereCast(Vector3, Vector3, out RaycastHit)
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_GetSphereCast_Vector3_Vector3_RaycastHit__
-  commentId: M:ToolkitEngine.Weapons.RayShooter.GetSphereCast(Vector3,Vector3,RaycastHit@)
-  name.vb: GetSphereCast(Vector3, Vector3, RaycastHit)
-  fullName: ToolkitEngine.Weapons.RayShooter.GetSphereCast(Vector3, Vector3, out RaycastHit)
-  fullName.vb: ToolkitEngine.Weapons.RayShooter.GetSphereCast(Vector3, Vector3, RaycastHit)
-  nameWithType: RayShooter.GetSphereCast(Vector3, Vector3, out RaycastHit)
-  nameWithType.vb: RayShooter.GetSphereCast(Vector3, Vector3, RaycastHit)
-- uid: ToolkitEngine.Weapons.RayShooter.GetSphereCast*
-  name: GetSphereCast
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_GetSphereCast_
-  commentId: Overload:ToolkitEngine.Weapons.RayShooter.GetSphereCast
-  isSpec: "True"
-  fullName: ToolkitEngine.Weapons.RayShooter.GetSphereCast
-  nameWithType: RayShooter.GetSphereCast
-- uid: ToolkitEngine.Weapons.RayShooter.GetSphereCastAll(Vector3,Vector3)
-  name: GetSphereCastAll(Vector3, Vector3)
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_GetSphereCastAll_Vector3_Vector3_
-  commentId: M:ToolkitEngine.Weapons.RayShooter.GetSphereCastAll(Vector3,Vector3)
-  fullName: ToolkitEngine.Weapons.RayShooter.GetSphereCastAll(Vector3, Vector3)
-  nameWithType: RayShooter.GetSphereCastAll(Vector3, Vector3)
-- uid: ToolkitEngine.Weapons.RayShooter.GetSphereCastAll*
-  name: GetSphereCastAll
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_GetSphereCastAll_
-  commentId: Overload:ToolkitEngine.Weapons.RayShooter.GetSphereCastAll
-  isSpec: "True"
-  fullName: ToolkitEngine.Weapons.RayShooter.GetSphereCastAll
-  nameWithType: RayShooter.GetSphereCastAll
-- uid: ToolkitEngine.Weapons.RayShooter.ProcessHit(ShooterControl,System.Boolean,RaycastHit,System.Collections.Generic.List{DamageHit},System.Collections.Generic.HashSet{IDamageReceiver})
-  name: ProcessHit(ShooterControl, bool, RaycastHit, List<DamageHit>, HashSet<IDamageReceiver>)
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_ProcessHit_ShooterControl_System_Boolean_RaycastHit_System_Collections_Generic_List_DamageHit__System_Collections_Generic_HashSet_IDamageReceiver__
-  commentId: M:ToolkitEngine.Weapons.RayShooter.ProcessHit(ShooterControl,System.Boolean,RaycastHit,System.Collections.Generic.List{DamageHit},System.Collections.Generic.HashSet{IDamageReceiver})
-  name.vb: ProcessHit(ShooterControl, Boolean, RaycastHit, List(Of DamageHit), HashSet(Of IDamageReceiver))
-  fullName: ToolkitEngine.Weapons.RayShooter.ProcessHit(ShooterControl, bool, RaycastHit, System.Collections.Generic.List<DamageHit>, System.Collections.Generic.HashSet<IDamageReceiver>)
-  fullName.vb: ToolkitEngine.Weapons.RayShooter.ProcessHit(ShooterControl, Boolean, RaycastHit, System.Collections.Generic.List(Of DamageHit), System.Collections.Generic.HashSet(Of IDamageReceiver))
-  nameWithType: RayShooter.ProcessHit(ShooterControl, bool, RaycastHit, List<DamageHit>, HashSet<IDamageReceiver>)
-  nameWithType.vb: RayShooter.ProcessHit(ShooterControl, Boolean, RaycastHit, List(Of DamageHit), HashSet(Of IDamageReceiver))
-- uid: ToolkitEngine.Weapons.RayShooter.ProcessHit*
-  name: ProcessHit
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_ProcessHit_
-  commentId: Overload:ToolkitEngine.Weapons.RayShooter.ProcessHit
-  isSpec: "True"
-  fullName: ToolkitEngine.Weapons.RayShooter.ProcessHit
-  nameWithType: RayShooter.ProcessHit
-- uid: ToolkitEngine.Weapons.RayShooter.RaycastAllFunc
-  name: RayShooter.RaycastAllFunc
-  href: api/ToolkitEngine.Weapons.RayShooter.RaycastAllFunc.html
-  commentId: T:ToolkitEngine.Weapons.RayShooter.RaycastAllFunc
-  fullName: ToolkitEngine.Weapons.RayShooter.RaycastAllFunc
-  nameWithType: RayShooter.RaycastAllFunc
-- uid: ToolkitEngine.Weapons.RayShooter.RaycastFunc
-  name: RayShooter.RaycastFunc
-  href: api/ToolkitEngine.Weapons.RayShooter.RaycastFunc.html
-  commentId: T:ToolkitEngine.Weapons.RayShooter.RaycastFunc
-  fullName: ToolkitEngine.Weapons.RayShooter.RaycastFunc
-  nameWithType: RayShooter.RaycastFunc
-- uid: ToolkitEngine.Weapons.RayShooter.infinitePenetrate
-  name: infinitePenetrate
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_infinitePenetrate
-  commentId: P:ToolkitEngine.Weapons.RayShooter.infinitePenetrate
-  fullName: ToolkitEngine.Weapons.RayShooter.infinitePenetrate
-  nameWithType: RayShooter.infinitePenetrate
-- uid: ToolkitEngine.Weapons.RayShooter.infinitePenetrate*
-  name: infinitePenetrate
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_infinitePenetrate_
-  commentId: Overload:ToolkitEngine.Weapons.RayShooter.infinitePenetrate
-  isSpec: "True"
-  fullName: ToolkitEngine.Weapons.RayShooter.infinitePenetrate
-  nameWithType: RayShooter.infinitePenetrate
-- uid: ToolkitEngine.Weapons.RayShooter.onPenetrated
-  name: onPenetrated
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_onPenetrated
-  commentId: P:ToolkitEngine.Weapons.RayShooter.onPenetrated
-  fullName: ToolkitEngine.Weapons.RayShooter.onPenetrated
-  nameWithType: RayShooter.onPenetrated
-- uid: ToolkitEngine.Weapons.RayShooter.onPenetrated*
-  name: onPenetrated
-  href: api/ToolkitEngine.Weapons.RayShooter.html#ToolkitEngine_Weapons_RayShooter_onPenetrated_
-  commentId: Overload:ToolkitEngine.Weapons.RayShooter.onPenetrated
-  isSpec: "True"
-  fullName: ToolkitEngine.Weapons.RayShooter.onPenetrated
-  nameWithType: RayShooter.onPenetrated

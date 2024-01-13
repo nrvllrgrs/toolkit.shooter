@@ -465,6 +465,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.RayShooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.RayShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.Shooter.SequenceShooter.StepShooter.yml",
       "output": {
         ".html": {
@@ -759,46 +789,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Shooter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.Weapons.RayShooter.RaycastAllFunc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.Weapons.RayShooter.RaycastAllFunc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.Weapons.RayShooter.RaycastFunc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.Weapons.RayShooter.RaycastFunc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.Weapons.RayShooter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.Weapons.RayShooter.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToolkitEngine.Weapons.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToolkitEngine.Weapons.html"
         }
       },
       "version": ""
