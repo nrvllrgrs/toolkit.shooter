@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
-using Sirenix.OdinInspector;
 using UnityEngine.Events;
+using NaughtyAttributes;
 
 namespace ToolkitEngine.Shooter
 {

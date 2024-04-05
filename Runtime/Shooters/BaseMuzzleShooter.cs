@@ -100,7 +100,7 @@ namespace ToolkitEngine.Shooter
 		#region Editor-Only
 #if UNITY_EDITOR
 
-		protected virtual void OnDrawGizmosSelected()
+		protected virtual void DrawSpread(float range)
 		{
 			var muzzle = m_muzzle != null
 				? m_muzzle

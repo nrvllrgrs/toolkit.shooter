@@ -1,9 +1,9 @@
-using Sirenix.OdinInspector;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
+using NaughtyAttributes;
 
 namespace ToolkitEngine.Shooter
 {
@@ -36,13 +36,13 @@ namespace ToolkitEngine.Shooter
 		/// <summary>
 		/// Seconds to wait before regeneration begins
 		/// </summary>
-		[SerializeField, LabelText("Delay"), Min(0f), Tooltip("Seconds to wait before regeneration begins")]
+		[SerializeField, Label("Delay"), Min(0f), Tooltip("Seconds to wait before regeneration begins")]
 		private float m_regenerateDelay;
 
 		/// <summary>
 		/// Number of ammo regenerated per second
 		/// </summary>
-		[SerializeField, LabelText("Rate"), Min(0f), Tooltip("Number of ammo regenerated per second")]
+		[SerializeField, Label("Rate"), Min(0f), Tooltip("Number of ammo regenerated per second")]
 		private float m_regenerateRate;
 
 		private CancellationTokenSource m_cancelRegenerationTokenSource = null;
