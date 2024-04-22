@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 namespace ToolkitEngine.Shooter
 {
-	public abstract class BaseMuzzleShooter : BaseShooter
+	public abstract class BaseMuzzleShooter : BaseShooter, IMuzzleShooter
 	{
 		#region Enumerators
 
@@ -100,14 +100,20 @@ namespace ToolkitEngine.Shooter
 		#region Editor-Only
 #if UNITY_EDITOR
 
-		protected virtual void DrawSpread(float range)
+		#region Editor-Only
+#if UNITY_EDITOR
+
+		protected void DrawSpread(float range)
 		{
 			var muzzle = m_muzzle != null
 				? m_muzzle
 			: transform;
 
-			GizmosUtil.DrawCone(muzzle.position, spread, 1f, muzzle.forward, Color.white);
+			GizmosUtil.DrawCone(muzzle.position, spread, 1f, muzzle.forward * range, Color.white);
 		}
+
+#endif
+		#endregion
 
 #endif
 		#endregion

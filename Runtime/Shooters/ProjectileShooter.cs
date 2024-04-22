@@ -9,7 +9,7 @@ using UnityEngine.Events;
 namespace ToolkitEngine.Shooter
 {
 	[AddComponentMenu("Weapon/Shooter/Projectile Shooter")]
-	public class ProjectileShooter : BaseMuzzleShooter, IMuzzleShooter
+	public class ProjectileShooter : BaseMuzzleShooter, IDamageShooter
 	{
 		#region Enumerators
 

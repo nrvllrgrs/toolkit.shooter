@@ -1,7 +1,7 @@
 using System.Collections;
+using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Events;
-using NaughtyAttributes;
 
 namespace ToolkitEngine.Shooter
 {

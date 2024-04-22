@@ -10,7 +10,7 @@ using UnityEditor;
 namespace ToolkitEngine.Shooter
 {
 	[AddComponentMenu("Weapon/Shooter/Ray Shooter")]
-	public class RayShooter : BaseMuzzleShooter
+	public class RayShooter : BaseMuzzleShooter, IDamageShooter
 	{
 		public delegate bool RaycastFunc(Vector3 origin, Vector3 direction, out RaycastHit hit);
 		public delegate RaycastHit[] RaycastAllFunc(Vector3 origin, Vector3 direction);
@@ -44,6 +44,9 @@ namespace ToolkitEngine.Shooter
 		#endregion
 
 		#region Properties
+
+		public ImpactDamage impactDamage => m_impactDamage;
+		public SplashDamage splashDamage => m_splashDamage;
 
 		public bool infinitePenetrate => m_penetrateCount < 0;
 
@@ -174,13 +177,13 @@ namespace ToolkitEngine.Shooter
 					};
 
 					// Apply impact damage to victim
-					m_impactDamage.Apply(hit);
+					m_impactDamage.Apply(hit, this);
 					hits.Add(hit);
 				}
 
 				// Apply splash damage at contact point
-				hits.AddRange(
-					m_splashDamage.Apply(raycastHit.point, gameObject));
+				m_splashDamage.Apply(raycastHit.point, gameObject, out var list, this);
+				hits.AddRange(list);
 			}
 
 			return result;
@@ -194,8 +197,8 @@ namespace ToolkitEngine.Shooter
 			if (!m_impactDamage.hasInfiniteRange)
 			{
 				// Apply splash damage at terminal point in space
-				hits.AddRange(
-					m_splashDamage.Apply(terminal, gameObject));
+				m_splashDamage.Apply(terminal, gameObject, out var list, this);
+				hits.AddRange(list);
 			}
 		}
 

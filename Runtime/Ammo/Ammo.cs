@@ -1,9 +1,9 @@
+using NaughtyAttributes;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
-using NaughtyAttributes;
 
 namespace ToolkitEngine.Shooter
 {

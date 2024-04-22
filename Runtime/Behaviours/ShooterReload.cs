@@ -73,6 +73,9 @@ namespace ToolkitEngine.Shooter
 			}
 		}
 
+		public float delay { get => m_delay; set => m_delay = value; }
+		public float subsequentDelay { get => m_subsequentDelay; set => m_subsequentDelay = value; }
+
 		public UnityEvent onReloading => m_onReloading;
 		public UnityEvent onShotReloaded => m_onShotReloaded;
 		public UnityEvent onReloaded => m_onReloaded;

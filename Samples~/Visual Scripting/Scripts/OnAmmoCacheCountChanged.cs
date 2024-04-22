@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 namespace ToolkitEngine.Shooter.VisualScripting
 {
 	[UnitTitle("On Ammo Cache Count Changed"), UnitSurtitle("Ammo Cache")]
-	[UnitCategory("Events/Weapons")]
+	[UnitCategory("Events/Weapons/Ammo")]
 	public class OnAmmoCacheCountChanged : BaseEventUnit<int>
 	{
 		public override Type MessageListenerType => typeof(OnAmmoCacheCountChangedMessageListener);

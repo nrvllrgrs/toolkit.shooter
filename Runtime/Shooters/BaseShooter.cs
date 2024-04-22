@@ -34,7 +34,7 @@ namespace ToolkitEngine.Shooter
 		#endregion
 	}
 
-	public abstract class BaseShooter : MonoBehaviour
+	public abstract class BaseShooter : MonoBehaviour, IDamageDealer
     {
 		#region Fields
 
@@ -44,12 +44,16 @@ namespace ToolkitEngine.Shooter
 		[SerializeField]
 		protected UnityEvent<ShooterEventArgs> m_onFired;
 
+		[SerializeField]
+		protected UnityEvent<HealthEventArgs> m_onDamageDealt;
+
 		#endregion
 
 		#region Properties
 
 		public UnityEvent<ShooterEventArgs> onFiring => m_onFiring;
 		public UnityEvent<ShooterEventArgs> onFired => m_onFired;
+		public UnityEvent<HealthEventArgs> onDamageDealt => m_onDamageDealt;
 
 		#endregion
 

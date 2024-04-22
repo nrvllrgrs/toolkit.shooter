@@ -4,8 +4,8 @@ using Unity.VisualScripting;
 namespace ToolkitEngine.Shooter.VisualScripting
 {
 	[UnitTitle("On Overheated"), UnitSurtitle("Heat")]
-	[UnitCategory("Events/Weapons")]
-	public class OnHeatOverheated : BaseEventUnit<Null>
+	[UnitCategory("Events/Weapons/Heat")]
+	public class OnHeatOverheated : BaseEventUnit<EmptyEventArgs>
 	{
 		public override Type MessageListenerType => typeof(OnHeatOverheatedMessageListener);
 	}

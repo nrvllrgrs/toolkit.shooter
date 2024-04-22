@@ -35,8 +35,12 @@ namespace ToolkitEngine.Shooter
 
 		#region Properties
 
+		public float spreadPerShot { get => m_spreadPerShot; set => m_spreadPerShot = value; }
 		public float minSpread { get => m_spreadLimits.x; set => m_spreadLimits.x = value; }
 		public float maxSpread { get => m_spreadLimits.y; set => m_spreadLimits.y = value; }
+		public float recoveryDelay { get => m_recoveryDelay; set => m_recoveryDelay = value; }
+		public float recoveryRate { get => m_recoveryRate; set => m_recoveryRate = value; }
+
 		public bool anyExceedsMax => m_shooters.Any(x => x.spread >= maxSpread);
 
 		#endregion

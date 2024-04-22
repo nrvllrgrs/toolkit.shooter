@@ -151,7 +151,15 @@ namespace ToolkitEngine.Shooter
 
 		public void Detonate(ProjectileEventArgs e)
 		{
-			var hits = m_splashDamage?.Apply(transform.position, m_projectileShooter?.gameObject ?? gameObject);
+			DamageHit[] hits;
+			if (m_splashDamage != null)
+			{
+				m_splashDamage.Apply(transform.position, m_projectileShooter?.gameObject ?? gameObject, out hits, m_projectileShooter);
+			}
+			else
+			{
+				hits = new DamageHit[] { };
+			}
 
 			if (m_onDetonated != null)
 			{
@@ -194,7 +202,7 @@ namespace ToolkitEngine.Shooter
 				contact = collision.contacts[0].point,
 				distance = m_distance
 			};
-			m_impactDamage?.Apply(hit);
+			m_impactDamage?.Apply(hit, m_projectileShooter);
 
 			if (m_onCollision != null)
 			{

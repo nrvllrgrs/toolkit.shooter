@@ -42,6 +42,11 @@ namespace ToolkitEngine.Shooter
 		#region Properties
 
 		private Vector3 pivot => transform.position + transform.rotation * m_offsetPosition;
+
+		public float recoilPerShot { get => m_recoilPerShot; set => m_recoilPerShot = value; }
+		public float recoveryDelay { get => m_recoveryDelay; set => m_recoveryDelay = value; }
+		public float recoveryRate { get => m_recoveryRate; set => m_recoveryRate = value; }
+
 		public bool exceedsLimit => m_totalRecoil > m_maxRecoil;
 
 		#endregion
