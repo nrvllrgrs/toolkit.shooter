@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -137,7 +137,7 @@ Class ShooterRecoil  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterRecoil_exceedsLimit" data-uid="ToolkitEngine.Shooter.ShooterRecoil.exceedsLimit">
   exceedsLimit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterRecoil.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterRecoil.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -164,6 +164,99 @@ Class ShooterRecoil  <a class="header-action link-secondary" title="View source"
 
 
 
+  <a id="ToolkitEngine_Shooter_ShooterRecoil_recoilPerShot_" data-uid="ToolkitEngine.Shooter.ShooterRecoil.recoilPerShot*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterRecoil_recoilPerShot" data-uid="ToolkitEngine.Shooter.ShooterRecoil.recoilPerShot">
+  recoilPerShot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterRecoil.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoilPerShot { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ShooterRecoil_recoveryDelay_" data-uid="ToolkitEngine.Shooter.ShooterRecoil.recoveryDelay*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterRecoil_recoveryDelay" data-uid="ToolkitEngine.Shooter.ShooterRecoil.recoveryDelay">
+  recoveryDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterRecoil.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoveryDelay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ShooterRecoil_recoveryRate_" data-uid="ToolkitEngine.Shooter.ShooterRecoil.recoveryRate*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterRecoil_recoveryRate" data-uid="ToolkitEngine.Shooter.ShooterRecoil.recoveryRate">
+  recoveryRate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterRecoil.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoveryRate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -172,7 +265,7 @@ Class ShooterRecoil  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterRecoil_Recycle" data-uid="ToolkitEngine.Shooter.ShooterRecoil.Recycle">
   Recycle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterRecoil.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterRecoil.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

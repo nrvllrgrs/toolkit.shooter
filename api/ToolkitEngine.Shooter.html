@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -131,6 +131,18 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.html">BaseShooterModifier&lt;T&gt;</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.ModifierData.html">BaseShooterModifier&lt;T&gt;.ModifierData</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.PropertyData.html">BaseShooterModifier&lt;T&gt;.PropertyData</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.BeamFXControl.html">BeamFXControl</a></dt>
       <dd></dd>
     </dl>
@@ -163,6 +175,10 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.ProxyShooter.html">ProxyShooter</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.RayShooter.html">RayShooter</a></dt>
       <dd></dd>
     </dl>
@@ -179,7 +195,15 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterAmmoModifier.html">ShooterAmmoModifier</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterCharge.html">ShooterCharge</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterChargeModifier.html">ShooterChargeModifier</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
@@ -191,11 +215,19 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterDamageModifier.html">ShooterDamageModifier</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterEventArgs.html">ShooterEventArgs</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterHeat.html">ShooterHeat</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterHeatModifier.html">ShooterHeatModifier</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
@@ -207,11 +239,23 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterRecoilModifier.html">ShooterRecoilModifier</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterReload.html">ShooterReload</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterReloadModifier.html">ShooterReloadModifier</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterSpread.html">ShooterSpread</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.ShooterSpreadModifier.html">ShooterSpreadModifier</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">
@@ -227,6 +271,10 @@ Interfaces
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.IAmmo.html">IAmmo</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.IDamageShooter.html">IDamageShooter</a></dt>
       <dd></dd>
     </dl>
     <dl class="jumplist">

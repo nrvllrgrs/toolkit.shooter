@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -131,7 +131,7 @@ Class ShooterSpread  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterSpread_anyExceedsMax" data-uid="ToolkitEngine.Shooter.ShooterSpread.anyExceedsMax">
   anyExceedsMax
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterSpread.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterSpread.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -162,7 +162,7 @@ Class ShooterSpread  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterSpread_maxSpread" data-uid="ToolkitEngine.Shooter.ShooterSpread.maxSpread">
   maxSpread
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterSpread.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterSpread.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -193,7 +193,7 @@ Class ShooterSpread  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterSpread_minSpread" data-uid="ToolkitEngine.Shooter.ShooterSpread.minSpread">
   minSpread
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterSpread.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterSpread.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -201,6 +201,99 @@ Class ShooterSpread  <a class="header-action link-secondary" title="View source"
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float minSpread { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ShooterSpread_recoveryDelay_" data-uid="ToolkitEngine.Shooter.ShooterSpread.recoveryDelay*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterSpread_recoveryDelay" data-uid="ToolkitEngine.Shooter.ShooterSpread.recoveryDelay">
+  recoveryDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterSpread.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoveryDelay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ShooterSpread_recoveryRate_" data-uid="ToolkitEngine.Shooter.ShooterSpread.recoveryRate*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterSpread_recoveryRate" data-uid="ToolkitEngine.Shooter.ShooterSpread.recoveryRate">
+  recoveryRate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterSpread.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float recoveryRate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ShooterSpread_spreadPerShot_" data-uid="ToolkitEngine.Shooter.ShooterSpread.spreadPerShot*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterSpread_spreadPerShot" data-uid="ToolkitEngine.Shooter.ShooterSpread.spreadPerShot">
+  spreadPerShot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterSpread.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float spreadPerShot { get; set; }</code></pre>
   </div>
 
 

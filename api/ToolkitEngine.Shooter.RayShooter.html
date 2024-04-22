@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -101,7 +101,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RayShooter : BaseMuzzleShooter</code></pre>
+    <pre><code class="lang-csharp hljs">public class RayShooter : BaseMuzzleShooter, IDamageDealer, IMuzzleShooter, IDamageShooter</code></pre>
   </div>
 
 
@@ -117,6 +117,14 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IDamageDealer</span></div>
+      <div><a class="xref" href="ToolkitEngine.Shooter.IMuzzleShooter.html">IMuzzleShooter</a></div>
+      <div><a class="xref" href="ToolkitEngine.Shooter.IDamageShooter.html">IDamageShooter</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -159,10 +167,16 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
       <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_m_onFired">BaseShooter.m_onFired</a>
     </div>
     <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_m_onDamageDealt">BaseShooter.m_onDamageDealt</a>
+    </div>
+    <div>
       <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_onFiring">BaseShooter.onFiring</a>
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_onFired">BaseShooter.onFired</a>
+    </div>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_onDamageDealt">BaseShooter.onDamageDealt</a>
     </div>
     <div>
       <a class="xref" href="ToolkitEngine.Shooter.BaseShooter.html#ToolkitEngine_Shooter_BaseShooter_Fire">BaseShooter.Fire()</a>
@@ -178,11 +192,42 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 </h2>
 
 
+  <a id="ToolkitEngine_Shooter_RayShooter_impactDamage_" data-uid="ToolkitEngine.Shooter.RayShooter.impactDamage*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_RayShooter_impactDamage" data-uid="ToolkitEngine.Shooter.RayShooter.impactDamage">
+  impactDamage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ImpactDamage impactDamage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ImpactDamage</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Shooter_RayShooter_infinitePenetrate_" data-uid="ToolkitEngine.Shooter.RayShooter.infinitePenetrate*"></a>
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_infinitePenetrate" data-uid="ToolkitEngine.Shooter.RayShooter.infinitePenetrate">
   infinitePenetrate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -213,7 +258,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_onPenetrated" data-uid="ToolkitEngine.Shooter.RayShooter.onPenetrated">
   onPenetrated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -240,6 +285,37 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
 
 
+  <a id="ToolkitEngine_Shooter_RayShooter_splashDamage_" data-uid="ToolkitEngine.Shooter.RayShooter.splashDamage*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_RayShooter_splashDamage" data-uid="ToolkitEngine.Shooter.RayShooter.splashDamage">
+  splashDamage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SplashDamage splashDamage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">SplashDamage</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -248,7 +324,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_Fire_ToolkitEngine_Shooter_ShooterControl_" data-uid="ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl)">
   Fire(ShooterControl)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -279,7 +355,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_Fire_ToolkitEngine_Shooter_ShooterControl_Vector3_Vector3_" data-uid="ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl,Vector3,Vector3)">
   Fire(ShooterControl, Vector3, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -314,7 +390,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_Fire_ToolkitEngine_Shooter_ShooterControl_Vector3_Vector3_ToolkitEngine_Shooter_RayShooter_RaycastFunc_ToolkitEngine_Shooter_RayShooter_RaycastAllFunc_" data-uid="ToolkitEngine.Shooter.RayShooter.Fire(ToolkitEngine.Shooter.ShooterControl,Vector3,Vector3,ToolkitEngine.Shooter.RayShooter.RaycastFunc,ToolkitEngine.Shooter.RayShooter.RaycastAllFunc)">
   Fire(ShooterControl, Vector3, Vector3, RaycastFunc, RaycastAllFunc)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -353,7 +429,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_GetRaycast_Vector3_Vector3_RaycastHit__" data-uid="ToolkitEngine.Shooter.RayShooter.GetRaycast(Vector3,Vector3,RaycastHit@)">
   GetRaycast(Vector3, Vector3, out RaycastHit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -393,7 +469,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_GetRaycastAll_Vector3_Vector3_" data-uid="ToolkitEngine.Shooter.RayShooter.GetRaycastAll(Vector3,Vector3)">
   GetRaycastAll(Vector3, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L214"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -431,7 +507,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_GetSphereCast_Vector3_Vector3_RaycastHit__" data-uid="ToolkitEngine.Shooter.RayShooter.GetSphereCast(Vector3,Vector3,RaycastHit@)">
   GetSphereCast(Vector3, Vector3, out RaycastHit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -471,7 +547,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_GetSphereCastAll_Vector3_Vector3_" data-uid="ToolkitEngine.Shooter.RayShooter.GetSphereCastAll(Vector3,Vector3)">
   GetSphereCastAll(Vector3, Vector3)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -509,7 +585,7 @@ Class RayShooter  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_RayShooter_ProcessHit_ToolkitEngine_Shooter_ShooterControl_System_Boolean_RaycastHit_System_Collections_Generic_List_DamageHit__System_Collections_Generic_HashSet_IDamageReceiver__" data-uid="ToolkitEngine.Shooter.RayShooter.ProcessHit(ToolkitEngine.Shooter.ShooterControl,System.Boolean,RaycastHit,System.Collections.Generic.List{DamageHit},System.Collections.Generic.HashSet{IDamageReceiver})">
   ProcessHit(ShooterControl, bool, RaycastHit, List&lt;DamageHit&gt;, HashSet&lt;IDamageReceiver&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Shooters/RayShooter.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

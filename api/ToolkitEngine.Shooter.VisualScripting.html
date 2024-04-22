@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -107,6 +107,46 @@ Classes
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeCharged.html">OnChargeCharged</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeChargedMessageListener.html">OnChargeChargedMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeCharging.html">OnChargeCharging</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeChargingMessageListener.html">OnChargeChargingMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeDecharged.html">OnChargeDecharged</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeDechargedMessageListener.html">OnChargeDechargedMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeDecharging.html">OnChargeDecharging</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeDechargingMessageListener.html">OnChargeDechargingMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeValueChanged.html">OnChargeValueChanged</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnChargeValueChangedMessageListener.html">OnChargeValueChangedMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnHeatCooled.html">OnHeatCooled</a></dt>
       <dd></dd>
     </dl>
@@ -136,6 +176,70 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener.html">OnProjectileDetonatedMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlBeginFire.html">OnShooterControlBeginFire</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlBeginFireMessageListener.html">OnShooterControlBeginFireMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlEndFire.html">OnShooterControlEndFire</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlEndFireMessageListener.html">OnShooterControlEndFireMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotBlocked.html">OnShooterControlShotBlocked</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotBlockedMessageListener.html">OnShooterControlShotBlockedMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFired.html">OnShooterControlShotFired</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiredMessageListener.html">OnShooterControlShotFiredMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiring.html">OnShooterControlShotFiring</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiringMessageListener.html">OnShooterControlShotFiringMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterFired.html">OnShooterFired</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterFiredMessageListener.html">OnShooterFiredMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterFiring.html">OnShooterFiring</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterFiringMessageListener.html">OnShooterFiringMessageListener</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterSpreadChanged.html">OnShooterSpreadChanged</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ToolkitEngine.Shooter.VisualScripting.OnShooterSpreadChangedMessageListener.html">OnShooterSpreadChangedMessageListener</a></dt>
       <dd></dd>
     </dl>
 
