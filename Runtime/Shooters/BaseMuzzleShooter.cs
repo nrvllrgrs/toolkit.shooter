@@ -100,20 +100,14 @@ namespace ToolkitEngine.Shooter
 		#region Editor-Only
 #if UNITY_EDITOR
 
-		#region Editor-Only
-#if UNITY_EDITOR
-
 		protected void DrawSpread(float range)
 		{
 			var muzzle = m_muzzle != null
 				? m_muzzle
-			: transform;
+				: transform;
 
-			GizmosUtil.DrawCone(muzzle.position, spread, 1f, muzzle.forward * range, Color.white);
+			GizmosUtil.DrawCone(muzzle.position, spread, 1f, muzzle.forward, Color.white);
 		}
-
-#endif
-		#endregion
 
 #endif
 		#endregion

@@ -209,12 +209,23 @@ namespace ToolkitEngine.Shooter
 
 		public void CancelFire(bool ignoreFireOnCancel = false)
 		{
+			CancelFire(false, ignoreFireOnCancel);
+		}
+
+		private void CancelFire(bool stopBursting, bool ignoreFireOnCancel)
+		{
 			// Already not firing, skip
 			if (!firing)
 				return;
 
 			// Exit async loop, if exists
 			this.CancelCoroutine(ref m_fireThread);
+
+			if (stopBursting && bursting)
+			{
+				this.CancelCoroutine(ref m_burstThread);
+				ResetBurst();
+			}
 
 			if (!ignoreFireOnCancel && m_fireOnCancel && fireType == FireType.SemiAuto)
 			{
@@ -232,7 +243,7 @@ namespace ToolkitEngine.Shooter
 			// Firing conditions not met BEFORE SHOT, exit firing state
 			if (m_firingBlockers.isTrueAndEnabled)
 			{
-				CancelFire();
+				CancelFire(true, false);
 				return;
 			}
 
@@ -255,7 +266,7 @@ namespace ToolkitEngine.Shooter
 			// Firing conditions not met AFTER SHOT, exit firing state
  			if (m_firingBlockers.isTrueAndEnabled)
 			{
-				CancelFire();
+				CancelFire(true, false);
 			}
 		}
 

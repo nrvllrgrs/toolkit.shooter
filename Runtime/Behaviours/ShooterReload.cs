@@ -7,7 +7,7 @@ using NaughtyAttributes;
 
 namespace ToolkitEngine.Shooter
 {
-	public class ShooterReload : MonoBehaviour
+	public class ShooterReload : MonoBehaviour, IAmmoTypeLinkable
     {
 		#region Fields
 
@@ -52,6 +52,9 @@ namespace ToolkitEngine.Shooter
 
 		#region Properties
 
+		public BaseAmmoCache ammoCache { get => m_ammoCache; set => m_ammoCache = value; }
+		public AmmoType ammoType => m_shooterAmmo?.ammoType;
+
 		public bool reloading
 		{
 			get => m_reloading;
@@ -72,6 +75,10 @@ namespace ToolkitEngine.Shooter
 				}
 			}
 		}
+
+		public bool carryInfinite => m_ammoCache == null;
+		public int carryCount => m_ammoCache?.count ?? -1;
+		public int carryCapacity => m_ammoCache?.capacity ?? -1;
 
 		public float delay { get => m_delay; set => m_delay = value; }
 		public float subsequentDelay { get => m_subsequentDelay; set => m_subsequentDelay = value; }

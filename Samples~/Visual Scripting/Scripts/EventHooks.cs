@@ -9,9 +9,6 @@ namespace ToolkitEngine.Shooter
 		public const string OnShooterControlShotBlocked = nameof(OnShooterControlShotBlocked);
 		public const string OnShooterControlEndFire = nameof(OnShooterControlEndFire);
 
-		// Projectile
-		public const string OnProjectileDetonated = nameof(OnProjectileDetonated);
-
         // Ammo Cache
         public const string OnAmmoCacheCountChanged = nameof(OnAmmoCacheCountChanged);
 		

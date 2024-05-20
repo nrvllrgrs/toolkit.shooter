@@ -1,5 +1,6 @@
 using ToolkitEngine.Health;
 using UnityEngine;
+using UnityEngine.Animations;
 using UnityEngine.Events;
 
 namespace ToolkitEngine.Shooter
@@ -18,7 +19,7 @@ namespace ToolkitEngine.Shooter
 
 	[AddComponentMenu("Weapon/Projectile")]
     [RequireComponent(typeof(Rigidbody))]
-	public class Projectile : MonoBehaviour
+	public class Projectile : MonoBehaviour, IProjectileEvents
 	{
 		#region Fields
 
@@ -139,8 +140,38 @@ namespace ToolkitEngine.Shooter
 			Stop();
 			if (collider != null)
 			{
-				// Attach projectile hit collider
-				transform.SetParent(collider.transform);
+				var parentConstraint = GetComponent<ParentConstraint>();
+				if (parentConstraint != null)
+				{
+					parentConstraint.AddSource(new ConstraintSource()
+					{
+						sourceTransform = collider.transform,
+						weight = 1,
+					});
+
+					parentConstraint.SetTranslationOffset(0, transform.position - collider.transform.position);
+					parentConstraint.SetRotationOffset(0, transform.localEulerAngles);
+					parentConstraint.constraintActive = true;
+				}
+				else
+				{
+					// Attach projectile hit collider
+					transform.SetParent(collider.transform, true);
+				}
+			}
+		}
+
+		public void Detatch()
+		{
+			var parentConstraint = GetComponent<ParentConstraint>();
+			if (parentConstraint != null)
+			{
+				parentConstraint.constraintActive = false;
+				parentConstraint.RemoveSource(0);
+			}
+			else
+			{
+				transform.SetParent(null);
 			}
 		}
 
@@ -195,7 +226,7 @@ namespace ToolkitEngine.Shooter
 		{
 			var hit = new DamageHit(m_impactDamage)
 			{
-				source = gameObject,
+				source = m_projectileShooter?.gameObject ?? gameObject,
 				victim = collision.collider.GetComponentInParent<IHealth>(),
 				collider = collision.collider,
 				origin = collision.contacts[0].point + collision.contacts[0].normal,

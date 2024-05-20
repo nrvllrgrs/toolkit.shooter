@@ -9,7 +9,7 @@ using UnityEngine.Events;
 namespace ToolkitEngine.Shooter
 {
 	[AddComponentMenu("Weapon/Shooter/Projectile Shooter")]
-	public class ProjectileShooter : BaseMuzzleShooter, IDamageShooter
+	public class ProjectileShooter : BaseMuzzleShooter, IDamageShooter, IProjectileEvents
 	{
 		#region Enumerators
 
@@ -116,7 +116,7 @@ namespace ToolkitEngine.Shooter
 		}
 		public Set[] sets => m_projectileSpawner.sets;
 		public float lifetime => m_lifetime;
-		public float speed => m_speed;
+		public float speed { get => m_speed; set => m_speed = value; }
 		public float acceleration => m_acceleration;
 		public float minSpeed => m_acceleration < 0 ? m_speedLimits.x : m_speed;
 		public float maxSpeed => m_acceleration > 0 ? m_speedLimits.y : m_speed;
@@ -223,8 +223,14 @@ namespace ToolkitEngine.Shooter
 				else
 				{
 					m_pendingProjectile.transform.rotation = Quaternion.LookRotation(GetShotDirection(this));
-					Fire(m_pendingProjectile);
 
+					// Add pending projectile to sets before firing
+					foreach (var set in m_projectileSpawner.sets)
+					{
+						set.Add(m_pendingProjectile.gameObject);
+					}
+
+					Fire(m_pendingProjectile);
 					pendingProjectile = null;
 				}
 			}
@@ -490,6 +496,33 @@ namespace ToolkitEngine.Shooter
 			Untrack(projectile);
 		}
 
+		#endregion
+
+		#region Editor-Only
+#if UNITY_EDITOR
+
+		protected void OnDrawGizmosSelected()
+		{
+			var muzzle = m_muzzle != null
+				? m_muzzle
+				: transform;
+
+			var range = m_impactDamage.range;
+			if (float.IsInfinity(range))
+			{
+				range = Camera.main.farClipPlane;
+			}
+
+			var far = muzzle.position + muzzle.forward * range;
+			Gizmos.DrawLine(muzzle.position, far);
+
+			if (m_spread > 0f)
+			{
+				DrawSpread(range);
+			}
+		}
+
+#endif
 		#endregion
 	}
 }

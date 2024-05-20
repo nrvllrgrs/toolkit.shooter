@@ -113,13 +113,14 @@ namespace ToolkitEngine.Shooter
 			if (!m_modifiers.TryGetValue(key, out var modifierData))
 				return;
 
-			float value = ((float)propertyData.defaultValue * modifierData.factor) + modifierData.bonus;
 			if (propertyData.info.PropertyType == typeof(float))
 			{
+				float value = ((float)propertyData.defaultValue * modifierData.factor) + modifierData.bonus;
 				propertyData.info.SetValue(m_target, value);
 			}
 			else if (propertyData.info.PropertyType == typeof(int))
 			{
+				float value = ((int)propertyData.defaultValue * modifierData.factor) + modifierData.bonus;
 				propertyData.info.SetValue(m_target, (int)value);
 			}
 		}

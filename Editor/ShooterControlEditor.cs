@@ -113,7 +113,7 @@ namespace ToolkitEditor.Shooter
 							if (GUILayout.Button("Fire"))
 							{
 								m_shooterControl.Fire();
-								if (!m_fireOnCancel.boolValue)
+								if (!m_fireOnCancel.boolValue && !m_isBurstFire.boolValue)
 								{
 									m_shooterControl.CancelFire();
 								}

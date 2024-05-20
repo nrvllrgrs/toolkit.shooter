@@ -13,10 +13,11 @@ namespace ToolkitEditor.Shooter.VisualScripting
 			var types = new List<Type>()
 			{
 				typeof(Ammo),
-				typeof(AmmoCache),
+				typeof(BaseAmmoCache),
 				typeof(AmmoCache),
 				typeof(AmmoType),
 				typeof(Heat),
+				typeof(BaseHeatCache),
 				typeof(HeatCache),
 
 				// Behaviors
