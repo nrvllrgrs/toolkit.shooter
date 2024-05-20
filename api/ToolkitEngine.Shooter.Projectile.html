@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Shooter_Projectile" data-uid="ToolkitEngine.Shooter.Projectile" class="text-break">
-Class Projectile  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L19"><i class="bi bi-code-slash"></i></a>
+Class Projectile  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Projectile : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class Projectile : MonoBehaviour, IProjectileEvents</code></pre>
   </div>
 
 
@@ -115,6 +115,12 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.Shooter.IProjectileEvents.html">IProjectileEvents</a></div>
+    </dd>
+  </dl>
 
 
 
@@ -131,7 +137,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_colliders" data-uid="ToolkitEngine.Shooter.Projectile.colliders">
   colliders
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -162,7 +168,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_distance" data-uid="ToolkitEngine.Shooter.Projectile.distance">
   distance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -193,7 +199,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_isPending" data-uid="ToolkitEngine.Shooter.Projectile.isPending">
   isPending
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -224,7 +230,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_lifetime" data-uid="ToolkitEngine.Shooter.Projectile.lifetime">
   lifetime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -255,7 +261,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_normalizedDistance" data-uid="ToolkitEngine.Shooter.Projectile.normalizedDistance">
   normalizedDistance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -286,7 +292,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_normalizedLifetime" data-uid="ToolkitEngine.Shooter.Projectile.normalizedLifetime">
   normalizedLifetime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -317,7 +323,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_onCollision" data-uid="ToolkitEngine.Shooter.Projectile.onCollision">
   onCollision
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -348,7 +354,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_onDetonated" data-uid="ToolkitEngine.Shooter.Projectile.onDetonated">
   onDetonated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -379,7 +385,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_onFired" data-uid="ToolkitEngine.Shooter.Projectile.onFired">
   onFired
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -410,7 +416,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_onMaxDistanceReached" data-uid="ToolkitEngine.Shooter.Projectile.onMaxDistanceReached">
   onMaxDistanceReached
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -441,7 +447,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_projectileShooter" data-uid="ToolkitEngine.Shooter.Projectile.projectileShooter">
   projectileShooter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -472,7 +478,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_rigidbody" data-uid="ToolkitEngine.Shooter.Projectile.rigidbody">
   rigidbody
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -507,7 +513,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_Attach_Collider_" data-uid="ToolkitEngine.Shooter.Projectile.Attach(Collider)">
   Attach(Collider)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -534,11 +540,37 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
 
 
+  <a id="ToolkitEngine_Shooter_Projectile_Detatch_" data-uid="ToolkitEngine.Shooter.Projectile.Detatch*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_Projectile_Detatch" data-uid="ToolkitEngine.Shooter.Projectile.Detatch">
+  Detatch()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Detatch()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Shooter_Projectile_Detonate_" data-uid="ToolkitEngine.Shooter.Projectile.Detonate*"></a>
 
   <h3 id="ToolkitEngine_Shooter_Projectile_Detonate" data-uid="ToolkitEngine.Shooter.Projectile.Detonate">
   Detonate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -564,7 +596,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_Detonate_ToolkitEngine_Shooter_ProjectileEventArgs_" data-uid="ToolkitEngine.Shooter.Projectile.Detonate(ToolkitEngine.Shooter.ProjectileEventArgs)">
   Detonate(ProjectileEventArgs)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L183"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -595,7 +627,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_Fire_ToolkitEngine_Shooter_ProjectileShooter_" data-uid="ToolkitEngine.Shooter.Projectile.Fire(ToolkitEngine.Shooter.ProjectileShooter)">
   Fire(ProjectileShooter)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -626,7 +658,7 @@ Class Projectile  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="ToolkitEngine_Shooter_Projectile_Stop" data-uid="ToolkitEngine.Shooter.Projectile.Stop">
   Stop()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Projectile.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

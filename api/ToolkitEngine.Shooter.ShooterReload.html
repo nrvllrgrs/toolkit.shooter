@@ -101,7 +101,7 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ShooterReload : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class ShooterReload : MonoBehaviour, IAmmoTypeLinkable</code></pre>
   </div>
 
 
@@ -115,6 +115,12 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="ToolkitEngine.Shooter.IAmmoTypeLinkable.html">IAmmoTypeLinkable</a></div>
+    </dd>
+  </dl>
 
 
 
@@ -127,11 +133,166 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
 </h2>
 
 
+  <a id="ToolkitEngine_Shooter_ShooterReload_ammoCache_" data-uid="ToolkitEngine.Shooter.ShooterReload.ammoCache*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterReload_ammoCache" data-uid="ToolkitEngine.Shooter.ShooterReload.ammoCache">
+  ammoCache
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseAmmoCache ammoCache { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Shooter.BaseAmmoCache.html">BaseAmmoCache</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ShooterReload_ammoType_" data-uid="ToolkitEngine.Shooter.ShooterReload.ammoType*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterReload_ammoType" data-uid="ToolkitEngine.Shooter.ShooterReload.ammoType">
+  ammoType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmmoType ammoType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="ToolkitEngine.Shooter.AmmoType.html">AmmoType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ShooterReload_carryCapacity_" data-uid="ToolkitEngine.Shooter.ShooterReload.carryCapacity*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterReload_carryCapacity" data-uid="ToolkitEngine.Shooter.ShooterReload.carryCapacity">
+  carryCapacity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int carryCapacity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ShooterReload_carryCount_" data-uid="ToolkitEngine.Shooter.ShooterReload.carryCount*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterReload_carryCount" data-uid="ToolkitEngine.Shooter.ShooterReload.carryCount">
+  carryCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int carryCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ToolkitEngine_Shooter_ShooterReload_carryInfinite_" data-uid="ToolkitEngine.Shooter.ShooterReload.carryInfinite*"></a>
+
+  <h3 id="ToolkitEngine_Shooter_ShooterReload_carryInfinite" data-uid="ToolkitEngine.Shooter.ShooterReload.carryInfinite">
+  carryInfinite
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool carryInfinite { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="ToolkitEngine_Shooter_ShooterReload_delay_" data-uid="ToolkitEngine.Shooter.ShooterReload.delay*"></a>
 
   <h3 id="ToolkitEngine_Shooter_ShooterReload_delay" data-uid="ToolkitEngine.Shooter.ShooterReload.delay">
   delay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -162,7 +323,7 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterReload_onReloaded" data-uid="ToolkitEngine.Shooter.ShooterReload.onReloaded">
   onReloaded
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -193,7 +354,7 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterReload_onReloading" data-uid="ToolkitEngine.Shooter.ShooterReload.onReloading">
   onReloading
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -224,7 +385,7 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterReload_onShotReloaded" data-uid="ToolkitEngine.Shooter.ShooterReload.onShotReloaded">
   onShotReloaded
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -255,7 +416,7 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterReload_reloading" data-uid="ToolkitEngine.Shooter.ShooterReload.reloading">
   reloading
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -286,7 +447,7 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterReload_subsequentDelay" data-uid="ToolkitEngine.Shooter.ShooterReload.subsequentDelay">
   subsequentDelay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -321,7 +482,7 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterReload_CanReload_System_Int32_" data-uid="ToolkitEngine.Shooter.ShooterReload.CanReload(System.Int32)">
   CanReload(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -357,7 +518,7 @@ Class ShooterReload  <a class="header-action link-secondary" title="View source"
 
   <h3 id="ToolkitEngine_Shooter_ShooterReload_Reload" data-uid="ToolkitEngine.Shooter.ShooterReload.Reload">
   Reload()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Behaviours/ShooterReload.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

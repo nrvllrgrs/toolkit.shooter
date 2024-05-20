@@ -75,6 +75,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.AmmoTypeEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.AmmoTypeEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.Shooter.BaseMuzzleShooterEditor.yml",
       "output": {
         ".html": {
@@ -445,6 +455,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.IAmmoTypeLinkable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.IAmmoTypeLinkable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.Shooter.IDamageShooter.yml",
       "output": {
         ".html": {
@@ -469,6 +489,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Shooter.IMuzzleShooter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.IProjectileEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.IProjectileEvents.html"
         }
       },
       "version": ""
@@ -989,6 +1019,26 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChangedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileCollision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileCollision.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileCollisionMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileCollisionMessageListener.html"
         }
       },
       "version": ""
