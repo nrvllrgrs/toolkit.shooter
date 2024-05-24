@@ -3424,15 +3424,15 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ProjectileShooter.IgnoreCollider
   nameWithType: ProjectileShooter.IgnoreCollider
-- uid: ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders(System.Collections.Generic.IEnumerable{Collider},System.Boolean)
-  name: IgnoreColliders(IEnumerable<Collider>, bool)
-  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_IgnoreColliders_System_Collections_Generic_IEnumerable_Collider__System_Boolean_
-  commentId: M:ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders(System.Collections.Generic.IEnumerable{Collider},System.Boolean)
-  name.vb: IgnoreColliders(IEnumerable(Of Collider), Boolean)
-  fullName: ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders(System.Collections.Generic.IEnumerable<Collider>, bool)
-  fullName.vb: ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders(System.Collections.Generic.IEnumerable(Of Collider), Boolean)
-  nameWithType: ProjectileShooter.IgnoreColliders(IEnumerable<Collider>, bool)
-  nameWithType.vb: ProjectileShooter.IgnoreColliders(IEnumerable(Of Collider), Boolean)
+- uid: ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders(Collider[],System.Boolean)
+  name: IgnoreColliders(Collider[], bool)
+  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_IgnoreColliders_Collider___System_Boolean_
+  commentId: M:ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders(Collider[],System.Boolean)
+  name.vb: IgnoreColliders(Collider(), Boolean)
+  fullName: ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders(Collider[], bool)
+  fullName.vb: ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders(Collider(), Boolean)
+  nameWithType: ProjectileShooter.IgnoreColliders(Collider[], bool)
+  nameWithType.vb: ProjectileShooter.IgnoreColliders(Collider(), Boolean)
 - uid: ToolkitEngine.Shooter.ProjectileShooter.IgnoreColliders*
   name: IgnoreColliders
   href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_IgnoreColliders_
@@ -4772,14 +4772,7 @@ references:
 - uid: ToolkitEngine.Shooter.ShooterEventArgs.direction
   name: direction
   href: api/ToolkitEngine.Shooter.ShooterEventArgs.html#ToolkitEngine_Shooter_ShooterEventArgs_direction
-  commentId: P:ToolkitEngine.Shooter.ShooterEventArgs.direction
-  fullName: ToolkitEngine.Shooter.ShooterEventArgs.direction
-  nameWithType: ShooterEventArgs.direction
-- uid: ToolkitEngine.Shooter.ShooterEventArgs.direction*
-  name: direction
-  href: api/ToolkitEngine.Shooter.ShooterEventArgs.html#ToolkitEngine_Shooter_ShooterEventArgs_direction_
-  commentId: Overload:ToolkitEngine.Shooter.ShooterEventArgs.direction
-  isSpec: "True"
+  commentId: F:ToolkitEngine.Shooter.ShooterEventArgs.direction
   fullName: ToolkitEngine.Shooter.ShooterEventArgs.direction
   nameWithType: ShooterEventArgs.direction
 - uid: ToolkitEngine.Shooter.ShooterEventArgs.hits
