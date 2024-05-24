@@ -57,6 +57,11 @@ namespace ToolkitEngine.Shooter
 					.Where(x => x is BaseMuzzleShooter)
 					.Cast<BaseMuzzleShooter>().ToArray();
 			}
+
+			foreach (var shooter in m_shooters)
+			{
+				shooter.spread = minSpread;
+			}
 		}
 
 		private void OnEnable()

@@ -229,13 +229,13 @@ namespace ToolkitEngine.Shooter
 
 			if (!ignoreFireOnCancel && m_fireOnCancel && fireType == FireType.SemiAuto)
 			{
-				AttemptFire();
+				AttemptFire(true);
 			}
 
 			firing = false;
 		}
 
-		private void AttemptFire()
+		private void AttemptFire(bool canceling = false)
 		{
 			if (!canFireByTime)
 				return;
@@ -243,7 +243,7 @@ namespace ToolkitEngine.Shooter
 			// Firing conditions not met BEFORE SHOT, exit firing state
 			if (m_firingBlockers.isTrueAndEnabled)
 			{
-				CancelFire(true, false);
+				CancelFire(true, canceling);
 				return;
 			}
 
@@ -266,7 +266,7 @@ namespace ToolkitEngine.Shooter
 			// Firing conditions not met AFTER SHOT, exit firing state
  			if (m_firingBlockers.isTrueAndEnabled)
 			{
-				CancelFire(true, false);
+				CancelFire(true, canceling);
 			}
 		}
 

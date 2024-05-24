@@ -78,7 +78,8 @@ namespace ToolkitEngine.Shooter
 			{
 				shooter = this,
 				origin = origin,
-				terminal = origin + muzzle.forward * m_impactDamage.range
+				terminal = origin + muzzle.forward * m_impactDamage.range,
+				direction = direction,
 			};
 			m_onFiring?.Invoke(args);
 
@@ -100,6 +101,7 @@ namespace ToolkitEngine.Shooter
 			{
 				shooter = this,
 				origin = origin,
+				direction = direction,
 			};
 
 			List<DamageHit> hits = new();

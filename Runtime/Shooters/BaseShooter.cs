@@ -12,9 +12,8 @@ namespace ToolkitEngine.Shooter
 		public BaseShooter shooter;
 		public Vector3 origin;
 		public Vector3 terminal;
+		public Vector3 direction;
 		public DamageHit[] hits;
-
-		public Vector3 direction => terminal - origin;
 
 		#endregion
 

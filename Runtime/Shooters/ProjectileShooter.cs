@@ -110,7 +110,7 @@ namespace ToolkitEngine.Shooter
 
 				if (m_pendingProjectile != null)
 				{
-					Track(m_pendingProjectile);
+					Track(m_pendingProjectile, true);
 				}
 			}
 		}
@@ -156,7 +156,7 @@ namespace ToolkitEngine.Shooter
 			}
 		}
 
-		public void IgnoreColliders(IEnumerable<Collider> colliders, bool ignore = true)
+		public void IgnoreColliders(Collider[] colliders, bool ignore = true)
 		{
 			if (ignore)
 			{
@@ -190,7 +190,8 @@ namespace ToolkitEngine.Shooter
 			if (projectile == null)
 				return;
 
-			Track(projectile);
+			// Projectile rotation has already been set by spawner
+			Track(projectile, false);
 		}
 
 		private void _OnDespawned(GameObject obj)
@@ -252,17 +253,30 @@ namespace ToolkitEngine.Shooter
 
 		#region Projectile Methods
 
-		private void Track(Projectile projectile)
+		private void Track(Projectile projectile, bool setRotation)
 		{
-			projectile.transform.SetPositionAndRotation(muzzle.position, muzzle.rotation);
+			if (setRotation)
+			{
+				projectile.transform.SetPositionAndRotation(muzzle.position, muzzle.rotation);
+			}
+			else
+			{
+				projectile.transform.position = muzzle.position;
+			}
 			projectile.transform.SetParent(muzzle);
 
 			// Projectile should not hit colliders on shooter
-			foreach (var collider in m_ignoredColliders)
+			for (int i = m_ignoredColliders.Count - 1; i >= 0; --i)
 			{
+				if (m_ignoredColliders[i] == null)
+				{
+					m_ignoredColliders.RemoveAt(i);
+					continue;
+				}
+
 				foreach (var projectileCollider in projectile.colliders)
 				{
-					Physics.IgnoreCollision(collider, projectileCollider, true);
+					Physics.IgnoreCollision(m_ignoredColliders[i], projectileCollider, true);
 				}
 			}
 
@@ -278,11 +292,17 @@ namespace ToolkitEngine.Shooter
 		private void Untrack(Projectile projectile, bool removeFromActiveProjectiles)
 		{
 			// Projectile should not hit colliders on shooter
-			foreach (var collider in m_ignoredColliders)
+			for (int i = m_ignoredColliders.Count - 1; i >= 0; --i)
 			{
+				if (m_ignoredColliders[i] == null)
+				{
+					m_ignoredColliders.RemoveAt(i);
+					continue;
+				}
+
 				foreach (var projectileCollider in projectile.colliders)
 				{
-					Physics.IgnoreCollision(collider, projectileCollider, false);
+					Physics.IgnoreCollision(m_ignoredColliders[i], projectileCollider, false);
 				}
 			}
 
@@ -310,13 +330,14 @@ namespace ToolkitEngine.Shooter
 			ShooterEventArgs args = new()
 			{
 				shooter = this,
-				origin = projectile.transform.position
+				origin = projectile.transform.position,
+				direction = projectile.transform.forward,
 			};
 			m_onFiring?.Invoke(args);
 
 			projectile.transform.SetParent(null);
 			projectile.rigidbody.isKinematic = false;
-			projectile.rigidbody.velocity = muzzle.forward * speed;
+			projectile.rigidbody.velocity = projectile.transform.forward * speed;
 
 			// Add projectile to active set
 			m_activeProjectiles.Add(projectile);
@@ -500,6 +521,13 @@ namespace ToolkitEngine.Shooter
 
 		#region Editor-Only
 #if UNITY_EDITOR
+
+		[ContextMenu("Populate Ignore Colliders")]
+		private void PopulateIgnoreColliders()
+		{
+			m_ignoredColliders = GetComponentsInChildren<Collider>()
+				.Where(x => !x.isTrigger).ToList();
+		}
 
 		protected void OnDrawGizmosSelected()
 		{

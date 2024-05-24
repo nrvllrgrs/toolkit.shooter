@@ -132,6 +132,14 @@ namespace ToolkitEngine.Shooter
 		#region Editor-Only
 #if UNITY_EDITOR
 
+		[ContextMenu("Update Pivot")]
+		private void UpdatePivot()
+		{
+			m_pivot = m_target != null
+				? transform.InverseTransformPoint(m_target.position)
+				: Vector3.zero;
+		}
+
 		private void OnDrawGizmosSelected()
 		{
 			if (Application.isPlaying)

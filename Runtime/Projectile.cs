@@ -140,6 +140,12 @@ namespace ToolkitEngine.Shooter
 			Stop();
 			if (collider != null)
 			{
+				var anchorPoolItem = collider.GetComponentInParent<PoolItem>();
+				if (anchorPoolItem != null)
+				{
+					anchorPoolItem.OnReleased.AddListener(AnchorPoolItem_Released);
+				}
+
 				var parentConstraint = GetComponent<ParentConstraint>();
 				if (parentConstraint != null)
 				{
@@ -161,13 +167,24 @@ namespace ToolkitEngine.Shooter
 			}
 		}
 
+		private void AnchorPoolItem_Released(PoolItem poolItem)
+		{
+			poolItem.OnReleased.RemoveListener(AnchorPoolItem_Released);
+
+			Detatch();
+			PoolItem.Destroy(gameObject);
+		}
+
 		public void Detatch()
 		{
 			var parentConstraint = GetComponent<ParentConstraint>();
 			if (parentConstraint != null)
 			{
 				parentConstraint.constraintActive = false;
-				parentConstraint.RemoveSource(0);
+				if (parentConstraint.sourceCount > 0)
+				{
+					parentConstraint.RemoveSource(0);
+				}
 			}
 			else
 			{
