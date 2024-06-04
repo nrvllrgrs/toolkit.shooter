@@ -100,10 +100,11 @@ namespace ToolkitEngine.Shooter
 
 		public BaseShooter[] shooters { get => m_shooters; internal set => m_shooters = value; }
 		public FireType fireType => m_fireType;
-		public float timeBetweenShots => m_timeBetweenShots;
+		public float timeBetweenShots { get => m_timeBetweenShots; set => m_timeBetweenShots = value; }
 		public bool fireOnCancel => m_fireOnCancel;
 		public bool isBurstFire => m_isBurstFire;
-		public float timeBetweenBursts => m_timeBetweenBursts;
+		public float timeBetweenBursts { get => timeBetweenBursts; set => timeBetweenBursts = value; }
+		public int shotsPerBurst { get => m_shotsPerBurst; set => m_shotsPerBurst = value; }
 		public float burstShotCount => m_burstShotCount;
 
 		/// <summary>
@@ -193,11 +194,6 @@ namespace ToolkitEngine.Shooter
 					if (!m_fireOnCancel)
 					{
 						AttemptFire();
-
-						if (!m_isBurstFire)
-						{
-							CancelFire();
-						}
 					}
 					break;
 

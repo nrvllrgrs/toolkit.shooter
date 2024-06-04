@@ -4,7 +4,48 @@ using UnityEngine;
 
 namespace ToolkitEngine.Shooter
 {
-	public abstract class BaseShooterModifier<T> : MonoBehaviour
+	public abstract class BaseShooterModifier : MonoBehaviour
+	{
+		#region Fields
+
+		[SerializeField, HideInInspector]
+		protected ModifiablePropertyFilters m_filters = new();
+
+		#endregion
+
+		#region Properties
+
+		internal abstract string[] propertyNames { get; }
+
+		#endregion
+
+		#region  Editor Only
+#if UNITY_EDITOR
+
+		protected virtual void OnValidate()
+		{
+			foreach (var name in propertyNames)
+			{
+				if (!m_filters.ContainsKey(name))
+				{
+					m_filters.Add(name, new UnityEvaluator());
+				}
+			}
+		}
+
+#endif
+		#endregion
+
+		#region Structures
+
+		[System.Serializable]
+		public class ModifiablePropertyFilters : SerializableDictionary<string, UnityEvaluator>
+		{ }
+
+		#endregion
+	}
+
+	public abstract class BaseShooterModifier<T> : BaseShooterModifier
 		where T : Component
 	{
 		#region Fields
@@ -40,8 +81,6 @@ namespace ToolkitEngine.Shooter
 				}
 			}
 		}
-
-		protected abstract string[] propertyNames { get; }
 
 		#endregion
 
@@ -111,6 +150,9 @@ namespace ToolkitEngine.Shooter
 				return;
 
 			if (!m_modifiers.TryGetValue(key, out var modifierData))
+				return;
+
+			if (!m_filters.TryGetValue(key, out var evaluator) || evaluator.Evaluate(gameObject, target.gameObject) == 0)
 				return;
 
 			if (propertyData.info.PropertyType == typeof(float))

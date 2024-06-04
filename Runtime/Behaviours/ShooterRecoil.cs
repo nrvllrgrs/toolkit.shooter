@@ -24,6 +24,15 @@ namespace ToolkitEngine.Shooter
 		[SerializeField, Range(0f, 90f), Tooltip("Degrees (pitch) changed per shot.")]
 		private float m_recoilPerShot = 5f;
 
+		[SerializeField]
+		private bool m_variableRecoilPerShot = false;
+
+		[SerializeField, Min(0f), Tooltip("Maximum degrees (pitch) changed per shot at maximum recoil.")]
+		private float m_maxRecoilPerShot = 5f;
+
+		[SerializeField]
+		private AnimationCurve m_recoilCurve = AnimationCurve.Linear(0f, 0f, 1f, 1f);
+
 		[SerializeField, Range(0f, 90f), Tooltip("Maximum degress (pitch) shooter can recoil.")]
 		private float m_maxRecoil = 90f;
 
@@ -44,6 +53,7 @@ namespace ToolkitEngine.Shooter
 		private Vector3 pivot => transform.position + transform.rotation * m_offsetPosition;
 
 		public float recoilPerShot { get => m_recoilPerShot; set => m_recoilPerShot = value; }
+		public float maxRecoil => m_maxRecoil;
 		public float recoveryDelay { get => m_recoveryDelay; set => m_recoveryDelay = value; }
 		public float recoveryRate { get => m_recoveryRate; set => m_recoveryRate = value; }
 
@@ -98,11 +108,20 @@ namespace ToolkitEngine.Shooter
 			if (!enabled)
 				return;
 
-			m_totalRecoil += shooterControl.fireType == ShooterControl.FireType.Continuous
-				? m_recoilPerShot * Time.deltaTime
-				: m_recoilPerShot;
+			float recoilPerShot = m_recoilPerShot;
+			if (m_variableRecoilPerShot)
+			{
+				recoilPerShot = MathUtil.Remap01(
+					m_recoilCurve.Evaluate(Mathf.Clamp01(m_totalRecoil / m_maxRecoil)),
+					m_recoilPerShot,
+					m_maxRecoilPerShot);
+			}
 
-			m_target.RotateAround(pivot, transform.right, -m_recoilPerShot);
+			m_totalRecoil += shooterControl.fireType == ShooterControl.FireType.Continuous
+				? recoilPerShot * Time.deltaTime
+				: recoilPerShot;
+
+			m_target.RotateAround(pivot, transform.right, -recoilPerShot);
 			this.RestartCoroutine(AsyncRecovery(), ref m_recoveryThread);
 		}
 

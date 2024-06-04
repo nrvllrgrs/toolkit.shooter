@@ -63,7 +63,7 @@ namespace ToolkitEngine.Shooter
 		public bool isCharging
 		{
 			get => m_isCharging;
-			private set
+			set
 			{
 				// No change, skip
 				if (m_isCharging == value)

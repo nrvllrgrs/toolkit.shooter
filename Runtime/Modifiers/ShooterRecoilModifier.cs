@@ -2,11 +2,15 @@ namespace ToolkitEngine.Shooter
 {
 	public class ShooterRecoilModifier : BaseShooterModifier<ShooterRecoil>
 	{
-		protected override string[] propertyNames => new[]
+		public const string RECOIL_PER_SHOT_KEY = "recoilPerShot";
+		public const string RECOVERY_DELAY_KEY = "recoveryDelay";
+		public const string RECOVERY_RATE_KEY = "recoveryRate";
+
+		internal override string[] propertyNames => new[]
 		{
-			"recoilPerShot",
-			"recoveryDelay",
-			"recoveryRate",
+			RECOIL_PER_SHOT_KEY,
+			RECOVERY_DELAY_KEY,
+			RECOVERY_RATE_KEY,
 		};
 	}
 }

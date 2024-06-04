@@ -14,6 +14,9 @@ namespace ToolkitEditor.Shooter
 		protected SerializedProperty m_target;
 		protected SerializedProperty m_pivot;
 		protected SerializedProperty m_recoilPerShot;
+		protected SerializedProperty m_variableRecoilPerShot;
+		protected SerializedProperty m_maxRecoilPerShot;
+		protected SerializedProperty m_recoilCurve;
 		protected SerializedProperty m_maxRecoil;
 		protected SerializedProperty m_recoveryDelay;
 		protected SerializedProperty m_recoveryRate;
@@ -29,6 +32,9 @@ namespace ToolkitEditor.Shooter
 			m_target = serializedObject.FindProperty(nameof(m_target));
 			m_pivot = serializedObject.FindProperty(nameof(m_pivot));
 			m_recoilPerShot = serializedObject.FindProperty(nameof(m_recoilPerShot));
+			m_variableRecoilPerShot = serializedObject.FindProperty(nameof(m_variableRecoilPerShot));
+			m_maxRecoilPerShot = serializedObject.FindProperty(nameof(m_maxRecoilPerShot));
+			m_recoilCurve = serializedObject.FindProperty(nameof(m_recoilCurve));
 			m_maxRecoil = serializedObject.FindProperty(nameof(m_maxRecoil));
 			m_recoveryDelay = serializedObject.FindProperty(nameof(m_recoveryDelay));
 			m_recoveryRate = serializedObject.FindProperty(nameof(m_recoveryRate));
@@ -46,6 +52,16 @@ namespace ToolkitEditor.Shooter
 			EditorGUILayout.Separator();
 
 			EditorGUILayout.PropertyField(m_recoilPerShot);
+			EditorGUILayout.PropertyField(m_variableRecoilPerShot);
+
+			if (m_variableRecoilPerShot.boolValue)
+			{
+				++EditorGUI.indentLevel;
+				EditorGUILayout.PropertyField(m_maxRecoilPerShot);
+				EditorGUILayout.PropertyField(m_recoilCurve);
+				--EditorGUI.indentLevel;
+			}
+
 			EditorGUILayout.PropertyField(m_maxRecoil);
 
 			EditorGUILayout.LabelField("Recovery", EditorStyles.boldLabel);

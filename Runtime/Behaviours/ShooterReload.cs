@@ -80,6 +80,7 @@ namespace ToolkitEngine.Shooter
 		public int carryCount => m_ammoCache?.count ?? -1;
 		public int carryCapacity => m_ammoCache?.capacity ?? -1;
 
+		public int count { get => m_count; set=> m_count = value; }
 		public float delay { get => m_delay; set => m_delay = value; }
 		public float subsequentDelay { get => m_subsequentDelay; set => m_subsequentDelay = value; }
 

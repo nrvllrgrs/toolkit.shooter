@@ -29,6 +29,7 @@ namespace ToolkitEditor.Shooter.VisualScripting
 				typeof(ShooterSpread),
 
 				// Modifiers
+				typeof(ShooterControlModifier),
 				typeof(ShooterAmmoModifier),
 				typeof(ShooterChargeModifier),
 				typeof(ShooterHeatModifier),
@@ -44,6 +45,7 @@ namespace ToolkitEditor.Shooter.VisualScripting
 				typeof(SequenceShooter),
 				typeof(TriggerShooter),
 				typeof(ProxyShooter),
+				typeof(IDamageShooter),
 
 				typeof(ShooterControl),
 				typeof(ShooterMode),

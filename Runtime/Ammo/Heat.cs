@@ -71,7 +71,7 @@ namespace ToolkitEngine.Shooter
 					return;
 
 				m_maximum = value;
-				this.value = Mathf.Max(m_maximum, m_value);
+				this.value = Mathf.Min(m_maximum, m_value);
 			}
 		}
 

@@ -3,7 +3,7 @@ using Unity.VisualScripting;
 
 namespace ToolkitEngine.Shooter.VisualScripting
 {
-	[UnitTitle("On Charged"), UnitSurtitle("Shooter Charge")]
+	[UnitTitle("On Value Changed"), UnitSurtitle("Shooter Charge")]
 	[UnitCategory("Events/Weapons/Charge")]
 	public class OnChargeValueChanged : BaseEventUnit<float>
 	{

@@ -155,6 +155,8 @@ namespace ToolkitEngine.Shooter
 
 		public float normalizedCount => (float)count / capacity;
 
+		public bool isEmpty => count == 0;
+
 		public UnityEvent<int> onCountChanged => m_onCountChanged;
 		public UnityEvent onEmpty => m_onEmpty;
 		public UnityEvent onDryFiring => m_onDryFiring;

@@ -2,9 +2,11 @@ namespace ToolkitEngine.Shooter
 {
     public class ShooterAmmoModifier : BaseShooterModifier<ShooterAmmo>
     {
-        protected override string[] propertyNames => new[]
+        public const string CAPACITY_KEY = "capacity";
+
+		internal override string[] propertyNames => new[]
         {
-            "capacity",
+			CAPACITY_KEY,
         };
 	}
 }
