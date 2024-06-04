@@ -89,7 +89,7 @@
 
 
   <h1 id="ToolkitEngine_Shooter_BaseShooterModifier_1" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1" class="text-break">
-Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseShooterModifier&lt;T&gt; : MonoBehaviour where T : Component</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BaseShooterModifier&lt;T&gt; : BaseShooterModifier where T : Component</code></pre>
   </div>
 
 
@@ -116,6 +116,7 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier.html">BaseShooterModifier</a></div>
       <div><span class="xref">BaseShooterModifier&lt;T&gt;</span></div>
     </dd>
   </dl>
@@ -126,6 +127,7 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
     <dd>
       <div><a class="xref" href="ToolkitEngine.Shooter.ShooterAmmoModifier.html">ShooterAmmoModifier</a></div>
       <div><a class="xref" href="ToolkitEngine.Shooter.ShooterChargeModifier.html">ShooterChargeModifier</a></div>
+      <div><a class="xref" href="ToolkitEngine.Shooter.ShooterControlModifier.html">ShooterControlModifier</a></div>
       <div><a class="xref" href="ToolkitEngine.Shooter.ShooterHeatModifier.html">ShooterHeatModifier</a></div>
       <div><a class="xref" href="ToolkitEngine.Shooter.ShooterRecoilModifier.html">ShooterRecoilModifier</a></div>
       <div><a class="xref" href="ToolkitEngine.Shooter.ShooterReloadModifier.html">ShooterReloadModifier</a></div>
@@ -133,6 +135,13 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
     </dd>
   </dl>
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier.html#ToolkitEngine_Shooter_BaseShooterModifier_m_filters">BaseShooterModifier.m_filters</a>
+    </div>
+  </dd></dl>
 
 
 
@@ -143,42 +152,11 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
 </h2>
 
 
-  <a id="ToolkitEngine_Shooter_BaseShooterModifier_1_propertyNames_" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1.propertyNames*"></a>
-
-  <h3 id="ToolkitEngine_Shooter_BaseShooterModifier_1_propertyNames" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1.propertyNames">
-  propertyNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L44"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract string[] propertyNames { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="ToolkitEngine_Shooter_BaseShooterModifier_1_target_" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1.target*"></a>
 
   <h3 id="ToolkitEngine_Shooter_BaseShooterModifier_1_target" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1.target">
   target
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -213,7 +191,7 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="ToolkitEngine_Shooter_BaseShooterModifier_1_Awake" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1.Awake">
   Awake()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -239,7 +217,7 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="ToolkitEngine_Shooter_BaseShooterModifier_1_ModifyByFactor_System_String_System_Single_" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1.ModifyByFactor(System.String,System.Single)">
   ModifyByFactor(string, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -272,7 +250,7 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="ToolkitEngine_Shooter_BaseShooterModifier_1_ModifyByValue_System_String_System_Int32_" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1.ModifyByValue(System.String,System.Int32)">
   ModifyByValue(string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -305,7 +283,7 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="ToolkitEngine_Shooter_BaseShooterModifier_1_ModifyByValue_System_String_System_Single_" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1.ModifyByValue(System.String,System.Single)">
   ModifyByValue(string, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L183"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -338,7 +316,7 @@ Class BaseShooterModifier&lt;T&gt;  <a class="header-action link-secondary" titl
 
   <h3 id="ToolkitEngine_Shooter_BaseShooterModifier_1_SetTarget_GameObject_" data-uid="ToolkitEngine.Shooter.BaseShooterModifier`1.SetTarget(GameObject)">
   SetTarget(GameObject)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

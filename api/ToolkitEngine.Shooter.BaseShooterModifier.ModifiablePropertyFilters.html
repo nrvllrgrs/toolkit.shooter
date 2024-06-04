@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ShooterHeatModifier | Shooter Toolkit | 1.0.0 </title>
+      <title>Class BaseShooterModifier.ModifiablePropertyFilters | Shooter Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ShooterHeatModifier | Shooter Toolkit | 1.0.0 ">
+      <meta name="title" content="Class BaseShooterModifier.ModifiablePropertyFilters | Shooter Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.shooter/new/master/apiSpec/new?filename=ToolkitEngine_Shooter_ShooterHeatModifier.md&amp;value=---%0Auid%3A%20ToolkitEngine.Shooter.ShooterHeatModifier%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.shooter/new/master/apiSpec/new?filename=ToolkitEngine_Shooter_BaseShooterModifier_ModifiablePropertyFilters.md&amp;value=---%0Auid%3A%20ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ToolkitEngine.Shooter.ShooterHeatModifier">
+        <article data-uid="ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters">
 
 
 
-  <h1 id="ToolkitEngine_Shooter_ShooterHeatModifier" data-uid="ToolkitEngine.Shooter.ShooterHeatModifier" class="text-break">
-Class ShooterHeatModifier  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/ShooterHeatModifier.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_Shooter_BaseShooterModifier_ModifiablePropertyFilters" data-uid="ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters" class="text-break">
+Class BaseShooterModifier.ModifiablePropertyFilters  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,8 @@ Class ShooterHeatModifier  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ShooterHeatModifier : BaseShooterModifier&lt;ShooterHeat&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class BaseShooterModifier.ModifiablePropertyFilters : SerializableDictionary&lt;string, UnityEvaluator&gt;</code></pre>
   </div>
 
 
@@ -111,69 +112,8 @@ Class ShooterHeatModifier  <a class="header-action link-secondary" title="View s
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier.html">BaseShooterModifier</a></div>
-      <div><a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.html">BaseShooterModifier</a>&lt;<a class="xref" href="ToolkitEngine.Shooter.ShooterHeat.html">ShooterHeat</a>&gt;</div>
-      <div><span class="xref">ShooterHeatModifier</span></div>
+      <div><span class="xref">BaseShooterModifier.ModifiablePropertyFilters</span></div>
     </dd>
-  </dl>
-
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.html#ToolkitEngine_Shooter_BaseShooterModifier_1_target">BaseShooterModifier&lt;ShooterHeat&gt;.target</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.html#ToolkitEngine_Shooter_BaseShooterModifier_1_SetTarget_GameObject_">BaseShooterModifier&lt;ShooterHeat&gt;.SetTarget(GameObject)</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.html#ToolkitEngine_Shooter_BaseShooterModifier_1_Awake">BaseShooterModifier&lt;ShooterHeat&gt;.Awake()</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.html#ToolkitEngine_Shooter_BaseShooterModifier_1_ModifyByValue_System_String_System_Int32_">BaseShooterModifier&lt;ShooterHeat&gt;.ModifyByValue(string, int)</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.html#ToolkitEngine_Shooter_BaseShooterModifier_1_ModifyByValue_System_String_System_Single_">BaseShooterModifier&lt;ShooterHeat&gt;.ModifyByValue(string, float)</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.html#ToolkitEngine_Shooter_BaseShooterModifier_1_ModifyByFactor_System_String_System_Single_">BaseShooterModifier&lt;ShooterHeat&gt;.ModifyByFactor(string, float)</a>
-    </div>
-    <div>
-      <a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier.html#ToolkitEngine_Shooter_BaseShooterModifier_m_filters">BaseShooterModifier.m_filters</a>
-    </div>
-  </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="ToolkitEngine_Shooter_ShooterHeatModifier_MAXIMUM_KEY" data-uid="ToolkitEngine.Shooter.ShooterHeatModifier.MAXIMUM_KEY">
-  MAXIMUM_KEY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/ShooterHeatModifier.cs/#L5"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string MAXIMUM_KEY = &quot;maximum&quot;</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
   </dl>
 
 

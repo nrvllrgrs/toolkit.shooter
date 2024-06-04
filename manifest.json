@@ -105,6 +105,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEditor.Shooter.BaseShooterModifierEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEditor.Shooter.HeatCacheEditor.yml",
       "output": {
         ".html": {
@@ -405,6 +415,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.BaseShooterModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.BaseShooterModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.Shooter.BeamFXControl.yml",
       "output": {
         ".html": {
@@ -689,6 +719,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Shooter.ShooterControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterControlModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterControlModifier.html"
         }
       },
       "version": ""

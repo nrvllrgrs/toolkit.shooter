@@ -2,763 +2,787 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/Global.ITracer.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/Global.TriggerShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/Global.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.AmmoCacheEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.AmmoCacheProxyEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.AmmoDrawer.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.AmmoTypeEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.BaseMuzzleShooterEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.BaseShooterEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html</loc>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.HeatCacheEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.HeatDrawer.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ProjectileEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ProjectileShooterEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.RayShooterEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.SequenceShooterEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ShooterAmmoEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ShooterChargeEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ShooterControlEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ShooterHeatEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ShooterModeEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ShooterRecoilEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ShooterReloadEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.ShooterSpreadEditor.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.VisualScripting.Setup.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.VisualScripting.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEditor.Shooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.Ammo.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.AmmoCache.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.AmmoCacheProxy.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.AmmoType.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseAmmoCache.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseHeatCache.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseMuzzleShooter.SpreadDistribution.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseMuzzleShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseMuzzleShooterPattern.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseShooterModifier-1.ModifierData.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseShooterModifier-1.PropertyData.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseShooterModifier-1.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters.html</loc>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BaseShooterModifier.html</loc>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.BeamFXControl.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.EventHooks.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.Heat.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.HeatCache.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.IAmmo.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.IAmmoTypeLinkable.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.IDamageShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.IHeat.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.IMuzzleShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.IProjectileEvents.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.MuzzleFXControl.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.Projectile.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ProjectileEventArgs.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ProjectileShooter.TerminalAction.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ProjectileShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ProxyShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.RayShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.SequenceShooter.StepShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.SequenceShooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterAmmo.CacheSource.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterAmmo.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterAmmoModifier.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterCharge.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterChargeModifier.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterConePattern.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterControl.FireType.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterControl.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterControlModifier.html</loc>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterDamageModifier.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterEventArgs.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterHeat.CacheSource.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterHeat.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterHeatModifier.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterMode.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterRecoil.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterRecoilModifier.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterReload.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterReloadModifier.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterSpread.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.ShooterSpreadModifier.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.SplashFXControl.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.TracerFXControl.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.BaseProjectileEventUnit.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChanged.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChangedMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeCharged.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeChargedMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeCharging.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeChargingMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeDecharged.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeDechargedMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeDecharging.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeDechargingMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeValueChanged.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnChargeValueChangedMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooled.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooledMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheated.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheatedMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChanged.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChangedMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnProjectileCollision.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnProjectileCollisionMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonated.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlBeginFire.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlBeginFireMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlEndFire.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlEndFireMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotBlocked.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotBlockedMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFired.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiredMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiring.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiringMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterFired.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterFiredMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterFiring.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterFiringMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterSpreadChanged.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.OnShooterSpreadChangedMessageListener.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.VisualScripting.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/ToolkitEngine.Shooter.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/api/index.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/index.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/license/LICENSE.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nrvllrgrs.github.io/toolkit.shooter/manual/index.html</loc>
-    <lastmod>2024-05-24T11:34:24+00:00</lastmod>
+    <lastmod>2024-06-04T08:58:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

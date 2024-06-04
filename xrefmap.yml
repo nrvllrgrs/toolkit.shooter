@@ -328,6 +328,56 @@ references:
   commentId: F:ToolkitEditor.Shooter.BaseShooterEditor.m_onFiring
   fullName: ToolkitEditor.Shooter.BaseShooterEditor.m_onFiring
   nameWithType: BaseShooterEditor.m_onFiring
+- uid: ToolkitEditor.Shooter.BaseShooterModifierEditor
+  name: BaseShooterModifierEditor
+  href: api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html
+  commentId: T:ToolkitEditor.Shooter.BaseShooterModifierEditor
+  fullName: ToolkitEditor.Shooter.BaseShooterModifierEditor
+  nameWithType: BaseShooterModifierEditor
+- uid: ToolkitEditor.Shooter.BaseShooterModifierEditor.DrawProperties
+  name: DrawProperties()
+  href: api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html#ToolkitEditor_Shooter_BaseShooterModifierEditor_DrawProperties
+  commentId: M:ToolkitEditor.Shooter.BaseShooterModifierEditor.DrawProperties
+  fullName: ToolkitEditor.Shooter.BaseShooterModifierEditor.DrawProperties()
+  nameWithType: BaseShooterModifierEditor.DrawProperties()
+- uid: ToolkitEditor.Shooter.BaseShooterModifierEditor.DrawProperties*
+  name: DrawProperties
+  href: api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html#ToolkitEditor_Shooter_BaseShooterModifierEditor_DrawProperties_
+  commentId: Overload:ToolkitEditor.Shooter.BaseShooterModifierEditor.DrawProperties
+  isSpec: "True"
+  fullName: ToolkitEditor.Shooter.BaseShooterModifierEditor.DrawProperties
+  nameWithType: BaseShooterModifierEditor.DrawProperties
+- uid: ToolkitEditor.Shooter.BaseShooterModifierEditor.OnEnable
+  name: OnEnable()
+  href: api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html#ToolkitEditor_Shooter_BaseShooterModifierEditor_OnEnable
+  commentId: M:ToolkitEditor.Shooter.BaseShooterModifierEditor.OnEnable
+  fullName: ToolkitEditor.Shooter.BaseShooterModifierEditor.OnEnable()
+  nameWithType: BaseShooterModifierEditor.OnEnable()
+- uid: ToolkitEditor.Shooter.BaseShooterModifierEditor.OnEnable*
+  name: OnEnable
+  href: api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html#ToolkitEditor_Shooter_BaseShooterModifierEditor_OnEnable_
+  commentId: Overload:ToolkitEditor.Shooter.BaseShooterModifierEditor.OnEnable
+  isSpec: "True"
+  fullName: ToolkitEditor.Shooter.BaseShooterModifierEditor.OnEnable
+  nameWithType: BaseShooterModifierEditor.OnEnable
+- uid: ToolkitEditor.Shooter.BaseShooterModifierEditor.m_filterKeys
+  name: m_filterKeys
+  href: api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html#ToolkitEditor_Shooter_BaseShooterModifierEditor_m_filterKeys
+  commentId: F:ToolkitEditor.Shooter.BaseShooterModifierEditor.m_filterKeys
+  fullName: ToolkitEditor.Shooter.BaseShooterModifierEditor.m_filterKeys
+  nameWithType: BaseShooterModifierEditor.m_filterKeys
+- uid: ToolkitEditor.Shooter.BaseShooterModifierEditor.m_filterValues
+  name: m_filterValues
+  href: api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html#ToolkitEditor_Shooter_BaseShooterModifierEditor_m_filterValues
+  commentId: F:ToolkitEditor.Shooter.BaseShooterModifierEditor.m_filterValues
+  fullName: ToolkitEditor.Shooter.BaseShooterModifierEditor.m_filterValues
+  nameWithType: BaseShooterModifierEditor.m_filterValues
+- uid: ToolkitEditor.Shooter.BaseShooterModifierEditor.m_shooterModifer
+  name: m_shooterModifer
+  href: api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html#ToolkitEditor_Shooter_BaseShooterModifierEditor_m_shooterModifer
+  commentId: F:ToolkitEditor.Shooter.BaseShooterModifierEditor.m_shooterModifer
+  fullName: ToolkitEditor.Shooter.BaseShooterModifierEditor.m_shooterModifer
+  nameWithType: BaseShooterModifierEditor.m_shooterModifer
 - uid: ToolkitEditor.Shooter.HeatCacheEditor
   name: HeatCacheEditor
   href: api/ToolkitEditor.Shooter.HeatCacheEditor.html
@@ -1265,12 +1315,24 @@ references:
   commentId: F:ToolkitEditor.Shooter.ShooterRecoilEditor.m_maxRecoil
   fullName: ToolkitEditor.Shooter.ShooterRecoilEditor.m_maxRecoil
   nameWithType: ShooterRecoilEditor.m_maxRecoil
+- uid: ToolkitEditor.Shooter.ShooterRecoilEditor.m_maxRecoilPerShot
+  name: m_maxRecoilPerShot
+  href: api/ToolkitEditor.Shooter.ShooterRecoilEditor.html#ToolkitEditor_Shooter_ShooterRecoilEditor_m_maxRecoilPerShot
+  commentId: F:ToolkitEditor.Shooter.ShooterRecoilEditor.m_maxRecoilPerShot
+  fullName: ToolkitEditor.Shooter.ShooterRecoilEditor.m_maxRecoilPerShot
+  nameWithType: ShooterRecoilEditor.m_maxRecoilPerShot
 - uid: ToolkitEditor.Shooter.ShooterRecoilEditor.m_pivot
   name: m_pivot
   href: api/ToolkitEditor.Shooter.ShooterRecoilEditor.html#ToolkitEditor_Shooter_ShooterRecoilEditor_m_pivot
   commentId: F:ToolkitEditor.Shooter.ShooterRecoilEditor.m_pivot
   fullName: ToolkitEditor.Shooter.ShooterRecoilEditor.m_pivot
   nameWithType: ShooterRecoilEditor.m_pivot
+- uid: ToolkitEditor.Shooter.ShooterRecoilEditor.m_recoilCurve
+  name: m_recoilCurve
+  href: api/ToolkitEditor.Shooter.ShooterRecoilEditor.html#ToolkitEditor_Shooter_ShooterRecoilEditor_m_recoilCurve
+  commentId: F:ToolkitEditor.Shooter.ShooterRecoilEditor.m_recoilCurve
+  fullName: ToolkitEditor.Shooter.ShooterRecoilEditor.m_recoilCurve
+  nameWithType: ShooterRecoilEditor.m_recoilCurve
 - uid: ToolkitEditor.Shooter.ShooterRecoilEditor.m_recoilPerShot
   name: m_recoilPerShot
   href: api/ToolkitEditor.Shooter.ShooterRecoilEditor.html#ToolkitEditor_Shooter_ShooterRecoilEditor_m_recoilPerShot
@@ -1301,6 +1363,12 @@ references:
   commentId: F:ToolkitEditor.Shooter.ShooterRecoilEditor.m_target
   fullName: ToolkitEditor.Shooter.ShooterRecoilEditor.m_target
   nameWithType: ShooterRecoilEditor.m_target
+- uid: ToolkitEditor.Shooter.ShooterRecoilEditor.m_variableRecoilPerShot
+  name: m_variableRecoilPerShot
+  href: api/ToolkitEditor.Shooter.ShooterRecoilEditor.html#ToolkitEditor_Shooter_ShooterRecoilEditor_m_variableRecoilPerShot
+  commentId: F:ToolkitEditor.Shooter.ShooterRecoilEditor.m_variableRecoilPerShot
+  fullName: ToolkitEditor.Shooter.ShooterRecoilEditor.m_variableRecoilPerShot
+  nameWithType: ShooterRecoilEditor.m_variableRecoilPerShot
 - uid: ToolkitEditor.Shooter.ShooterReloadEditor
   name: ShooterReloadEditor
   href: api/ToolkitEditor.Shooter.ShooterReloadEditor.html
@@ -2234,6 +2302,24 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.BaseShooter.onFiring
   nameWithType: BaseShooter.onFiring
+- uid: ToolkitEngine.Shooter.BaseShooterModifier
+  name: BaseShooterModifier
+  href: api/ToolkitEngine.Shooter.BaseShooterModifier.html
+  commentId: T:ToolkitEngine.Shooter.BaseShooterModifier
+  fullName: ToolkitEngine.Shooter.BaseShooterModifier
+  nameWithType: BaseShooterModifier
+- uid: ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters
+  name: BaseShooterModifier.ModifiablePropertyFilters
+  href: api/ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters.html
+  commentId: T:ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters
+  fullName: ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters
+  nameWithType: BaseShooterModifier.ModifiablePropertyFilters
+- uid: ToolkitEngine.Shooter.BaseShooterModifier.m_filters
+  name: m_filters
+  href: api/ToolkitEngine.Shooter.BaseShooterModifier.html#ToolkitEngine_Shooter_BaseShooterModifier_m_filters
+  commentId: F:ToolkitEngine.Shooter.BaseShooterModifier.m_filters
+  fullName: ToolkitEngine.Shooter.BaseShooterModifier.m_filters
+  nameWithType: BaseShooterModifier.m_filters
 - uid: ToolkitEngine.Shooter.BaseShooterModifier`1
   name: BaseShooterModifier<T>
   href: api/ToolkitEngine.Shooter.BaseShooterModifier-1.html
@@ -2372,23 +2458,6 @@ references:
   fullName.vb: ToolkitEngine.Shooter.BaseShooterModifier(Of T).SetTarget
   nameWithType: BaseShooterModifier<T>.SetTarget
   nameWithType.vb: BaseShooterModifier(Of T).SetTarget
-- uid: ToolkitEngine.Shooter.BaseShooterModifier`1.propertyNames
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.BaseShooterModifier-1.html#ToolkitEngine_Shooter_BaseShooterModifier_1_propertyNames
-  commentId: P:ToolkitEngine.Shooter.BaseShooterModifier`1.propertyNames
-  fullName: ToolkitEngine.Shooter.BaseShooterModifier<T>.propertyNames
-  fullName.vb: ToolkitEngine.Shooter.BaseShooterModifier(Of T).propertyNames
-  nameWithType: BaseShooterModifier<T>.propertyNames
-  nameWithType.vb: BaseShooterModifier(Of T).propertyNames
-- uid: ToolkitEngine.Shooter.BaseShooterModifier`1.propertyNames*
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.BaseShooterModifier-1.html#ToolkitEngine_Shooter_BaseShooterModifier_1_propertyNames_
-  commentId: Overload:ToolkitEngine.Shooter.BaseShooterModifier`1.propertyNames
-  isSpec: "True"
-  fullName: ToolkitEngine.Shooter.BaseShooterModifier<T>.propertyNames
-  fullName.vb: ToolkitEngine.Shooter.BaseShooterModifier(Of T).propertyNames
-  nameWithType: BaseShooterModifier<T>.propertyNames
-  nameWithType.vb: BaseShooterModifier(Of T).propertyNames
 - uid: ToolkitEngine.Shooter.BaseShooterModifier`1.target
   name: target
   href: api/ToolkitEngine.Shooter.BaseShooterModifier-1.html#ToolkitEngine_Shooter_BaseShooterModifier_1_target
@@ -4066,6 +4135,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ShooterAmmo.count
   nameWithType: ShooterAmmo.count
+- uid: ToolkitEngine.Shooter.ShooterAmmo.isEmpty
+  name: isEmpty
+  href: api/ToolkitEngine.Shooter.ShooterAmmo.html#ToolkitEngine_Shooter_ShooterAmmo_isEmpty
+  commentId: P:ToolkitEngine.Shooter.ShooterAmmo.isEmpty
+  fullName: ToolkitEngine.Shooter.ShooterAmmo.isEmpty
+  nameWithType: ShooterAmmo.isEmpty
+- uid: ToolkitEngine.Shooter.ShooterAmmo.isEmpty*
+  name: isEmpty
+  href: api/ToolkitEngine.Shooter.ShooterAmmo.html#ToolkitEngine_Shooter_ShooterAmmo_isEmpty_
+  commentId: Overload:ToolkitEngine.Shooter.ShooterAmmo.isEmpty
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ShooterAmmo.isEmpty
+  nameWithType: ShooterAmmo.isEmpty
 - uid: ToolkitEngine.Shooter.ShooterAmmo.normalizedCount
   name: normalizedCount
   href: api/ToolkitEngine.Shooter.ShooterAmmo.html#ToolkitEngine_Shooter_ShooterAmmo_normalizedCount
@@ -4124,19 +4206,12 @@ references:
   commentId: T:ToolkitEngine.Shooter.ShooterAmmoModifier
   fullName: ToolkitEngine.Shooter.ShooterAmmoModifier
   nameWithType: ShooterAmmoModifier
-- uid: ToolkitEngine.Shooter.ShooterAmmoModifier.propertyNames
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterAmmoModifier.html#ToolkitEngine_Shooter_ShooterAmmoModifier_propertyNames
-  commentId: P:ToolkitEngine.Shooter.ShooterAmmoModifier.propertyNames
-  fullName: ToolkitEngine.Shooter.ShooterAmmoModifier.propertyNames
-  nameWithType: ShooterAmmoModifier.propertyNames
-- uid: ToolkitEngine.Shooter.ShooterAmmoModifier.propertyNames*
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterAmmoModifier.html#ToolkitEngine_Shooter_ShooterAmmoModifier_propertyNames_
-  commentId: Overload:ToolkitEngine.Shooter.ShooterAmmoModifier.propertyNames
-  isSpec: "True"
-  fullName: ToolkitEngine.Shooter.ShooterAmmoModifier.propertyNames
-  nameWithType: ShooterAmmoModifier.propertyNames
+- uid: ToolkitEngine.Shooter.ShooterAmmoModifier.CAPACITY_KEY
+  name: CAPACITY_KEY
+  href: api/ToolkitEngine.Shooter.ShooterAmmoModifier.html#ToolkitEngine_Shooter_ShooterAmmoModifier_CAPACITY_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterAmmoModifier.CAPACITY_KEY
+  fullName: ToolkitEngine.Shooter.ShooterAmmoModifier.CAPACITY_KEY
+  nameWithType: ShooterAmmoModifier.CAPACITY_KEY
 - uid: ToolkitEngine.Shooter.ShooterCharge
   name: ShooterCharge
   href: api/ToolkitEngine.Shooter.ShooterCharge.html
@@ -4292,19 +4367,12 @@ references:
   commentId: T:ToolkitEngine.Shooter.ShooterChargeModifier
   fullName: ToolkitEngine.Shooter.ShooterChargeModifier
   nameWithType: ShooterChargeModifier
-- uid: ToolkitEngine.Shooter.ShooterChargeModifier.propertyNames
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterChargeModifier.html#ToolkitEngine_Shooter_ShooterChargeModifier_propertyNames
-  commentId: P:ToolkitEngine.Shooter.ShooterChargeModifier.propertyNames
-  fullName: ToolkitEngine.Shooter.ShooterChargeModifier.propertyNames
-  nameWithType: ShooterChargeModifier.propertyNames
-- uid: ToolkitEngine.Shooter.ShooterChargeModifier.propertyNames*
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterChargeModifier.html#ToolkitEngine_Shooter_ShooterChargeModifier_propertyNames_
-  commentId: Overload:ToolkitEngine.Shooter.ShooterChargeModifier.propertyNames
-  isSpec: "True"
-  fullName: ToolkitEngine.Shooter.ShooterChargeModifier.propertyNames
-  nameWithType: ShooterChargeModifier.propertyNames
+- uid: ToolkitEngine.Shooter.ShooterChargeModifier.MAX_CHARGE_KEY
+  name: MAX_CHARGE_KEY
+  href: api/ToolkitEngine.Shooter.ShooterChargeModifier.html#ToolkitEngine_Shooter_ShooterChargeModifier_MAX_CHARGE_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterChargeModifier.MAX_CHARGE_KEY
+  fullName: ToolkitEngine.Shooter.ShooterChargeModifier.MAX_CHARGE_KEY
+  nameWithType: ShooterChargeModifier.MAX_CHARGE_KEY
 - uid: ToolkitEngine.Shooter.ShooterConePattern
   name: ShooterConePattern
   href: api/ToolkitEngine.Shooter.ShooterConePattern.html
@@ -4633,6 +4701,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ShooterControl.shooters
   nameWithType: ShooterControl.shooters
+- uid: ToolkitEngine.Shooter.ShooterControl.shotsPerBurst
+  name: shotsPerBurst
+  href: api/ToolkitEngine.Shooter.ShooterControl.html#ToolkitEngine_Shooter_ShooterControl_shotsPerBurst
+  commentId: P:ToolkitEngine.Shooter.ShooterControl.shotsPerBurst
+  fullName: ToolkitEngine.Shooter.ShooterControl.shotsPerBurst
+  nameWithType: ShooterControl.shotsPerBurst
+- uid: ToolkitEngine.Shooter.ShooterControl.shotsPerBurst*
+  name: shotsPerBurst
+  href: api/ToolkitEngine.Shooter.ShooterControl.html#ToolkitEngine_Shooter_ShooterControl_shotsPerBurst_
+  commentId: Overload:ToolkitEngine.Shooter.ShooterControl.shotsPerBurst
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ShooterControl.shotsPerBurst
+  nameWithType: ShooterControl.shotsPerBurst
 - uid: ToolkitEngine.Shooter.ShooterControl.timeBetweenBursts
   name: timeBetweenBursts
   href: api/ToolkitEngine.Shooter.ShooterControl.html#ToolkitEngine_Shooter_ShooterControl_timeBetweenBursts
@@ -4659,6 +4740,30 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ShooterControl.timeBetweenShots
   nameWithType: ShooterControl.timeBetweenShots
+- uid: ToolkitEngine.Shooter.ShooterControlModifier
+  name: ShooterControlModifier
+  href: api/ToolkitEngine.Shooter.ShooterControlModifier.html
+  commentId: T:ToolkitEngine.Shooter.ShooterControlModifier
+  fullName: ToolkitEngine.Shooter.ShooterControlModifier
+  nameWithType: ShooterControlModifier
+- uid: ToolkitEngine.Shooter.ShooterControlModifier.SHOTS_PER_BURST_KEY
+  name: SHOTS_PER_BURST_KEY
+  href: api/ToolkitEngine.Shooter.ShooterControlModifier.html#ToolkitEngine_Shooter_ShooterControlModifier_SHOTS_PER_BURST_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterControlModifier.SHOTS_PER_BURST_KEY
+  fullName: ToolkitEngine.Shooter.ShooterControlModifier.SHOTS_PER_BURST_KEY
+  nameWithType: ShooterControlModifier.SHOTS_PER_BURST_KEY
+- uid: ToolkitEngine.Shooter.ShooterControlModifier.TIME_BETWEEN_BURSTS_KEY
+  name: TIME_BETWEEN_BURSTS_KEY
+  href: api/ToolkitEngine.Shooter.ShooterControlModifier.html#ToolkitEngine_Shooter_ShooterControlModifier_TIME_BETWEEN_BURSTS_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterControlModifier.TIME_BETWEEN_BURSTS_KEY
+  fullName: ToolkitEngine.Shooter.ShooterControlModifier.TIME_BETWEEN_BURSTS_KEY
+  nameWithType: ShooterControlModifier.TIME_BETWEEN_BURSTS_KEY
+- uid: ToolkitEngine.Shooter.ShooterControlModifier.TIME_BETWEEN_SHOTS_KEY
+  name: TIME_BETWEEN_SHOTS_KEY
+  href: api/ToolkitEngine.Shooter.ShooterControlModifier.html#ToolkitEngine_Shooter_ShooterControlModifier_TIME_BETWEEN_SHOTS_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterControlModifier.TIME_BETWEEN_SHOTS_KEY
+  fullName: ToolkitEngine.Shooter.ShooterControlModifier.TIME_BETWEEN_SHOTS_KEY
+  nameWithType: ShooterControlModifier.TIME_BETWEEN_SHOTS_KEY
 - uid: ToolkitEngine.Shooter.ShooterDamageModifier
   name: ShooterDamageModifier
   href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html
@@ -4687,6 +4792,48 @@ references:
   commentId: F:ToolkitEngine.Shooter.ShooterDamageModifier.IMPACT_DAMAGE_KEY
   fullName: ToolkitEngine.Shooter.ShooterDamageModifier.IMPACT_DAMAGE_KEY
   nameWithType: ShooterDamageModifier.IMPACT_DAMAGE_KEY
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.ModifyFactor(System.String,System.Single)
+  name: ModifyFactor(string, float)
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_ModifyFactor_System_String_System_Single_
+  commentId: M:ToolkitEngine.Shooter.ShooterDamageModifier.ModifyFactor(System.String,System.Single)
+  name.vb: ModifyFactor(String, Single)
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.ModifyFactor(string, float)
+  fullName.vb: ToolkitEngine.Shooter.ShooterDamageModifier.ModifyFactor(String, Single)
+  nameWithType: ShooterDamageModifier.ModifyFactor(string, float)
+  nameWithType.vb: ShooterDamageModifier.ModifyFactor(String, Single)
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.ModifyFactor*
+  name: ModifyFactor
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_ModifyFactor_
+  commentId: Overload:ToolkitEngine.Shooter.ShooterDamageModifier.ModifyFactor
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.ModifyFactor
+  nameWithType: ShooterDamageModifier.ModifyFactor
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.OverrideImpactDamage(ImpactDamage)
+  name: OverrideImpactDamage(ImpactDamage)
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_OverrideImpactDamage_ImpactDamage_
+  commentId: M:ToolkitEngine.Shooter.ShooterDamageModifier.OverrideImpactDamage(ImpactDamage)
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.OverrideImpactDamage(ImpactDamage)
+  nameWithType: ShooterDamageModifier.OverrideImpactDamage(ImpactDamage)
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.OverrideImpactDamage*
+  name: OverrideImpactDamage
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_OverrideImpactDamage_
+  commentId: Overload:ToolkitEngine.Shooter.ShooterDamageModifier.OverrideImpactDamage
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.OverrideImpactDamage
+  nameWithType: ShooterDamageModifier.OverrideImpactDamage
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.OverrideSplashDamage(SplashDamage)
+  name: OverrideSplashDamage(SplashDamage)
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_OverrideSplashDamage_SplashDamage_
+  commentId: M:ToolkitEngine.Shooter.ShooterDamageModifier.OverrideSplashDamage(SplashDamage)
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.OverrideSplashDamage(SplashDamage)
+  nameWithType: ShooterDamageModifier.OverrideSplashDamage(SplashDamage)
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.OverrideSplashDamage*
+  name: OverrideSplashDamage
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_OverrideSplashDamage_
+  commentId: Overload:ToolkitEngine.Shooter.ShooterDamageModifier.OverrideSplashDamage
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.OverrideSplashDamage
+  nameWithType: ShooterDamageModifier.OverrideSplashDamage
 - uid: ToolkitEngine.Shooter.ShooterDamageModifier.RemoveBonus(System.String,Damage)
   name: RemoveBonus(string, Damage)
   href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_RemoveBonus_System_String_Damage_
@@ -4703,6 +4850,32 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ShooterDamageModifier.RemoveBonus
   nameWithType: ShooterDamageModifier.RemoveBonus
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.RestoreImpactDamage
+  name: RestoreImpactDamage()
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_RestoreImpactDamage
+  commentId: M:ToolkitEngine.Shooter.ShooterDamageModifier.RestoreImpactDamage
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.RestoreImpactDamage()
+  nameWithType: ShooterDamageModifier.RestoreImpactDamage()
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.RestoreImpactDamage*
+  name: RestoreImpactDamage
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_RestoreImpactDamage_
+  commentId: Overload:ToolkitEngine.Shooter.ShooterDamageModifier.RestoreImpactDamage
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.RestoreImpactDamage
+  nameWithType: ShooterDamageModifier.RestoreImpactDamage
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.RestoreSplashDamage
+  name: RestoreSplashDamage()
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_RestoreSplashDamage
+  commentId: M:ToolkitEngine.Shooter.ShooterDamageModifier.RestoreSplashDamage
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.RestoreSplashDamage()
+  nameWithType: ShooterDamageModifier.RestoreSplashDamage()
+- uid: ToolkitEngine.Shooter.ShooterDamageModifier.RestoreSplashDamage*
+  name: RestoreSplashDamage
+  href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_RestoreSplashDamage_
+  commentId: Overload:ToolkitEngine.Shooter.ShooterDamageModifier.RestoreSplashDamage
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ShooterDamageModifier.RestoreSplashDamage
+  nameWithType: ShooterDamageModifier.RestoreSplashDamage
 - uid: ToolkitEngine.Shooter.ShooterDamageModifier.SPLASH_DAMAGE_KEY
   name: SPLASH_DAMAGE_KEY
   href: api/ToolkitEngine.Shooter.ShooterDamageModifier.html#ToolkitEngine_Shooter_ShooterDamageModifier_SPLASH_DAMAGE_KEY
@@ -5052,19 +5225,12 @@ references:
   commentId: T:ToolkitEngine.Shooter.ShooterHeatModifier
   fullName: ToolkitEngine.Shooter.ShooterHeatModifier
   nameWithType: ShooterHeatModifier
-- uid: ToolkitEngine.Shooter.ShooterHeatModifier.propertyNames
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterHeatModifier.html#ToolkitEngine_Shooter_ShooterHeatModifier_propertyNames
-  commentId: P:ToolkitEngine.Shooter.ShooterHeatModifier.propertyNames
-  fullName: ToolkitEngine.Shooter.ShooterHeatModifier.propertyNames
-  nameWithType: ShooterHeatModifier.propertyNames
-- uid: ToolkitEngine.Shooter.ShooterHeatModifier.propertyNames*
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterHeatModifier.html#ToolkitEngine_Shooter_ShooterHeatModifier_propertyNames_
-  commentId: Overload:ToolkitEngine.Shooter.ShooterHeatModifier.propertyNames
-  isSpec: "True"
-  fullName: ToolkitEngine.Shooter.ShooterHeatModifier.propertyNames
-  nameWithType: ShooterHeatModifier.propertyNames
+- uid: ToolkitEngine.Shooter.ShooterHeatModifier.MAXIMUM_KEY
+  name: MAXIMUM_KEY
+  href: api/ToolkitEngine.Shooter.ShooterHeatModifier.html#ToolkitEngine_Shooter_ShooterHeatModifier_MAXIMUM_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterHeatModifier.MAXIMUM_KEY
+  fullName: ToolkitEngine.Shooter.ShooterHeatModifier.MAXIMUM_KEY
+  nameWithType: ShooterHeatModifier.MAXIMUM_KEY
 - uid: ToolkitEngine.Shooter.ShooterMode
   name: ShooterMode
   href: api/ToolkitEngine.Shooter.ShooterMode.html
@@ -5267,6 +5433,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ShooterRecoil.exceedsLimit
   nameWithType: ShooterRecoil.exceedsLimit
+- uid: ToolkitEngine.Shooter.ShooterRecoil.maxRecoil
+  name: maxRecoil
+  href: api/ToolkitEngine.Shooter.ShooterRecoil.html#ToolkitEngine_Shooter_ShooterRecoil_maxRecoil
+  commentId: P:ToolkitEngine.Shooter.ShooterRecoil.maxRecoil
+  fullName: ToolkitEngine.Shooter.ShooterRecoil.maxRecoil
+  nameWithType: ShooterRecoil.maxRecoil
+- uid: ToolkitEngine.Shooter.ShooterRecoil.maxRecoil*
+  name: maxRecoil
+  href: api/ToolkitEngine.Shooter.ShooterRecoil.html#ToolkitEngine_Shooter_ShooterRecoil_maxRecoil_
+  commentId: Overload:ToolkitEngine.Shooter.ShooterRecoil.maxRecoil
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ShooterRecoil.maxRecoil
+  nameWithType: ShooterRecoil.maxRecoil
 - uid: ToolkitEngine.Shooter.ShooterRecoil.recoilPerShot
   name: recoilPerShot
   href: api/ToolkitEngine.Shooter.ShooterRecoil.html#ToolkitEngine_Shooter_ShooterRecoil_recoilPerShot
@@ -5312,19 +5491,24 @@ references:
   commentId: T:ToolkitEngine.Shooter.ShooterRecoilModifier
   fullName: ToolkitEngine.Shooter.ShooterRecoilModifier
   nameWithType: ShooterRecoilModifier
-- uid: ToolkitEngine.Shooter.ShooterRecoilModifier.propertyNames
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterRecoilModifier.html#ToolkitEngine_Shooter_ShooterRecoilModifier_propertyNames
-  commentId: P:ToolkitEngine.Shooter.ShooterRecoilModifier.propertyNames
-  fullName: ToolkitEngine.Shooter.ShooterRecoilModifier.propertyNames
-  nameWithType: ShooterRecoilModifier.propertyNames
-- uid: ToolkitEngine.Shooter.ShooterRecoilModifier.propertyNames*
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterRecoilModifier.html#ToolkitEngine_Shooter_ShooterRecoilModifier_propertyNames_
-  commentId: Overload:ToolkitEngine.Shooter.ShooterRecoilModifier.propertyNames
-  isSpec: "True"
-  fullName: ToolkitEngine.Shooter.ShooterRecoilModifier.propertyNames
-  nameWithType: ShooterRecoilModifier.propertyNames
+- uid: ToolkitEngine.Shooter.ShooterRecoilModifier.RECOIL_PER_SHOT_KEY
+  name: RECOIL_PER_SHOT_KEY
+  href: api/ToolkitEngine.Shooter.ShooterRecoilModifier.html#ToolkitEngine_Shooter_ShooterRecoilModifier_RECOIL_PER_SHOT_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterRecoilModifier.RECOIL_PER_SHOT_KEY
+  fullName: ToolkitEngine.Shooter.ShooterRecoilModifier.RECOIL_PER_SHOT_KEY
+  nameWithType: ShooterRecoilModifier.RECOIL_PER_SHOT_KEY
+- uid: ToolkitEngine.Shooter.ShooterRecoilModifier.RECOVERY_DELAY_KEY
+  name: RECOVERY_DELAY_KEY
+  href: api/ToolkitEngine.Shooter.ShooterRecoilModifier.html#ToolkitEngine_Shooter_ShooterRecoilModifier_RECOVERY_DELAY_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterRecoilModifier.RECOVERY_DELAY_KEY
+  fullName: ToolkitEngine.Shooter.ShooterRecoilModifier.RECOVERY_DELAY_KEY
+  nameWithType: ShooterRecoilModifier.RECOVERY_DELAY_KEY
+- uid: ToolkitEngine.Shooter.ShooterRecoilModifier.RECOVERY_RATE_KEY
+  name: RECOVERY_RATE_KEY
+  href: api/ToolkitEngine.Shooter.ShooterRecoilModifier.html#ToolkitEngine_Shooter_ShooterRecoilModifier_RECOVERY_RATE_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterRecoilModifier.RECOVERY_RATE_KEY
+  fullName: ToolkitEngine.Shooter.ShooterRecoilModifier.RECOVERY_RATE_KEY
+  nameWithType: ShooterRecoilModifier.RECOVERY_RATE_KEY
 - uid: ToolkitEngine.Shooter.ShooterReload
   name: ShooterReload
   href: api/ToolkitEngine.Shooter.ShooterReload.html
@@ -5425,6 +5609,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ShooterReload.carryInfinite
   nameWithType: ShooterReload.carryInfinite
+- uid: ToolkitEngine.Shooter.ShooterReload.count
+  name: count
+  href: api/ToolkitEngine.Shooter.ShooterReload.html#ToolkitEngine_Shooter_ShooterReload_count
+  commentId: P:ToolkitEngine.Shooter.ShooterReload.count
+  fullName: ToolkitEngine.Shooter.ShooterReload.count
+  nameWithType: ShooterReload.count
+- uid: ToolkitEngine.Shooter.ShooterReload.count*
+  name: count
+  href: api/ToolkitEngine.Shooter.ShooterReload.html#ToolkitEngine_Shooter_ShooterReload_count_
+  commentId: Overload:ToolkitEngine.Shooter.ShooterReload.count
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ShooterReload.count
+  nameWithType: ShooterReload.count
 - uid: ToolkitEngine.Shooter.ShooterReload.delay
   name: delay
   href: api/ToolkitEngine.Shooter.ShooterReload.html#ToolkitEngine_Shooter_ShooterReload_delay
@@ -5509,19 +5706,24 @@ references:
   commentId: T:ToolkitEngine.Shooter.ShooterReloadModifier
   fullName: ToolkitEngine.Shooter.ShooterReloadModifier
   nameWithType: ShooterReloadModifier
-- uid: ToolkitEngine.Shooter.ShooterReloadModifier.propertyNames
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterReloadModifier.html#ToolkitEngine_Shooter_ShooterReloadModifier_propertyNames
-  commentId: P:ToolkitEngine.Shooter.ShooterReloadModifier.propertyNames
-  fullName: ToolkitEngine.Shooter.ShooterReloadModifier.propertyNames
-  nameWithType: ShooterReloadModifier.propertyNames
-- uid: ToolkitEngine.Shooter.ShooterReloadModifier.propertyNames*
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterReloadModifier.html#ToolkitEngine_Shooter_ShooterReloadModifier_propertyNames_
-  commentId: Overload:ToolkitEngine.Shooter.ShooterReloadModifier.propertyNames
-  isSpec: "True"
-  fullName: ToolkitEngine.Shooter.ShooterReloadModifier.propertyNames
-  nameWithType: ShooterReloadModifier.propertyNames
+- uid: ToolkitEngine.Shooter.ShooterReloadModifier.COUNT_KEY
+  name: COUNT_KEY
+  href: api/ToolkitEngine.Shooter.ShooterReloadModifier.html#ToolkitEngine_Shooter_ShooterReloadModifier_COUNT_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterReloadModifier.COUNT_KEY
+  fullName: ToolkitEngine.Shooter.ShooterReloadModifier.COUNT_KEY
+  nameWithType: ShooterReloadModifier.COUNT_KEY
+- uid: ToolkitEngine.Shooter.ShooterReloadModifier.DELAY_KEY
+  name: DELAY_KEY
+  href: api/ToolkitEngine.Shooter.ShooterReloadModifier.html#ToolkitEngine_Shooter_ShooterReloadModifier_DELAY_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterReloadModifier.DELAY_KEY
+  fullName: ToolkitEngine.Shooter.ShooterReloadModifier.DELAY_KEY
+  nameWithType: ShooterReloadModifier.DELAY_KEY
+- uid: ToolkitEngine.Shooter.ShooterReloadModifier.SUBSEQUENT_DELAY_KEY
+  name: SUBSEQUENT_DELAY_KEY
+  href: api/ToolkitEngine.Shooter.ShooterReloadModifier.html#ToolkitEngine_Shooter_ShooterReloadModifier_SUBSEQUENT_DELAY_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterReloadModifier.SUBSEQUENT_DELAY_KEY
+  fullName: ToolkitEngine.Shooter.ShooterReloadModifier.SUBSEQUENT_DELAY_KEY
+  nameWithType: ShooterReloadModifier.SUBSEQUENT_DELAY_KEY
 - uid: ToolkitEngine.Shooter.ShooterSpread
   name: ShooterSpread
   href: api/ToolkitEngine.Shooter.ShooterSpread.html
@@ -5612,19 +5814,36 @@ references:
   commentId: T:ToolkitEngine.Shooter.ShooterSpreadModifier
   fullName: ToolkitEngine.Shooter.ShooterSpreadModifier
   nameWithType: ShooterSpreadModifier
-- uid: ToolkitEngine.Shooter.ShooterSpreadModifier.propertyNames
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterSpreadModifier.html#ToolkitEngine_Shooter_ShooterSpreadModifier_propertyNames
-  commentId: P:ToolkitEngine.Shooter.ShooterSpreadModifier.propertyNames
-  fullName: ToolkitEngine.Shooter.ShooterSpreadModifier.propertyNames
-  nameWithType: ShooterSpreadModifier.propertyNames
-- uid: ToolkitEngine.Shooter.ShooterSpreadModifier.propertyNames*
-  name: propertyNames
-  href: api/ToolkitEngine.Shooter.ShooterSpreadModifier.html#ToolkitEngine_Shooter_ShooterSpreadModifier_propertyNames_
-  commentId: Overload:ToolkitEngine.Shooter.ShooterSpreadModifier.propertyNames
-  isSpec: "True"
-  fullName: ToolkitEngine.Shooter.ShooterSpreadModifier.propertyNames
-  nameWithType: ShooterSpreadModifier.propertyNames
+- uid: ToolkitEngine.Shooter.ShooterSpreadModifier.MAX_SPREAD_KEY
+  name: MAX_SPREAD_KEY
+  href: api/ToolkitEngine.Shooter.ShooterSpreadModifier.html#ToolkitEngine_Shooter_ShooterSpreadModifier_MAX_SPREAD_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterSpreadModifier.MAX_SPREAD_KEY
+  fullName: ToolkitEngine.Shooter.ShooterSpreadModifier.MAX_SPREAD_KEY
+  nameWithType: ShooterSpreadModifier.MAX_SPREAD_KEY
+- uid: ToolkitEngine.Shooter.ShooterSpreadModifier.MIN_SPREAD_KEY
+  name: MIN_SPREAD_KEY
+  href: api/ToolkitEngine.Shooter.ShooterSpreadModifier.html#ToolkitEngine_Shooter_ShooterSpreadModifier_MIN_SPREAD_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterSpreadModifier.MIN_SPREAD_KEY
+  fullName: ToolkitEngine.Shooter.ShooterSpreadModifier.MIN_SPREAD_KEY
+  nameWithType: ShooterSpreadModifier.MIN_SPREAD_KEY
+- uid: ToolkitEngine.Shooter.ShooterSpreadModifier.RECOVERY_DELAY_KEY
+  name: RECOVERY_DELAY_KEY
+  href: api/ToolkitEngine.Shooter.ShooterSpreadModifier.html#ToolkitEngine_Shooter_ShooterSpreadModifier_RECOVERY_DELAY_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterSpreadModifier.RECOVERY_DELAY_KEY
+  fullName: ToolkitEngine.Shooter.ShooterSpreadModifier.RECOVERY_DELAY_KEY
+  nameWithType: ShooterSpreadModifier.RECOVERY_DELAY_KEY
+- uid: ToolkitEngine.Shooter.ShooterSpreadModifier.RECOVERY_RATE_KEY
+  name: RECOVERY_RATE_KEY
+  href: api/ToolkitEngine.Shooter.ShooterSpreadModifier.html#ToolkitEngine_Shooter_ShooterSpreadModifier_RECOVERY_RATE_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterSpreadModifier.RECOVERY_RATE_KEY
+  fullName: ToolkitEngine.Shooter.ShooterSpreadModifier.RECOVERY_RATE_KEY
+  nameWithType: ShooterSpreadModifier.RECOVERY_RATE_KEY
+- uid: ToolkitEngine.Shooter.ShooterSpreadModifier.SPREAD_PER_SHOT_KEY
+  name: SPREAD_PER_SHOT_KEY
+  href: api/ToolkitEngine.Shooter.ShooterSpreadModifier.html#ToolkitEngine_Shooter_ShooterSpreadModifier_SPREAD_PER_SHOT_KEY
+  commentId: F:ToolkitEngine.Shooter.ShooterSpreadModifier.SPREAD_PER_SHOT_KEY
+  fullName: ToolkitEngine.Shooter.ShooterSpreadModifier.SPREAD_PER_SHOT_KEY
+  nameWithType: ShooterSpreadModifier.SPREAD_PER_SHOT_KEY
 - uid: ToolkitEngine.Shooter.SplashFXControl
   name: SplashFXControl
   href: api/ToolkitEngine.Shooter.SplashFXControl.html
