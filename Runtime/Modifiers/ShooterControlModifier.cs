@@ -6,7 +6,7 @@ namespace ToolkitEngine.Shooter
 		public const string TIME_BETWEEN_BURSTS_KEY = "timeBetweenBursts";
 		public const string SHOTS_PER_BURST_KEY = "shotsPerBurst";
 
-		internal override string[] propertyNames => new[]
+		protected override string[] propertyNames => new[]
 		{
 			TIME_BETWEEN_SHOTS_KEY,
 			TIME_BETWEEN_BURSTS_KEY,

@@ -6,7 +6,7 @@ namespace ToolkitEngine.Shooter
 		public const string RECOVERY_DELAY_KEY = "recoveryDelay";
 		public const string RECOVERY_RATE_KEY = "recoveryRate";
 
-		internal override string[] propertyNames => new[]
+		protected override string[] propertyNames => new[]
 		{
 			RECOIL_PER_SHOT_KEY,
 			RECOVERY_DELAY_KEY,

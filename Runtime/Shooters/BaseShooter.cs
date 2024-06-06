@@ -44,6 +44,9 @@ namespace ToolkitEngine.Shooter
 		protected UnityEvent<ShooterEventArgs> m_onFired;
 
 		[SerializeField]
+		protected UnityEvent<HealthEventArgs> m_onDamageDealing;
+
+		[SerializeField]
 		protected UnityEvent<HealthEventArgs> m_onDamageDealt;
 
 		#endregion
@@ -52,6 +55,7 @@ namespace ToolkitEngine.Shooter
 
 		public UnityEvent<ShooterEventArgs> onFiring => m_onFiring;
 		public UnityEvent<ShooterEventArgs> onFired => m_onFired;
+		public UnityEvent<HealthEventArgs> onDamageDealing => m_onDamageDealing;
 		public UnityEvent<HealthEventArgs> onDamageDealt => m_onDamageDealt;
 
 		#endregion

@@ -15,7 +15,7 @@ namespace ToolkitEngine.Shooter
 
 		#region Properties
 
-		internal abstract string[] propertyNames { get; }
+		protected abstract string[] propertyNames { get; }
 
 		#endregion
 

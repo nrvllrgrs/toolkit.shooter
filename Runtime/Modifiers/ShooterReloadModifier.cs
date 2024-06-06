@@ -6,7 +6,7 @@ namespace ToolkitEngine.Shooter
 		public const string DELAY_KEY = "delay";
 		public const string SUBSEQUENT_DELAY_KEY = "subsequentDelay";
 
-		internal override string[] propertyNames => new[]
+		protected override string[] propertyNames => new[]
 		{
 			COUNT_KEY,
 			DELAY_KEY,

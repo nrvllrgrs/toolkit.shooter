@@ -10,6 +10,7 @@ namespace ToolkitEditor.Shooter
 
 		protected SerializedProperty m_onFiring;
 		protected SerializedProperty m_onFired;
+		protected SerializedProperty m_onDamageDealing;
 		protected SerializedProperty m_onDamageDealt;
 
 		#endregion
@@ -20,6 +21,7 @@ namespace ToolkitEditor.Shooter
 		{
 			m_onFiring = serializedObject.FindProperty(nameof(m_onFiring));
 			m_onFired = serializedObject.FindProperty(nameof(m_onFired));
+			m_onDamageDealing = serializedObject.FindProperty(nameof(m_onDamageDealing));
 			m_onDamageDealt = serializedObject.FindProperty(nameof(m_onDamageDealt));
 		}
 
@@ -29,6 +31,7 @@ namespace ToolkitEditor.Shooter
 			{
 				EditorGUILayout.PropertyField(m_onFiring);
 				EditorGUILayout.PropertyField(m_onFired);
+				EditorGUILayout.PropertyField(m_onDamageDealing);
 				EditorGUILayout.PropertyField(m_onDamageDealt);
 
 				DrawNestedEvents();

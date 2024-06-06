@@ -79,7 +79,11 @@ namespace ToolkitEngine.Shooter
 				m_shooterMap[IMPACT_DAMAGE_KEY].Add(damageShooter.impactDamage);
 				AddAllBonuses(IMPACT_DAMAGE_KEY, damageShooter.impactDamage);
 
-				if (m_overrideImpactDamage != null)
+				if (m_overrideImpactDamage == null)
+				{
+					UpdateImpactDamage(true);
+				}
+				else
 				{
 					CopyImpactDamage(damageShooter.impactDamage, m_overrideImpactDamage);
 				}
@@ -87,7 +91,11 @@ namespace ToolkitEngine.Shooter
 				m_shooterMap[SPLASH_DAMAGE_KEY].Add(damageShooter.splashDamage);
 				AddAllBonuses(SPLASH_DAMAGE_KEY, damageShooter.splashDamage);
 
-				if (m_overrideSplashDamage != null)
+				if (m_overrideSplashDamage == null)
+				{
+					UpdateSplashDamage(true);
+				}
+				else
 				{
 					CopySplashDamage(damageShooter.splashDamage, m_overrideSplashDamage);
 				}
@@ -104,14 +112,22 @@ namespace ToolkitEngine.Shooter
 				if (shooter is IDamageShooter damageShooter)
 				{
 					RemoveAllBonuses(IMPACT_DAMAGE_KEY, damageShooter.impactDamage);
-					if (m_overrideImpactDamage != null && m_impactDamageMap.TryGetValue(damageShooter, out var srcImpactDamage))
+					if (m_overrideImpactDamage == null)
+					{
+						UpdateImpactDamage(false);
+					}
+					else if (m_impactDamageMap.TryGetValue(damageShooter, out var srcImpactDamage))
 					{
 						CopyImpactDamage(damageShooter.impactDamage, srcImpactDamage);
 						m_impactDamageMap.Remove(damageShooter);
 					}
 
 					RemoveAllBonuses(SPLASH_DAMAGE_KEY, damageShooter.splashDamage);
-					if (m_overrideSplashDamage != null && m_splashDamageMap.TryGetValue(damageShooter, out var srcSplashDamage))
+					if (m_overrideSplashDamage == null)
+					{
+						UpdateSplashDamage(false);
+					}
+					else if (m_splashDamageMap.TryGetValue(damageShooter, out var srcSplashDamage))
 					{
 						CopySplashDamage(damageShooter.splashDamage, srcSplashDamage);
 						m_splashDamageMap.Remove(damageShooter);
@@ -133,32 +149,57 @@ namespace ToolkitEngine.Shooter
 
 			m_bonusFactors[key] += value;
 
-			if (m_shooterMap.TryGetValue(key, out var container))
+			switch (key)
 			{
-				switch (key)
-				{
-					case IMPACT_DAMAGE_KEY:
-						foreach (var shooter in container)
-						{
-							if (shooter is not IDamageShooter damageShooter)
-								continue;
+				case IMPACT_DAMAGE_KEY:
+					UpdateImpactDamage(true);
+					break;
 
-							damageShooter.impactDamage.factor = 1f + m_bonusFactors[key];
-						}
-						break;
-
-					case SPLASH_DAMAGE_KEY:
-						foreach (var shooter in container)
-						{
-							if (shooter is not IDamageShooter damageShooter)
-								continue;
-
-							damageShooter.splashDamage.factor = 1f + m_bonusFactors[key];
-						}
-						break;
-				}
+				case SPLASH_DAMAGE_KEY:
+					UpdateSplashDamage(true);
+					break;
 			}
 		}
+
+		private void UpdateImpactDamage(bool apply)
+		{
+			if (m_overrideImpactDamage != null)
+				return;
+
+			if (m_target == null)
+				return;
+
+			foreach (var shooter in m_target.shooters)
+			{
+				if (shooter is not IDamageShooter damageShooter)
+					continue;
+
+				// TODO: FIX: Assumes default factor is always 1
+				damageShooter.impactDamage.factor = 1f + (apply ? m_bonusFactors[IMPACT_DAMAGE_KEY] : 0f);
+			}
+		}
+
+		private void UpdateSplashDamage(bool apply)
+		{
+			if (m_overrideSplashDamage != null)
+				return;
+
+			if (m_target == null)
+				return;
+
+			foreach (var shooter in m_target.shooters)
+			{
+				if (shooter is not IDamageShooter damageShooter)
+					continue;
+
+				// TODO: FIX: Assumes default factor is always 1
+				damageShooter.splashDamage.factor = 1f + (apply ? m_bonusFactors[SPLASH_DAMAGE_KEY] : 0f);
+			}
+		}
+
+		#endregion
+
+		#region Bonus Methods
 
 		public void AddBonus(string key, Damage damage)
 		{
@@ -316,15 +357,15 @@ namespace ToolkitEngine.Shooter
 
 		private void SetDamage(string key, System.Action<IDamageShooter> action)
 		{
-			if (m_shooterMap.TryGetValue(key, out var container))
-			{
-				foreach (var shooter in container)
-				{
-					if (shooter is not IDamageShooter damageShooter)
-						continue;
+			if (m_target == null)
+				return;
 
-					action(damageShooter);
-				}
+			foreach (var shooter in m_target.shooters)
+			{
+				if (shooter is not IDamageShooter damageShooter)
+					continue;
+
+				action(damageShooter);
 			}
 		}
 

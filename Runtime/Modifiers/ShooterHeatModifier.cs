@@ -4,7 +4,7 @@ namespace ToolkitEngine.Shooter
 	{
 		public const string MAXIMUM_KEY = "maximum";
 
-		internal override string[] propertyNames => new[]
+		protected override string[] propertyNames => new[]
 		{
 			MAXIMUM_KEY,
 		};

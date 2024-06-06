@@ -4,7 +4,7 @@ namespace ToolkitEngine.Shooter
     {
         public const string CAPACITY_KEY = "capacity";
 
-		internal override string[] propertyNames => new[]
+		protected override string[] propertyNames => new[]
         {
 			CAPACITY_KEY,
         };
