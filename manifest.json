@@ -735,6 +735,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterCritical.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterCritical.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.ShooterCriticalModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.ShooterCriticalModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ToolkitEngine.Shooter.ShooterDamageModifier.yml",
       "output": {
         ".html": {
@@ -999,6 +1019,26 @@
       "output": {
         ".html": {
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeValueChangedMessageListener.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnCriticalHit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnCriticalHit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnCriticalHitMessageListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnCriticalHitMessageListener.html"
         }
       },
       "version": ""

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BaseShooterModifier | Shooter Toolkit | 1.0.0 </title>
+      <title>Class OnCriticalHitMessageListener | Shooter Toolkit | 1.0.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BaseShooterModifier | Shooter Toolkit | 1.0.0 ">
+      <meta name="title" content="Class OnCriticalHitMessageListener | Shooter Toolkit | 1.0.0 ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.shooter/new/master/apiSpec/new?filename=ToolkitEngine_Shooter_BaseShooterModifier.md&amp;value=---%0Auid%3A%20ToolkitEngine.Shooter.BaseShooterModifier%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nrvllrgrs/toolkit.shooter/new/master/apiSpec/new?filename=ToolkitEngine_Shooter_VisualScripting_OnCriticalHitMessageListener.md&amp;value=---%0Auid%3A%20ToolkitEngine.Shooter.VisualScripting.OnCriticalHitMessageListener%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ToolkitEngine.Shooter.BaseShooterModifier">
+        <article data-uid="ToolkitEngine.Shooter.VisualScripting.OnCriticalHitMessageListener">
 
 
 
-  <h1 id="ToolkitEngine_Shooter_BaseShooterModifier" data-uid="ToolkitEngine.Shooter.BaseShooterModifier" class="text-break">
-Class BaseShooterModifier  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ToolkitEngine_Shooter_VisualScripting_OnCriticalHitMessageListener" data-uid="ToolkitEngine.Shooter.VisualScripting.OnCriticalHitMessageListener" class="text-break">
+Class OnCriticalHitMessageListener  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Samples~/Visual Scripting/Scripts/MessageListeners/OnCriticalHitMessageListener.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a>.<a class="xref" href="ToolkitEngine.Shooter.html">Shooter</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ToolkitEngine.html">ToolkitEngine</a>.<a class="xref" href="ToolkitEngine.Shooter.html">Shooter</a>.<a class="xref" href="ToolkitEngine.Shooter.VisualScripting.html">VisualScripting</a></dd></dl>
   
   </div>
 
@@ -101,7 +101,7 @@ Class BaseShooterModifier  <a class="header-action link-secondary" title="View s
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseShooterModifier : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class OnCriticalHitMessageListener : MessageListener</code></pre>
   </div>
 
 
@@ -111,85 +111,10 @@ Class BaseShooterModifier  <a class="header-action link-secondary" title="View s
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">BaseShooterModifier</span></div>
+      <div><span class="xref">OnCriticalHitMessageListener</span></div>
     </dd>
   </dl>
 
-
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier-1.html">BaseShooterModifier&lt;T&gt;</a></div>
-    </dd>
-  </dl>
-
-
-
-
-
-
-
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="ToolkitEngine_Shooter_BaseShooterModifier_m_filters" data-uid="ToolkitEngine.Shooter.BaseShooterModifier.m_filters">
-  m_filters
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L12"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BaseShooterModifier.ModifiablePropertyFilters m_filters</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier.html">BaseShooterModifier</a>.<a class="xref" href="ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters.html">ModifiablePropertyFilters</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="ToolkitEngine_Shooter_BaseShooterModifier_propertyNames_" data-uid="ToolkitEngine.Shooter.BaseShooterModifier.propertyNames*"></a>
-
-  <h3 id="ToolkitEngine_Shooter_BaseShooterModifier_propertyNames" data-uid="ToolkitEngine.Shooter.BaseShooterModifier.propertyNames">
-  propertyNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nrvllrgrs/toolkit.shooter/blob/master/Runtime/Modifiers/BaseShooterModifier.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract string[] propertyNames { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd></dd>
-  </dl>
 
 
 
