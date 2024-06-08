@@ -23,21 +23,23 @@ namespace ToolkitEditor.Shooter.VisualScripting
 				// Behaviors
 				typeof(ShooterAmmo),
 				typeof(ShooterCharge),
+				typeof(ShooterCritical),
 				typeof(ShooterHeat),
 				typeof(ShooterRecoil),
 				typeof(ShooterReload),
 				typeof(ShooterSpread),
-
+				
 				// Modifiers
 				typeof(ShooterControlModifier),
 				typeof(ShooterAmmoModifier),
 				typeof(ShooterChargeModifier),
+				typeof(ShooterCriticalModifier),
 				typeof(ShooterHeatModifier),
 				typeof(ShooterRecoilModifier),
 				typeof(ShooterReloadModifier),
 				typeof(ShooterSpreadModifier),
 				typeof(ShooterDamageModifier),
-
+				
 				// Shooters
 				typeof(BaseShooter),
 				typeof(ProjectileShooter),

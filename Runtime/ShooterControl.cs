@@ -103,7 +103,7 @@ namespace ToolkitEngine.Shooter
 		public float timeBetweenShots { get => m_timeBetweenShots; set => m_timeBetweenShots = value; }
 		public bool fireOnCancel => m_fireOnCancel;
 		public bool isBurstFire => m_isBurstFire;
-		public float timeBetweenBursts { get => timeBetweenBursts; set => timeBetweenBursts = value; }
+		public float timeBetweenBursts { get => m_timeBetweenBursts; set => m_timeBetweenBursts = value; }
 		public int shotsPerBurst { get => m_shotsPerBurst; set => m_shotsPerBurst = value; }
 		public float burstShotCount => m_burstShotCount;
 

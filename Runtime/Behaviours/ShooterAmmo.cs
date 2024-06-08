@@ -134,6 +134,10 @@ namespace ToolkitEngine.Shooter
 						if (prevCount != m_ammo.count)
 						{
 							m_onCountChanged?.Invoke(m_ammo.count);
+							if (m_ammo.count == 0)
+							{
+								m_onEmpty?.Invoke();
+							}
 						}
 						break;
 
@@ -146,6 +150,10 @@ namespace ToolkitEngine.Shooter
 							if (prevCount != m_ammo.count)
 							{
 								m_onCountChanged?.Invoke(m_ammoCache.count);
+								if (m_ammoCache.count == 0)
+								{
+									m_onEmpty?.Invoke();
+								}
 							}
 						}
 						break;
