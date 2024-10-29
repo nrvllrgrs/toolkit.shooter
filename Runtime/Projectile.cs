@@ -19,7 +19,7 @@ namespace ToolkitEngine.Shooter
 
 	[AddComponentMenu("Weapon/Projectile")]
     [RequireComponent(typeof(Rigidbody))]
-	public class Projectile : MonoBehaviour, IProjectileEvents
+	public class Projectile : MonoBehaviour, IProjectileEvents, IExplosive
 	{
 		#region Fields
 
