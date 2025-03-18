@@ -285,7 +285,7 @@ namespace ToolkitEngine.Shooter
 			projectile.onCollision.AddListener(Projectile_Collision);
 			projectile.onDetonated.AddListener(Projectile_Detonated);
 
-			projectile.rigidbody.velocity = projectile.rigidbody.angularVelocity = Vector3.zero;
+			projectile.rigidbody.linearVelocity = projectile.rigidbody.angularVelocity = Vector3.zero;
 			projectile.rigidbody.isKinematic = true;
 		}
 
@@ -337,7 +337,7 @@ namespace ToolkitEngine.Shooter
 
 			projectile.transform.SetParent(null);
 			projectile.rigidbody.isKinematic = false;
-			projectile.rigidbody.velocity = projectile.transform.forward * speed;
+			projectile.rigidbody.linearVelocity = projectile.transform.forward * speed;
 
 			// Add projectile to active set
 			m_activeProjectiles.Add(projectile);
@@ -373,7 +373,7 @@ namespace ToolkitEngine.Shooter
 					if (m_impactDamage.range >= 0f || m_acceleration != 0f)
 					{
 						// Cache magnitude of velocity to minimize sqrt calls
-						var speed = projectile.rigidbody.velocity.magnitude;
+						var speed = projectile.rigidbody.linearVelocity.magnitude;
 
 						// Update distance, if necessary
 						if (m_impactDamage.range >= 0f)
@@ -398,14 +398,14 @@ namespace ToolkitEngine.Shooter
 						{
 							if ((m_acceleration > 0f && speed < maxSpeed) || (m_acceleration < 0f && speed > minSpeed))
 							{
-								projectile.rigidbody.velocity += projectile.transform.forward * m_acceleration * Time.fixedDeltaTime;
+								projectile.rigidbody.linearVelocity += projectile.transform.forward * m_acceleration * Time.fixedDeltaTime;
 							}
 						}
 					}
 
 					if (m_alignToTrajectory)
 					{
-						projectile.transform.rotation = Quaternion.LookRotation(projectile.rigidbody.velocity, projectile.transform.up);
+						projectile.transform.rotation = Quaternion.LookRotation(projectile.rigidbody.linearVelocity, projectile.transform.up);
 					}
 				}
 

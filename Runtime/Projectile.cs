@@ -132,7 +132,7 @@ namespace ToolkitEngine.Shooter
 		{
 			// Stop physics simulation
 			rigidbody.isKinematic = true;
-			rigidbody.velocity = rigidbody.angularVelocity = Vector3.zero;
+			rigidbody.linearVelocity = rigidbody.angularVelocity = Vector3.zero;
 		}
 
 		public void Attach(Collider collider)
