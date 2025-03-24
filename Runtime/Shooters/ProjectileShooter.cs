@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using ToolkitEngine.Health;
 using UnityEngine;
-using UnityEngine.Assertions;
 using UnityEngine.Events;
 
 namespace ToolkitEngine.Shooter

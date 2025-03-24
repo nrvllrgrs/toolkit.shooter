@@ -28,7 +28,6 @@ namespace ToolkitEngine.Shooter
 		[SerializeField, Min(0f), Tooltip("Degrees changed per second.")]
 		private float m_recoveryRate = 5f;
 
-		private float m_value = 0f;
 		private Coroutine m_recoveryThread = null;
 
 		#endregion
