@@ -184,7 +184,7 @@ namespace ToolkitEngine.Shooter
 				}
 
 				// Apply splash damage at contact point
-				m_splashDamage.Apply(raycastHit.point, gameObject, out var list, this);
+				m_splashDamage.Apply(raycastHit.point, gameObject, out var list, m_layerMask, this);
 				hits.AddRange(list);
 			}
 
@@ -199,7 +199,7 @@ namespace ToolkitEngine.Shooter
 			if (!m_impactDamage.hasInfiniteRange)
 			{
 				// Apply splash damage at terminal point in space
-				m_splashDamage.Apply(terminal, gameObject, out var list, this);
+				m_splashDamage.Apply(terminal, gameObject, out var list, m_layerMask, this);
 				hits.AddRange(list);
 			}
 		}

@@ -17,6 +17,8 @@ namespace ToolkitEditor.Shooter
 		protected SerializedProperty m_acceleration;
 		protected SerializedProperty m_speedLimits;
 
+		protected SerializedProperty m_onProjectileSpawned;
+		protected SerializedProperty m_onProjectileDespawned;
 		protected SerializedProperty m_onProjectileFired;
 		protected SerializedProperty m_onMaxDistanceReached;
 		protected SerializedProperty m_onCollision;
@@ -38,6 +40,8 @@ namespace ToolkitEditor.Shooter
 			m_acceleration = serializedObject.FindProperty(nameof(m_acceleration));
 			m_speedLimits = serializedObject.FindProperty(nameof(m_speedLimits));
 
+			m_onProjectileSpawned = serializedObject.FindProperty(nameof(m_onProjectileSpawned));
+			m_onProjectileDespawned = serializedObject.FindProperty(nameof(m_onProjectileDespawned));
 			m_onProjectileFired = serializedObject.FindProperty(nameof(m_onProjectileFired));
 			m_onMaxDistanceReached = serializedObject.FindProperty(nameof(m_onMaxDistanceReached));
 			m_onCollision = serializedObject.FindProperty(nameof(m_onCollision));
@@ -80,6 +84,8 @@ namespace ToolkitEditor.Shooter
 		{
 			base.DrawNestedEvents();
 			EditorGUILayout.LabelField("Projectile", EditorStyles.boldLabel);
+			EditorGUILayout.PropertyField(m_onProjectileSpawned);
+			EditorGUILayout.PropertyField(m_onProjectileDespawned);
 			EditorGUILayout.PropertyField(m_onProjectileFired);
 			EditorGUILayout.PropertyField(m_onMaxDistanceReached);
 			EditorGUILayout.PropertyField(m_onCollision);

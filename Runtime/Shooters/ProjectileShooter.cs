@@ -54,6 +54,9 @@ namespace ToolkitEngine.Shooter
 		private TerminalAction m_collisionAction = TerminalAction.Detonate;
 
 		[SerializeField]
+		private LayerMask m_layerMask = ~0;
+
+		[SerializeField]
 		private ImpactDamage m_impactDamage;
 
 		[SerializeField]
@@ -67,6 +70,12 @@ namespace ToolkitEngine.Shooter
 		#endregion
 
 		#region Events
+
+		[SerializeField]
+		private UnityEvent<ProjectileEventArgs> m_onProjectileSpawned;
+
+		[SerializeField]
+		private UnityEvent<ProjectileEventArgs> m_onProjectileDespawned;
 
 		[SerializeField]
 		private UnityEvent<ProjectileEventArgs> m_onProjectileFired;
@@ -84,6 +93,7 @@ namespace ToolkitEngine.Shooter
 
 		#region Properties
 
+		public Spawner.SpawnType spawnType => m_projectileSpawner.spawnType;
 		public Projectile pendingProjectile
 		{
 			get => m_pendingProjectile;
@@ -119,9 +129,12 @@ namespace ToolkitEngine.Shooter
 		public float acceleration => m_acceleration;
 		public float minSpeed => m_acceleration < 0 ? m_speedLimits.x : m_speed;
 		public float maxSpeed => m_acceleration > 0 ? m_speedLimits.y : m_speed;
+		public LayerMask layerMask => m_layerMask;
 		public ImpactDamage impactDamage => m_impactDamage;
 		public SplashDamage splashDamage => m_splashDamage;
 
+		public UnityEvent<ProjectileEventArgs> onProjectileSpawned => m_onProjectileSpawned;
+		public UnityEvent<ProjectileEventArgs> onProjectileDespawned => m_onProjectileDespawned;
 		public UnityEvent<ProjectileEventArgs> onProjectileFired => m_onProjectileFired;
 		public UnityEvent<ProjectileEventArgs> onMaxDistanceReached => m_onMaxDistanceReached;
 		public UnityEvent<ProjectileEventArgs> onCollision => m_onCollision;
@@ -191,6 +204,12 @@ namespace ToolkitEngine.Shooter
 
 			// Projectile rotation has already been set by spawner
 			Track(projectile, false);
+
+			m_onProjectileSpawned?.Invoke(new ProjectileEventArgs()
+			{
+				projectileShooter = this,
+				projectile = projectile,
+			});
 		}
 
 		private void _OnDespawned(GameObject obj)
@@ -200,6 +219,12 @@ namespace ToolkitEngine.Shooter
 				return;
 
 			Untrack(projectile, true);
+
+			m_onProjectileDespawned?.Invoke(new ProjectileEventArgs()
+			{
+				projectileShooter = this,
+				projectile = projectile,
+			});
 
 			if (m_activeProjectiles.Count == 0)
 			{

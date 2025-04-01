@@ -245,18 +245,7 @@ namespace ToolkitEngine.Shooter
 
 			if (!m_shotFiredBlockers.isTrueAndEnabled)
 			{
-				m_onShotFiring?.Invoke(this);
-
-				foreach (var shooter in m_shooters)
-				{
-					if (shooter == null)
-						continue;
-
-					shooter.Fire(this);
-				}
-
-				m_onShotFired?.Invoke(this);
-				UpdateFireTime();
+				FireShooters();
 			}
 
 			// Firing conditions not met AFTER SHOT, exit firing state
@@ -264,6 +253,22 @@ namespace ToolkitEngine.Shooter
 			{
 				CancelFire(true, canceling);
 			}
+		}
+
+		internal void FireShooters()
+		{
+			m_onShotFiring?.Invoke(this);
+
+			foreach (var shooter in m_shooters)
+			{
+				if (shooter == null)
+					continue;
+
+				shooter.Fire(this);
+			}
+
+			m_onShotFired?.Invoke(this);
+			UpdateFireTime();
 		}
 
 		private void UpdateFireTime()

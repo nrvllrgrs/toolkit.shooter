@@ -19,7 +19,7 @@ namespace ToolkitEngine.Shooter
 
 	[AddComponentMenu("Weapon/Projectile")]
     [RequireComponent(typeof(Rigidbody))]
-	public class Projectile : MonoBehaviour, IProjectileEvents, IExplosive
+	public class Projectile : MonoBehaviour, IProjectileEvents, IExplosive, IPoolItemRecyclable
 	{
 		#region Fields
 
@@ -39,8 +39,10 @@ namespace ToolkitEngine.Shooter
 		private Collider[] m_colliders = null;
 
 		private ProjectileShooter m_projectileShooter;
+		private bool m_detonated;
 		private float m_lifetime;
 		private float m_distance;
+		private LayerMask m_layerMask;
 		private ImpactDamage m_impactDamage = null;
 		private SplashDamage m_splashDamage = null;
 
@@ -88,6 +90,11 @@ namespace ToolkitEngine.Shooter
 
 		#region Methods
 
+		public void Recycle()
+		{
+			m_detonated = false;
+		}
+
 		private void Awake()
 		{
 			m_rigidbody = GetComponent<Rigidbody>();
@@ -118,6 +125,7 @@ namespace ToolkitEngine.Shooter
 			lifetime = projectileShooter.lifetime;
 
 			// Copy damage from shooter so damage is associated with time shot (not time detonated)
+			m_layerMask = projectileShooter.layerMask;
 			m_impactDamage = new ImpactDamage(projectileShooter.impactDamage);
 			m_splashDamage = new SplashDamage(projectileShooter.splashDamage);
 
@@ -199,10 +207,15 @@ namespace ToolkitEngine.Shooter
 
 		public void Detonate(ProjectileEventArgs e)
 		{
+			if (m_detonated)
+				return;
+
+			m_detonated = true;
+
 			DamageHit[] hits;
 			if (m_splashDamage != null)
 			{
-				m_splashDamage.Apply(transform.position, m_projectileShooter?.gameObject ?? gameObject, out hits, m_projectileShooter);
+				m_splashDamage.Apply(transform.position, m_projectileShooter?.gameObject ?? gameObject, out hits, m_layerMask, m_projectileShooter);
 			}
 			else
 			{
