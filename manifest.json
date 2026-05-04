@@ -21,7 +21,11 @@
           "relative_path": "api/Global.ITracer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ITracer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -31,7 +35,11 @@
           "relative_path": "api/Global.TriggerShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "TriggerShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -41,7 +49,11 @@
           "relative_path": "api/Global.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -51,7 +63,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.AmmoCacheEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.AmmoCacheEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -61,7 +77,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.AmmoCacheProxyEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.AmmoCacheProxyEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -71,7 +91,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.AmmoDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.AmmoDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -81,7 +105,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.AmmoTypeEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.AmmoTypeEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -91,7 +119,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.BaseMuzzleShooterEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.BaseMuzzleShooterEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -101,7 +133,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.BaseShooterEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.BaseShooterEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -111,7 +147,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.BaseShooterModifierEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.BaseShooterModifierEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -121,7 +161,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.HeatCacheEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.HeatCacheEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -131,7 +175,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.HeatDrawer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.HeatDrawer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -141,7 +189,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ProjectileEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ProjectileEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -151,7 +203,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ProjectileShooterEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ProjectileShooterEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -161,7 +217,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.RayShooterEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.RayShooterEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -171,7 +231,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.SequenceShooterEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.SequenceShooterEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -181,7 +245,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ShooterAmmoEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ShooterAmmoEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -191,7 +259,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ShooterChargeEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ShooterChargeEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -201,7 +273,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ShooterControlEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ShooterControlEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -211,7 +287,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ShooterHeatEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ShooterHeatEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -221,7 +301,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ShooterModeEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ShooterModeEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -231,7 +315,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ShooterRecoilEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ShooterRecoilEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -241,7 +329,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ShooterReloadEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ShooterReloadEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -251,7 +343,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.ShooterSpreadEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.ShooterSpreadEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -261,7 +357,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.VisualScripting.Setup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.VisualScripting.Setup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -271,7 +371,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -281,7 +385,11 @@
           "relative_path": "api/ToolkitEditor.Shooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEditor.Shooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -291,7 +399,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.Ammo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.Ammo",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -301,7 +413,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.AmmoCache.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.AmmoCache",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -311,7 +427,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.AmmoCacheProxy.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.AmmoCacheProxy",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -321,7 +441,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.AmmoType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.AmmoType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -331,7 +455,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseAmmoCache.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseAmmoCache",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -341,7 +469,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseHeatCache.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseHeatCache",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -351,7 +483,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseMuzzleShooter.SpreadDistribution.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseMuzzleShooter.SpreadDistribution",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -361,7 +497,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseMuzzleShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseMuzzleShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -371,7 +511,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseMuzzleShooterPattern.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseMuzzleShooterPattern",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -381,7 +525,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -391,7 +539,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseShooterModifier-1.ModifierData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseShooterModifier<T>.ModifierData",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -401,7 +553,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseShooterModifier-1.PropertyData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseShooterModifier<T>.PropertyData",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -411,7 +567,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseShooterModifier-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseShooterModifier<T>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -421,7 +581,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseShooterModifier.ModifiablePropertyFilters",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -431,7 +595,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BaseShooterModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BaseShooterModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -441,7 +609,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.BeamFXControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.BeamFXControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -451,7 +623,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.EventHooks.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.EventHooks",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -461,7 +637,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.Heat.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.Heat",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -471,7 +651,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.HeatCache.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.HeatCache",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -481,7 +665,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.IAmmo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.IAmmo",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -491,7 +679,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.IAmmoTypeLinkable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.IAmmoTypeLinkable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -501,7 +693,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.IDamageShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.IDamageShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -511,7 +707,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.IHeat.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.IHeat",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -521,7 +721,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.IMuzzleShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.IMuzzleShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -531,7 +735,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.IProjectileEvents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.IProjectileEvents",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -541,7 +749,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.MuzzleFXControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.MuzzleFXControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -551,7 +763,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.Projectile.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.Projectile",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -561,7 +777,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ProjectileEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ProjectileEventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -571,7 +791,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ProjectileShooter.TerminalAction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ProjectileShooter.TerminalAction",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -581,7 +805,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ProjectileShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ProjectileShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -591,7 +819,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ProxyShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ProxyShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -601,7 +833,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastAllFunc.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.RayShooter.RaycastAllFunc",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -611,7 +847,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.RayShooter.RaycastFunc.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.RayShooter.RaycastFunc",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -621,7 +861,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.RayShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.RayShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -631,7 +875,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.SequenceShooter.StepShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.SequenceShooter.StepShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -641,7 +889,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.SequenceShooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.SequenceShooter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -651,7 +903,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterAmmo.CacheSource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterAmmo.CacheSource",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -661,7 +917,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterAmmo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterAmmo",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -671,7 +931,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterAmmoModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterAmmoModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -681,7 +945,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterCharge.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterCharge",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -691,7 +959,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterChargeModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterChargeModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -701,7 +973,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterConePattern.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterConePattern",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -711,7 +987,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterControl.FireType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterControl.FireType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -721,7 +1001,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -731,7 +1015,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterControlModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterControlModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -741,7 +1029,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterCritical.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterCritical",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -751,7 +1043,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterCriticalModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterCriticalModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -761,7 +1057,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterDamageModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterDamageModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -771,7 +1071,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterEventArgs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterEventArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -781,7 +1085,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterHeat.CacheSource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterHeat.CacheSource",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -791,7 +1099,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterHeat.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterHeat",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -801,7 +1113,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterHeatModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterHeatModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -811,7 +1127,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -821,7 +1141,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterRecoil.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterRecoil",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -831,7 +1155,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterRecoilModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterRecoilModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -841,7 +1169,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterReload.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterReload",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -851,7 +1183,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterReloadModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterReloadModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -861,7 +1197,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterSpread.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterSpread",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -871,7 +1211,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.ShooterSpreadModifier.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.ShooterSpreadModifier",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -881,7 +1225,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.SplashFXControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.SplashFXControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -891,7 +1239,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.TracerFXControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.TracerFXControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -901,7 +1253,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.BaseProjectileEventUnit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.BaseProjectileEventUnit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -911,7 +1267,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -921,7 +1281,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnAmmoCacheCountChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -931,7 +1295,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeCharged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeCharged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -941,7 +1309,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeChargedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeChargedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -951,7 +1323,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeCharging.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeCharging",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -961,7 +1337,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeChargingMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeChargingMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -971,7 +1351,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeDecharged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeDecharged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -981,7 +1365,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeDechargedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeDechargedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -991,7 +1379,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeDecharging.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeDecharging",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1001,7 +1393,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeDechargingMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeDechargingMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1011,7 +1407,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeValueChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeValueChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1021,7 +1421,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnChargeValueChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnChargeValueChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1031,7 +1435,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnCriticalHit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnCriticalHit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1041,7 +1449,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnCriticalHitMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnCriticalHitMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1051,7 +1463,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooled.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnHeatCooled",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1061,7 +1477,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatCooledMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnHeatCooledMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1071,7 +1491,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheated.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnHeatOverheated",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1081,7 +1505,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatOverheatedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnHeatOverheatedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1091,7 +1519,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnHeatValueChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1101,7 +1533,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnHeatValueChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnHeatValueChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1111,7 +1547,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileCollision.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnProjectileCollision",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1121,7 +1561,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileCollisionMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnProjectileCollisionMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1131,7 +1575,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonated.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonated",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1141,7 +1589,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnProjectileDetonatedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1151,7 +1603,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlBeginFire.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlBeginFire",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1161,7 +1617,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlBeginFireMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlBeginFireMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1171,7 +1631,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlEndFire.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlEndFire",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1181,7 +1645,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlEndFireMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlEndFireMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1191,7 +1659,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotBlocked.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotBlocked",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1201,7 +1673,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotBlockedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotBlockedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1211,7 +1687,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFired.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFired",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1221,7 +1701,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiredMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiredMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1231,7 +1715,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiring.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiring",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1241,7 +1729,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiringMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterControlShotFiringMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1251,7 +1743,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterFired.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterFired",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1261,7 +1757,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterFiredMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterFiredMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1271,7 +1771,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterFiring.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterFiring",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1281,7 +1785,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterFiringMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterFiringMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1291,7 +1799,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterSpreadChanged.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterSpreadChanged",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1301,7 +1813,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.OnShooterSpreadChangedMessageListener.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting.OnShooterSpreadChangedMessageListener",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1311,7 +1827,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.VisualScripting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter.VisualScripting",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1321,7 +1841,11 @@
           "relative_path": "api/ToolkitEngine.Shooter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ToolkitEngine.Shooter",
+      "Summary": null
     },
     {
       "type": "Conceptual",
@@ -1337,11 +1861,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -1370,11 +1894,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "license/toc.json"
-        },
         ".html": {
           "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
         }
       },
       "version": ""
@@ -1393,11 +1917,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

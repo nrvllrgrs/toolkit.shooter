@@ -615,12 +615,24 @@ references:
   commentId: F:ToolkitEditor.Shooter.ProjectileShooterEditor.m_onMaxDistanceReached
   fullName: ToolkitEditor.Shooter.ProjectileShooterEditor.m_onMaxDistanceReached
   nameWithType: ProjectileShooterEditor.m_onMaxDistanceReached
+- uid: ToolkitEditor.Shooter.ProjectileShooterEditor.m_onProjectileDespawned
+  name: m_onProjectileDespawned
+  href: api/ToolkitEditor.Shooter.ProjectileShooterEditor.html#ToolkitEditor_Shooter_ProjectileShooterEditor_m_onProjectileDespawned
+  commentId: F:ToolkitEditor.Shooter.ProjectileShooterEditor.m_onProjectileDespawned
+  fullName: ToolkitEditor.Shooter.ProjectileShooterEditor.m_onProjectileDespawned
+  nameWithType: ProjectileShooterEditor.m_onProjectileDespawned
 - uid: ToolkitEditor.Shooter.ProjectileShooterEditor.m_onProjectileFired
   name: m_onProjectileFired
   href: api/ToolkitEditor.Shooter.ProjectileShooterEditor.html#ToolkitEditor_Shooter_ProjectileShooterEditor_m_onProjectileFired
   commentId: F:ToolkitEditor.Shooter.ProjectileShooterEditor.m_onProjectileFired
   fullName: ToolkitEditor.Shooter.ProjectileShooterEditor.m_onProjectileFired
   nameWithType: ProjectileShooterEditor.m_onProjectileFired
+- uid: ToolkitEditor.Shooter.ProjectileShooterEditor.m_onProjectileSpawned
+  name: m_onProjectileSpawned
+  href: api/ToolkitEditor.Shooter.ProjectileShooterEditor.html#ToolkitEditor_Shooter_ProjectileShooterEditor_m_onProjectileSpawned
+  commentId: F:ToolkitEditor.Shooter.ProjectileShooterEditor.m_onProjectileSpawned
+  fullName: ToolkitEditor.Shooter.ProjectileShooterEditor.m_onProjectileSpawned
+  nameWithType: ProjectileShooterEditor.m_onProjectileSpawned
 - uid: ToolkitEditor.Shooter.ProjectileShooterEditor.m_pattern
   name: m_pattern
   href: api/ToolkitEditor.Shooter.ProjectileShooterEditor.html#ToolkitEditor_Shooter_ProjectileShooterEditor_m_pattern
@@ -3234,6 +3246,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.Projectile.Fire
   nameWithType: Projectile.Fire
+- uid: ToolkitEngine.Shooter.Projectile.Recycle
+  name: Recycle()
+  href: api/ToolkitEngine.Shooter.Projectile.html#ToolkitEngine_Shooter_Projectile_Recycle
+  commentId: M:ToolkitEngine.Shooter.Projectile.Recycle
+  fullName: ToolkitEngine.Shooter.Projectile.Recycle()
+  nameWithType: Projectile.Recycle()
+- uid: ToolkitEngine.Shooter.Projectile.Recycle*
+  name: Recycle
+  href: api/ToolkitEngine.Shooter.Projectile.html#ToolkitEngine_Shooter_Projectile_Recycle_
+  commentId: Overload:ToolkitEngine.Shooter.Projectile.Recycle
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.Projectile.Recycle
+  nameWithType: Projectile.Recycle
 - uid: ToolkitEngine.Shooter.Projectile.Stop
   name: Stop()
   href: api/ToolkitEngine.Shooter.Projectile.html#ToolkitEngine_Shooter_Projectile_Stop
@@ -3623,6 +3648,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ProjectileShooter.impactDamage
   nameWithType: ProjectileShooter.impactDamage
+- uid: ToolkitEngine.Shooter.ProjectileShooter.layerMask
+  name: layerMask
+  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_layerMask
+  commentId: P:ToolkitEngine.Shooter.ProjectileShooter.layerMask
+  fullName: ToolkitEngine.Shooter.ProjectileShooter.layerMask
+  nameWithType: ProjectileShooter.layerMask
+- uid: ToolkitEngine.Shooter.ProjectileShooter.layerMask*
+  name: layerMask
+  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_layerMask_
+  commentId: Overload:ToolkitEngine.Shooter.ProjectileShooter.layerMask
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ProjectileShooter.layerMask
+  nameWithType: ProjectileShooter.layerMask
 - uid: ToolkitEngine.Shooter.ProjectileShooter.lifetime
   name: lifetime
   href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_lifetime
@@ -3701,6 +3739,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ProjectileShooter.onMaxDistanceReached
   nameWithType: ProjectileShooter.onMaxDistanceReached
+- uid: ToolkitEngine.Shooter.ProjectileShooter.onProjectileDespawned
+  name: onProjectileDespawned
+  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_onProjectileDespawned
+  commentId: P:ToolkitEngine.Shooter.ProjectileShooter.onProjectileDespawned
+  fullName: ToolkitEngine.Shooter.ProjectileShooter.onProjectileDespawned
+  nameWithType: ProjectileShooter.onProjectileDespawned
+- uid: ToolkitEngine.Shooter.ProjectileShooter.onProjectileDespawned*
+  name: onProjectileDespawned
+  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_onProjectileDespawned_
+  commentId: Overload:ToolkitEngine.Shooter.ProjectileShooter.onProjectileDespawned
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ProjectileShooter.onProjectileDespawned
+  nameWithType: ProjectileShooter.onProjectileDespawned
 - uid: ToolkitEngine.Shooter.ProjectileShooter.onProjectileFired
   name: onProjectileFired
   href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_onProjectileFired
@@ -3714,6 +3765,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ProjectileShooter.onProjectileFired
   nameWithType: ProjectileShooter.onProjectileFired
+- uid: ToolkitEngine.Shooter.ProjectileShooter.onProjectileSpawned
+  name: onProjectileSpawned
+  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_onProjectileSpawned
+  commentId: P:ToolkitEngine.Shooter.ProjectileShooter.onProjectileSpawned
+  fullName: ToolkitEngine.Shooter.ProjectileShooter.onProjectileSpawned
+  nameWithType: ProjectileShooter.onProjectileSpawned
+- uid: ToolkitEngine.Shooter.ProjectileShooter.onProjectileSpawned*
+  name: onProjectileSpawned
+  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_onProjectileSpawned_
+  commentId: Overload:ToolkitEngine.Shooter.ProjectileShooter.onProjectileSpawned
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ProjectileShooter.onProjectileSpawned
+  nameWithType: ProjectileShooter.onProjectileSpawned
 - uid: ToolkitEngine.Shooter.ProjectileShooter.pendingProjectile
   name: pendingProjectile
   href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_pendingProjectile
@@ -3740,6 +3804,19 @@ references:
   isSpec: "True"
   fullName: ToolkitEngine.Shooter.ProjectileShooter.sets
   nameWithType: ProjectileShooter.sets
+- uid: ToolkitEngine.Shooter.ProjectileShooter.spawnType
+  name: spawnType
+  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_spawnType
+  commentId: P:ToolkitEngine.Shooter.ProjectileShooter.spawnType
+  fullName: ToolkitEngine.Shooter.ProjectileShooter.spawnType
+  nameWithType: ProjectileShooter.spawnType
+- uid: ToolkitEngine.Shooter.ProjectileShooter.spawnType*
+  name: spawnType
+  href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_spawnType_
+  commentId: Overload:ToolkitEngine.Shooter.ProjectileShooter.spawnType
+  isSpec: "True"
+  fullName: ToolkitEngine.Shooter.ProjectileShooter.spawnType
+  nameWithType: ProjectileShooter.spawnType
 - uid: ToolkitEngine.Shooter.ProjectileShooter.speed
   name: speed
   href: api/ToolkitEngine.Shooter.ProjectileShooter.html#ToolkitEngine_Shooter_ProjectileShooter_speed
